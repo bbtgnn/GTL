@@ -27,9 +27,8 @@ out_path = "/Users/Abbatepaolo/Desktop/test_font.ufo"
 # Set glyphs'baseline row (counting from bottom of txt)
 gly_baseline = 2
 
-# Set the ratio between width of "pixelone" and its height:
-# width_ratio = 2 means the module width will be twice its height
-box_ratio = 1
+# Set box size
+box = 100, 100
 
 # Set number of "pixelone" sub-units
 box_col = 1
@@ -50,14 +49,8 @@ gly_name = next(iter(fnt_dict))
 gly_strc = fnt_dict[gly_name]
 line_num = len(gly_strc)
 
-# Calculating box height
-box_hgt = 1000/line_num
-
-# Calculating box width
-box_wdt = box_hgt * box_ratio
-
 # Calculating descender line
-dsc_hgt = -box_hgt * gly_baseline
+dsc_hgt = -box[1] * gly_baseline
 
 
 
@@ -71,7 +64,7 @@ fnt = fp.NewFont()
 GTL.draw_bits.draw_bit_fnt(fnt = fnt,
                            fnt_dict = fnt_dict,
                            dsc_hgt = dsc_hgt,
-                           box_size = (box_wdt, box_hgt),
+                           box_size = box,
                            box_layout = (box_row, box_col),
                            syntax = syntax)
 
