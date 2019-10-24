@@ -9,6 +9,8 @@ import GTL.txt_reader
 
 from GTL.shape_functions import *
 
+from .GTL_syntax import syntax
+
 
 
 
@@ -18,6 +20,9 @@ from GTL.shape_functions import *
 
 # Path of folder containing glyphs txt
 txt_path = "/Users/Abbatepaolo/Documents/GitHub/GTL/test_letters"
+
+# Path of output font
+out_path = "/Users/Abbatepaolo/Desktop/test_font.ufo"
 
 # Set glyphs'baseline row (counting from bottom of txt)
 gly_baseline = 2
@@ -29,27 +34,6 @@ box_ratio = 1
 # Set number of "pixelone" sub-units
 box_col = 1
 box_row = 1
-
-
-
-
-
-
-### SYNTAX
-
-sintassi = {
-
-    ".": (do_nothing,
-          {
-          "null": "null"
-          }),
-
-    "#": (rectangle,
-          {
-           "scale": 1,
-           "rotation": 45
-          }),
-}
 
 
 
@@ -89,6 +73,6 @@ GTL.draw_bits.draw_bit_fnt(fnt = fnt,
                            dsc_hgt = dsc_hgt,
                            box_size = (box_wdt, box_hgt),
                            box_layout = (box_row, box_col),
-                           syntax = sintassi)
+                           syntax = syntax)
 
-fnt.save("test_font.ufo")
+fnt.save(out_path)
