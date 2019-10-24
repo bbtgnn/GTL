@@ -1,5 +1,5 @@
 # GTL
-GTL (or Generatore Tipografico di Libertà) is a Python set of libraries for the creation of generative fonts.
+GTL (or Generatore Tipografico di Libertà) is a Python set of libraries for the creation of generative fonts.<br />
 Most important thing: credits to [Daniele Capo](http://www.danielecapo.com/). He had the original idea about this project - mine is a further development.
 <br />
 <br />
