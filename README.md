@@ -14,6 +14,7 @@ Create a folder where you want (e.g. I usually store all my environments in ```D
 
 Then open to the terminal and input
 ```
+# (change <DIR> with the path of your folder)
 python3 -m venv <DIR>
 ```
 to create the virtual environment.<br />
@@ -40,4 +41,4 @@ Download the master folder anywhere and you're ready to start!
 <br />
 
 ## How it works
-[...]
+(Coming soon)
