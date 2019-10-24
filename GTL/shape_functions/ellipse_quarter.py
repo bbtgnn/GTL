@@ -15,8 +15,7 @@ def ellipse_quarter(gly, box, properties):
     p2 =  w, -h
 
     # Getting quarter properties
-    sqr = properties["squaring"]
-    orn = properties["orientation"]
+    sqr = set_property(properties["squaring"])
 
     # Drawing contour
     pen = gly.getPen()
@@ -25,9 +24,18 @@ def ellipse_quarter(gly, box, properties):
     draw_arc_cw(pen, p1, p2, sqr)
     pen.closePath()
 
-    # Setting right orientation
+    # Setting orientation
+    orn = set_property(properties["orientation"])
+    if   "N" in orn:
+        scl_y =  1
+    elif "S" in orn:
+        scl_y = -1
+    if   "E" in orn:
+        scl_x =  1
+    elif "W" in orn:
+        scl_x = -1
     c = gly[-1]
-    c.scale(orn)
+    c.scaleBy((scl_x, scl_y))
 
     # Contour operations
     c = gly[-1]

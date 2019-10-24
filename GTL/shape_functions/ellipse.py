@@ -18,7 +18,7 @@ def ellipse(gly, box, properties):
     pen.moveTo(p0)
 
     # Getting ellipse squaring
-    sqr = properties["squaring"]
+    sqr = set_property(properties["squaring"])
 
     for i in range(4):
 

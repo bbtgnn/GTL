@@ -9,7 +9,7 @@ import GTL.txt_reader
 
 from GTL.shape_functions import *
 
-from .GTL_syntax import syntax
+from GTL_syntax import syntax
 
 
 

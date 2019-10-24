@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import random
+import types
 
 
 
@@ -18,7 +20,7 @@ def interpolate_points(pA, pB, f):
 def draw_arc_cw(pen, p0, p1, s):
 
     # Determining the maximum point
-    if (p1[0]-p0[0]) * (p1[1]-p0[1]) < 0:
+    if (p1[0]-p0[0]) * (p1[1]-p0[1]) > 0:
         pM = p0[0], p1[1]
     else:
         pM = p1[0], p0[1]
@@ -44,6 +46,26 @@ def make_counterclockwise(c):
 
 
 
+# set_property
+# sets function property according to format
+def set_property(p):
+
+    if (type(p) is int) or (type(p) is float) or (type(p) is str):
+        return p
+
+    elif (type(p) is tuple):
+
+        if   p[0] == "RANGE":
+            return random.uniform(*p[1])
+
+        elif p[0] == "CHOICE":
+            return random.choice(p[1])
+
+    else:
+        pass
+
+
+
 # contour_operations
 # Scales, rotates, translates the contour according to parameters
 
@@ -52,11 +74,12 @@ def contour_operations(c, box, properties):
 
     # Gathering data
     x, y = box[0], box[1]
-    scl = properties["scale"]
-    rot = properties["rotation"]
+    scl_x = set_property(properties["scale_x"])
+    scl_y = set_property(properties["scale_y"])
+    rot = set_property(properties["rotation"])
 
     # Applying transformations
-    c.scaleBy(scl)
+    c.scaleBy((scl_x, scl_y))
     c.rotateBy(rot)
     c.moveBy((x,y))
     make_counterclockwise(c)
