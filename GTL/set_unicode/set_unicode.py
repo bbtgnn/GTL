@@ -68,24 +68,24 @@ def set_unicode(gly):
 
     global private_use_count
 
-    # Extracting actual glyph name: we ignore the dot notation used for opentype features
-    # e.g., if the name of the glyph is "a.smcp", we actually need only the part before the dot
-    gly_name = gly.name.split(".")[0]
+    # If there's a point in glyph name it means it's a glyph regarding an opentype feature. These glyphs do not use a unicode value, because they reference the original glyph, so:
+    if "." in gly.name:
+        pass
 
     # If glyph name is in the dictionary
-    if gly_name in unicodes_dict.keys():
+    elif gly.name in unicodes_dict.keys():
         # We set its unicode value to the matching one
-        gly.unicode = unicodes_dict[gly_name]
+        gly.unicode = unicodes_dict[gly.name]
 
     # If glyph name is in format "uniXXXX"
-    elif "uni" in gly_name:
-        gly.unicode = hex(int(gly_name.replace("uni", ""), 16))
+    elif "uni" in gly.name:
+        gly.unicode = hex(int(gly.name.replace("uni", ""), 16))
 
     # If there's no matching value
     else:
         # We go with private use area
         gly.unicode = hex(int("F0000", 16) + private_use_count)
         private_use_count += 1
-        print(f"Glyph '{gly_name}' not matching any stored Unicode value. Will be assigned to Private Use Area")
+        print(f"Glyph '{gly.name}' not matching any stored Unicode value. Will be assigned to Private Use Area")
 
     return gly
