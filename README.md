@@ -1,7 +1,7 @@
 # GTL
 GTL (or Generatore Tipografico di Libertà) is a Python set of libraries for the creation of generative fonts.<br />
 
-The program generate a typeface (.otf) from a "lazy-discrete" description (for each letter) and a set of instructions to "translate" the "brutal-discrete" description (a syntax).
+The program generate a typeface (.ufo) from a "lazy-discrete" description (for each letter) and a set of instructions to "translate" the "brutal-discrete" description (a syntax).
 
 With this tool you can create lazy-discrete-typefaces (saving a lot of time!).
 We believe this is the best brutal ruled-based-typography development tool. 
@@ -26,7 +26,7 @@ Most important thing: credits to [Daniele Capo](http://www.danielecapo.com/). He
 
 ```
 
-The program takes many txt files (for each letter) and transforms them (parsing) into an .otf typeface.
+The program takes many txt files (for each letter) and transforms them (parsing) into an .ufo typeface.
 For each symbol in the txt file the programm will do something.
 So you can create a syntax to use many different symbols to describe you design into the txt files.
 
