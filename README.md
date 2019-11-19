@@ -69,12 +69,13 @@ Download the master folder anywhere and you're ready to start!
 <br />
 
 ## How it works (Folders Architecture)
-GTL                                   // CORE FOLDER, don't touch
-GTL_main.py                           // the file to run
-GTL_syntax.py                         // parameters and functions
-LICENSE                               // …
-README.md                             // …
-TEST_LETTERS                          // LETTER STRUCTURES FOLDER (TXT FILES FOR EACH LETTER)
+
+– GTL                                   // CORE FOLDER, don't touch
+– GTL_main.py                           // the file to run
+– GTL_syntax.py                         // parameters and functions
+– LICENSE                               // …
+– README.md                             // …
+– TEST_LETTERS                          // LETTER STRUCTURES FOLDER (TXT FILES FOR EACH LETTER)
 
 ### 1. Syntax
 the structure of the syntax is: 
