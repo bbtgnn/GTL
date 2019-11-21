@@ -1,56 +1,65 @@
+
 # GTL
-GTL (or Generatore Tipografico di Libertà) is a Python set of libraries for the creation of generative fonts.<br />
 
-The program generate a typeface (.ufo) from a "lazy-discrete" description (for each letter) and a set of instructions to "translate" the "brutal-discrete" description (a syntax).
+The GTL (or Generatore Tipografico di Libertà) is a Python library for the creation of generative fonts.
 
-With this tool you can create lazy-discrete-typefaces.
-We believe this is the best brutal ruled-based-typography development tool. 
+Foremost thing: huge credits to [Daniele Capo](http://www.danielecapo.com/). He's the designer of the original project - this repository is in some ways a branch and a departure.
 
-Most important thing: CREDITS.
-Thanks to [Daniele Capo](http://www.danielecapo.com/). He had the original idea about this project - mine is a further development.
+And thanks also to  all the XYZ2018 partecipants: Micol Salomone, Giovanni Abbatepaolo, Roberto Ciarambino, Alberto Guerra, Greta Capozzi, Enzo Di Gioia, Elsa Moro, Giulio Galli, Alessandra Del Nero, Vittorio Veronesi, Mattia Bressan, Marco Napoletano, Dania Menafra, Laura Laricchiuta, Roberto Lenza, Eleonora Cappuccio, Marco Balestra, Lucien Haba, Ass Diop Faty, Matija Grgič.
 
-Thanks to all the XYZ2018 partecipants: Micol Salomone, Giovanni Abbatepaolo, Roberto Ciarambino, Alberto Guerra, Greta Capozzi, Enzo Di Gioia, Elsa Moro, Giulio Galli, Alessandra Del Nero, Vittorio Veronesi, Mattia Bressan, Marco Napoletano, Dania Menafra, Laura Laricchiuta, Roberto Lenza, Eleonora Cappuccio, Marco Balestra, Lucien Haba, Ass Diop Faty, Matija Grgič.
 
-<br />
-<br />
+## 0 - What does it do
 
-# WHAT DOES IT DO?
+The GTL takes as input
 
+ - a **structure** - ASCII-like drawings of glyphs
 ```
-........        ...0#1...
-........        ..#...#..
-.#####..        ..#...#..
-.#...#..        ..#...#..
-.....#..        ..2###1..
-.#####..        ..#...#..
-.#...#..        ..#...#..
-.####.#.        .##...##.
-........        .........
-........        .........
-
+.........     ........
+...O##...     ........
+..O...#..     ........
+..O...#..     .#O##O..
+..#...O..     .#...#..
+..O#O##..     .....O..
+..#...#..     .#O#O#..
+..#...O..     .#...#..
+.#O...##.     .O#O#.#.
+.........     ........
 ```
 
-The program takes many txt files (for each letter) and transforms them (parsing) into an .ufo typeface.
-For each symbol in the txt file the programm will do something.
-So you can create a syntax to use many different symbols to describe you design into the txt files.
-
-The program works quickly and allow you to operate in a smart way that anyone can approach.
-
-## Install guide
-GTL requires [Python](https://www.python.org/) 3.4 or later.
-
-### 1. Virtual Environment creation
-First of all, it is strongly recommended to create a Python Virtual Enviroment for the installation of all the needed libraries.
-
-Create a folder where you want (e.g. I usually store all my environments in ```Documents/PythonEnvironments/```).
-
-Then open to the terminal and input
+- a **syntax** - a set of instructions
 ```
-# (change <DIR> with the path of your folder)
+. -> draw a white space
+# -> draw a rectangle
+O -> draw a circle
+```
+and by combining the inputs generates an actual, usable font:
+
+![https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/Aa.png](https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/Aa.png =500x)
+The GTL is the perfect tool for the development of lazy-brutal-discrete typefaces, allowing for a fast and flexible drawing process: just by changing the syntax is it possible to generate endless variations for the same letter structure!
+
+The GTL is meant to be used by everyone. If you're curious, let's dive in!
+
+## 1 - Install guide
+The GTL requires [Python](https://www.python.org/). It has been tested only on Python 3.7.4, but should work on other versions as well (if not, stick with 3.7.4).
+
+
+### 1.1 - Virtual Environment creation
+It is strongly recommended to create a Python Virtual Enviroment for the installation of all the needed libraries and the usage of the GTL.
+
+#### 1.1.1 - Folder creation
+Create a folder anywhere you want.
+
+#### 1.1.2 - Virtual Environment creation
+Open the terminal and input
+```
 python3 -m venv <DIR>
 ```
-to create the virtual environment.<br />
-To activate it run
+where ```<DIR>``` is the full path of the created folder. For example:
+```
+python3 -m venv /Users/username/Desktop/venv_gtl
+```
+#### 1.1.3 - Virtual Environment activation
+The virtual enviroment needs to be activated *each time* you want to use the GTL. To do it, run in the terminal
 ```
 # On macOS
 source <DIR>/bin/activate
@@ -58,135 +67,192 @@ source <DIR>/bin/activate
 # On Windows
 <DIR>\Scripts\activate
 ```
-(To exit from the environment, anytime, just enter ```deactivate```.)
+e.g.
+```
+source /Users/username/Desktop/venv_gtl/bin/activate
+```
+(To exit from the environment anytime just enter ```deactivate``` or close the terminal.)
 
-### 2. Installing fontParts
-[FontParts](https://fontparts.readthedocs.io/) is the core library over which the GTL has been built. To install it (while the virtual environment is active) type in terminal
+### 1.2 - Installing fontParts
+[FontParts](https://fontparts.readthedocs.io/) is the core library over which the GTL has been built. To install it - **while the virtual environment is active** - run in terminal
 ```
 pip install fontParts==0.8.7
 ```
-FontParts is still in development, and newer version are already out. For the moment, the GTL has been tested only on the 0.8.7 version.
+FontParts is still in development, and newer version are already out. As of today, the GTL has been tested only on the 0.8.7 version.
 
-### 3. Setting up the workspace
-Download the master folder anywhere and you're ready to start!
-<br />
-<br />
-
-## How it works (Folders Architecture)
+### 1.3 - Setting up the workspace
+Download this master folder anywhere. This is the folder architecture:
 ```
-– GTL                                   // CORE FOLDER, don't touch
-– GTL_main.py                           // the file to run
-– GTL_syntax.py                         // parameters and functions
-– LICENSE                               // …
-– README.md                             // …
-– TEST_LETTERS                          // LETTER STRUCTURES FOLDER (TXT FILES FOR EACH LETTER)
-```
-### 1. Syntax
-the structure of the syntax is: 
-
-# string : (function, properties)
-
-**string**            = a glyph used in the txt files to describe something
-**function**          = what the program has to do when meets the string
-**properties**        = some function parameters 
-
-At the top of Syntax file you will find the constants:
-
-**CONSTANTS ORIENTATIONS = ["NW", "NE", "SW", "SE"]**
-
-### 2. Input typologies
-All properties could accept 2 different typologies of input:
-
-#### a single value
-    — int             1
-    — float           3.14
-    — string          "NW", "NE", "SE", SW" (only if possible)
-    
-#### a couple of values ("a tuple")
-    — range           ("RANGE", [2, 21])                  // only 2 elements
-    — choice          ("CHOICE", [2, 23, 7 , 32, 21])     // how many elements do you want 
-
-In every function you can use the input you want.
-
-For example:
-**"scale_x":1** or **"scale_x":1.5** or **"scale_x":("RANGE", [1, 5])** or **"scale_x":("CHOICE", [1, 5, 10, 25])**
-
-### 3. Functions and Properties
-
-**do_nothing**          = it does nothing
-  — "null"              = the only avaible value is "null"            
-
-**rectangle**           = it draws a rectangle filling the cell
-  — "scale_x":1         = horizontal scale factor
-  — "scale_y":1         = vertical scale factor
-  — "rotation":0        = rotation degrees
-
-**ellipse**
-  — "scale_x":1         = horizontal scale factor
-  — "scale_y":1         = vertical scale factor
-  — "rotation":0        = rotation degree
-  — "squaring":.56      = squaring degree of the ellipse (0 < X < 1 for ellipses)
-  
-**ellipse_quarter**
-  — "scale_x":1         = horizontal scale factor
-  — "scale_y":1         = vertical scale factor
-  — "rotation":0        = rotation degrees
-  — "squaring":.56      = squaring degree of the ellipse (0 < X < 1 for ellipses)
-  – "orientation":"NW"  = orientation of the quarter (**use only constants**)
-
-**random_function**
-  — "functions":        = a list of tuple, with 2 arguments: "the function" and "the properties".
-
-### 4. Anatomy of a txt-letter file
-
-```
-A
-
-...0#1...
-..#...#..
-..#...#..
-..#...#..
-..2###1..
-..#...#..
-..#...#..
-.##...##.
-.........
-.........
+.
+│
+├── GTL                  // CORE FOLDER, don't touch
+│   └── ...
+│
+├── GTL_syntax.py        // Here you'll set the syntax
+├── GTL_params.py        // Here you'll set some minor (but important) parameters
+├── GTL_main.py          // This is the file to run to generate the font
+│
+├── LICENSE              // …
+├── README.md            // …
+│
+└── test_letters         // Here's a sample of some letters ready to use
+    └── ...
 ```
 
-At the top, first of all, you need to insert the unicode name for the glyph.
-After an empty row.
+## 2 - How it works
 
-The number of the rows for each letter of the alphabet should be the same.
-In the same letter, the number of the columns for each row must be the same.
-In different letters you can use different widths (columns number)
-If you need more kinds of marker you can edit the syntax, setting them.
+### 2.1 - Drawing the letters
 
-## How to generate the font (this is the magic!)
-
-### 1. Edit GTL_main.py setting the variables
+First of all, you have to design the letter structure!
+Each letter should be drawn in a separate **.TXT file**. The file should look like this:
 ```
+A               # LINE 1 ━ glyph name
+                # LINE 2 ━ empty line
+...##O...       # LINE 3 ┓
+..#...#..		  .      ┃
+..#...#..		  .      ┃
+..#...#..		  .      ┃
+..O####..		  .      ┣ glyph structure
+..#...O..		  .      ┃   
+..#...O..		  .      ┃
+.O#...##.		  .      ┃
+.........       # LINE N ┛
+```
+**Important notes about the glyph name**
+- The glyph name **is not** the glyph itself: for example, the name for ```à``` is ```agrave```. You can search the glyph in this [reference table](https://github.com/bbtgnn/AGLFN-table/blob/master/AGLFN-table.tsv) and get its name from ```Glyph name``` column.
+- If a glyph is not in the provided table you can give it a random name. **Only letters** (A-Z, a-z) are accepted.
+
+**Important notes about the glyph structure**
+- For each letter of the font - the number of the rows **must** be the same.
+- In the same letter - all the rows **must** have the same length.
+- It's important to have at least one **empty** column for each side, to give glyphs some margin.
+
+Other things
+-  Glyphs from the same font can have different widths (a different row length).
+- You can use all the symbols you want in the glyph structure. The more the symbols, the more will be possible to create complex designs and behaviours. 
+- Remember that the _space_ is also a glyph.
+
+Once you've drawn all the glyphs, store them in a folder.
+
+---
+### 2.2 - Syntax
+
+Once you've designed the letters (or, if you're lazy, decided to use the sample letters in the master folder) it's time to define the **syntax**.
+
+So open ```GTL_syntax.py``` with a *code editor* and scroll all the way down: you'll find this
+```
+syntax = {
+	# Add instructions here
+}
+```
+Each symbol used in the glyph structure needs an **instruction**: the GTL needs to know what to do when it reads each symbol found in the glyph structure.
+
+An instruction looks like this:
+```
+"character": (function, function_properties),		# the comma is important
+```
+- **character** - here goes the symbol you used in the description 
+- **function** - here you tell the GTL what to do when it reads that character
+- **function_properties** - here you set some parameters to modify the behaviour of the function
+
+**Before continuing, please check the section [Functions and Properties](#functions-and-properties) to see the complete list of Functions and Functions Properties**
+
+**Example**
+Let's now say you decided that you want to draw a rectangle each time there's a ```#``` in the glyph structure. According to what we said before, we need a *symbol*, a *function* and *function_properties*. Symbol and function we have (respectively ```#``` and ```rectangle```). But we do not have any *function_properties*! We'll have to *write* this one.
+
+For the moment, the syntax looks like this
+```
+syntax = {
+	"#": (rectangle, ?),
+}
+```
+
+#### Writing a property
+
+As you might have noticed, in the ```GTL_syntax.py``` file, above the syntax, there's a section called ```Properties```: there'll go our code.
+
+We start by creating the "container" of the properties.
+```
+container = {
+}
+```
+Since we will have different properties, it's good practice to give the container an appropriate name:
+```
+p_rectangle = {			# "p" is short for "properties"
+}
+```
+Then, we add the corresponding properties for the function we chose. Since we chose the rectangle, we copy and paste its properties from the [section below](#functions-and-properties), enclosing them between quotes and adding a colon and a comma after it.
+```
+p_rectangle = {
+	"scale_x": ,
+    "scale_y": ,
+    "rotation": ,
+}
+```
+Then we have to add the values. Let's say we do not want to scale the rectangle, but we want to give it a random rotation each time it gets drawn. So the properties will look like this:
+```
+p_rectangle = {
+	"scale_x": 1,			# Scaling by 1 means no change
+    "scale_y": 1,			# Scaling by 1 means no change
+    "rotation": (0, 360),	# A random angle between 0 and 360 will be chosen
+}
+```
+And now that we have our property, we can write the instruction!
+```
+syntax = {
+	"#": (rectangle, p_rectangle),
+}
+```
+At this point, you just need to add an instruction for each symbol you used in the glyphs structures and you're good to go!
+
+**Extra tip**
+The property for the function ```do_nothing``` looks like this: ```p_do_nothing = {}```.
+Since the function does nothing, the container for its properties is empty.
+
+---
+### 2.3 - How to generate the font (Where the magic happens!)
+
+#### 1. Edit GTL_params.py
+Next (and almost final) step: you need to edit the ```GTL_params.py``` file by adding all the requested variables.
+```
+## PATHS
+
 # Path of folder containing glyphs txt
-txt_path = "/path/to/folder/of/letters"
+txt_path = "path/to/txt/files"
 
-# Path of output font
-out_path = "/path/to/folder/of/font.ufo" // (important: remember to use the .ufo extension!)
-
-# Set glyphs'baseline row (counting from bottom of txt)
-gly_baseline = 2
-
-# Set box size
-box = 100, 100
-
-# Set number of box sub-units for recursive functions
-box_col = 1
-box_row = 1
-
+# Path of folder of output font
+out_path = "path/to/chosen/folder"
 ```
+```
+## FONT INFO
 
-### 2. Terminal instructions to make magic happens
+# Font name (anything you like: Sator, Avocado, etc)
+font_name = "Tenet"
 
-after you activate the virual environment
+# Style name (Regular, Bold, Rectangular, Dizzy, etc)
+style_name = "Regular"
+```
+```
+## FONT METRICS
+# For the font metrics section, you just have to count the rows as shown in this example:
+```
+![https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/metrics.png](https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/metrics.png)
+```
+## BOX PROPERTIES
+
+# FLOAT - Set box width ratio (width_ratio=1 for square proportions)
+width_ratio = 1
+```
+![https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/width_ratio.png](https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/width_ratio.png)
+```
+# (INT, INT) - Set box layout (e.g. box_layout = (1,1))
+box_layout = 1,1
+```
+![https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/box_layout.png](https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/box_layout.png =400x)
+
+#### 2. Terminal instructions to make magic happen
+
+Activate the Virtual Environment
 
 ```
 # On macOS
@@ -195,7 +261,72 @@ source <DIR>/bin/activate
 # On Windows
 <DIR>\Scripts\activate
 ```
+Run
+```
+python3 /path/to/GTL_main.py
+```
 
-type **python3 /path/to/GTL_main.py**
+aaand… enjoy! :) 
 
-now… enjoy! ;) 
+(The font will be saved both as UFO format: to make it fully usable you have to export it as OTF file from a font editor such as [FontForge](https://fontforge.org/en-US/).)
+
+
+## Functions and properties
+
+Here's a  list of all the available functions and their properties.
+```
+function		| function description
+	- property		| property description
+```
+```
+p_do_nothing    | does nothing
+    - [has no properties]
+
+p_rectangle     | draws a rectangle
+    - scale_x       | horizontal scale factor
+    - scale_y       | vertical   scale factor
+    - rotation      | rotation (in degrees)
+
+p_ellipse       | draws an ellipse
+    - scale_x       | "
+    - scale_y       | "
+    - rotation      | "
+    - squaring      | squaring degree of the curve
+
+ellipse_quarter | draws an ellipse quarter
+    - scale_x       | "
+    - scale_y       | "
+    - rotation      | "
+    - squaring      | "
+    - orientation   | orientation of the quarter
+
+random_function | executes a random function chosen between the ones provided
+    - function_properties_list
+                    | a list of function-properties couples
+```
+And this is a list of possible values for each property:
+```
+properties
+	- data type									data example
+```
+```
+scale_x, scale_y, rotation, squaring
+	- an integer number (int)					1
+	- a floating point number (float)			3.14
+	- a range of int and/or float				(-3.14, 9)
+	- a list  of int and/or float				[0, 9.32, -12, 4.3]
+
+orientation
+	- an orientation (str)						"NW" or "NE" or "SW" or "SE"
+	- a list of orientations					["NW", "NE", "SE"]
+
+function_properties_list
+	- a list of function-properties couples		[(f1, f1_prop), (f2, f2_prop), …]
+```	
+**Important notes**
+ - In case of **range** values, will be chosen a random number between the extremes.
+ - In case of **list** values, will be chosen a random value from the ones in the list.
+
+Also remember:
+- **Lists** are always enclosed in **squared brackets**.
+- **Ranges** and **couples** are always enclosed in **round brackets**.
