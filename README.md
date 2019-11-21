@@ -34,7 +34,7 @@ O -> draw a circle
 ```
 and by combining the inputs generates an actual, usable font:
 
-![https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/Aa.png](https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/Aa.png =500x)
+![https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/Aa.png](https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/Aa.png)
 The GTL is the perfect tool for the development of lazy-brutal-discrete typefaces, allowing for a fast and flexible drawing process: just by changing the syntax is it possible to generate endless variations for the same letter structure!
 
 The GTL is meant to be used by everyone. If you're curious, let's dive in!
@@ -248,7 +248,7 @@ width_ratio = 1
 # (INT, INT) - Set box layout (e.g. box_layout = (1,1))
 box_layout = 1,1
 ```
-![https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/box_layout.png](https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/box_layout.png =400x)
+![https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/box_layout.png](https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/box_layout.png)
 
 #### 2. Terminal instructions to make magic happen
 
