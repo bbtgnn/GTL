@@ -171,7 +171,7 @@ Once you've designed the letters (or, if you're lazy, decided to use the sample 
 So open ```GTL_syntax.py``` with a *code editor* and scroll all the way down: you'll find this
 ```
 syntax = {
-	# Add instructions here
+    # Add instructions here
 }
 ```
 Each symbol used in the glyph structure needs an **instruction**: the GTL needs to know what to do when it reads each symbol found in the glyph structure.
@@ -193,7 +193,7 @@ Let's now say you decided that you want to draw a rectangle each time there's a 
 For the moment, the syntax looks like this
 ```
 syntax = {
-	"#": (rectangle, ?),
+    "#": (rectangle, ?),
 }
 ```
 
@@ -215,7 +215,7 @@ p_rectangle = {			# "p" is short for "properties"
 Then, we add the corresponding properties for the function we chose. Since we chose the rectangle, we copy and paste its properties from the [section below](#functions-and-properties), enclosing them between quotes and adding a colon and a comma after it.
 ```
 p_rectangle = {
-	"scale_x": ,
+    "scale_x": ,
     "scale_y": ,
     "rotation": ,
 }
@@ -223,15 +223,15 @@ p_rectangle = {
 Then we have to add the values. Let's say we do not want to scale the rectangle, but we want to give it a random rotation each time it gets drawn. So the properties will look like this:
 ```
 p_rectangle = {
-	"scale_x": 1,			# Scaling by 1 means no change
-    "scale_y": 1,			# Scaling by 1 means no change
+    "scale_x": 1,		# Scaling by 1 means no change
+    "scale_y": 1,		# Scaling by 1 means no change
     "rotation": (0, 360),	# A random angle between 0 and 360 will be chosen
 }
 ```
 And now that we have our property, we can write the instruction!
 ```
 syntax = {
-	"#": (rectangle, p_rectangle),
+    "#": (rectangle, p_rectangle),
 }
 ```
 At this point, you just need to add an instruction for each symbol you used in the glyphs structures and you're good to go!
