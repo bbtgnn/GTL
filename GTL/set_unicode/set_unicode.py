@@ -63,7 +63,7 @@ with open(txt_path, "r") as txt_file:
 
 # This function takes a glyph as argument and returns the same glyph with unicode set correctly (hex)
 
-# Glyph -> Hex
+# Glyph -> Glyph
 def set_unicode(gly):
 
     global private_use_count
