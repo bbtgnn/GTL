@@ -184,6 +184,8 @@ An instruction looks like this:
 - **function** - here you tell the GTL what to do when it reads that character
 - **function_properties** - here you set some parameters to modify the behaviour of the function
 
+\-
+
 **Before continuing, please check the section [Functions and Properties](#functions-and-properties) to see the complete list of Functions and Functions Properties**
 
 \-
