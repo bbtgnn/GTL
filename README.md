@@ -105,17 +105,17 @@ Download this master folder anywhere. This is the folder architecture:
 ```
 .
 │
-├── GTL                  // CORE FOLDER, don't touch
+├── GTL                  # CORE FOLDER, don't touch
 │   └── ...
 │
-├── GTL_syntax.py        // Here you'll set the syntax
-├── GTL_params.py        // Here you'll set some minor (but important) parameters
-├── GTL_main.py          // This is the file to run to generate the font
+├── GTL_syntax.py        # Here you'll set the syntax
+├── GTL_params.py        # Here you'll set some minor (but important) parameters
+├── GTL_main.py          # This is the file to run to generate the font
 │
-├── LICENSE              // …
-├── README.md            // …
+├── LICENSE              # …
+├── README.md            # …
 │
-└── test_letters         // Here's a sample of some letters ready to use
+└── test_letters         # Here's a sample of some letters ready to use
     └── ...
 ```
 
