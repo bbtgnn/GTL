@@ -2,7 +2,7 @@
 
 The GTL (or Generatore Tipografico di Libertà) is a Python library for the creation of generative fonts.
 
-Foremost thing: huge credits to [Daniele Capo](http://www.danielecapo.com/). He's the designer of the original project - this repository is in some ways a branch and a departure.
+Foremost thing: huge credits to [Daniele Capo](http://www.danielecapo.com/). He's the designer of the original project - this repository is in some ways a branch and a departure from his idea.
 
 And thanks also to  all the XYZ2018 partecipants: Micol Salomone, Giovanni Abbatepaolo, Roberto Ciarambino, Alberto Guerra, Greta Capozzi, Enzo Di Gioia, Elsa Moro, Giulio Galli, Alessandra Del Nero, Vittorio Veronesi, Mattia Bressan, Marco Napoletano, Dania Menafra, Laura Laricchiuta, Roberto Lenza, Eleonora Cappuccio, Marco Balestra, Lucien Haba, Ass Diop Faty, Matija Grgič.
 
