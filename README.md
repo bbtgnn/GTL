@@ -238,7 +238,7 @@ At this point, you just need to add an instruction for each symbol you used in t
 
 \-
 
-**Extra tip**</br>
+#### Extra tip
 The property for the function ```do_nothing``` looks like this: ```p_do_nothing = {}```.
 Since the function does nothing, the container for its properties is empty.
 
