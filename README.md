@@ -3,10 +3,14 @@ GTL (or Generatore Tipografico di Libertà) is a Python set of libraries for the
 
 The program generate a typeface (.ufo) from a "lazy-discrete" description (for each letter) and a set of instructions to "translate" the "brutal-discrete" description (a syntax).
 
-With this tool you can create lazy-discrete-typefaces (saving a lot of time!).
+With this tool you can create lazy-discrete-typefaces.
 We believe this is the best brutal ruled-based-typography development tool. 
 
-Most important thing: credits to [Daniele Capo](http://www.danielecapo.com/). He had the original idea about this project - mine is a further development.
+Most important thing: CREDITS.
+Thanks to [Daniele Capo](http://www.danielecapo.com/). He had the original idea about this project - mine is a further development.
+
+Thanks to all the XYZ2018 partecipants: Micol Salomone, Giovanni Abbatepaolo, Roberto Ciarambino, Alberto Guerra, Greta Capozzi, Enzo Di Gioia, Elsa Moro, Giulio Galli, Alessandra Del Nero, Vittorio Veronesi, Mattia Bressan, Marco Napoletano, Dania Menafra, Laura Laricchiuta, Roberto Lenza, Eleonora Cappuccio, Marco Balestra, Lucien Haba, Ass Diop Faty, Matija Grgič.
+
 <br />
 <br />
 
