@@ -2,6 +2,8 @@
 
 ### MODULES
 
+import os
+
 import fontParts.world as fp
 
 import GTL.draw_bits
@@ -11,6 +13,14 @@ from GTL.shape_functions import *
 
 from GTL_syntax import syntax
 from GTL_params import *
+
+
+
+
+
+
+### CONSTANTS
+UPM = 1000
 
 
 
@@ -27,23 +37,39 @@ gly_name = next(iter(fnt_dict))
 gly_strc = fnt_dict[gly_name]
 line_num = len(gly_strc)
 
-# Calculating descender line
-dsc_hgt = -box[1] * gly_baseline
+# Calculating box height
+box_hgt = int(UPM/line_num/4)*4
 
+# Calculating box width
+box_wdt = box_hgt * width_ratio
 
+# Calculating bottom line
+bottom = -box_hgt * fnt_baseline
+
+box = box_wdt, box_hgt
 
 
 
 
 ### DRAWING FONT
 
-fnt = fp.NewFont()
+# Creating the font
+fnt = fp.NewFont(familyName=font_name, styleName=style_name)
 
-GTL.draw_bits.draw_bit_fnt(fnt = fnt,
-                           fnt_dict = fnt_dict,
-                           dsc_hgt = dsc_hgt,
-                           box_size = box,
-                           box_layout = (box_row, box_col),
-                           syntax = syntax)
+# Setting the metrics
+fnt.info.unitsPerEm = UPM
+fnt.info.descender  = - box_hgt * fnt_dsc
+fnt.info.xHeight    =   box_hgt * fnt_xht
+fnt.info.capHeight  =   box_hgt * fnt_cap
+fnt.info.ascender   =   box_hgt * fnt_asc
 
-fnt.save(out_path)
+# Generating the font
+GTL.draw_bits.draw_bit_fnt(fnt        = fnt,
+                           fnt_dict   = fnt_dict,
+                           dsc_hgt    = bottom,    # this is actually the bottom line
+                           box_size   = box,
+                           box_layout = box_layout,
+                           syntax     = syntax)
+
+# Exporting the font
+fnt.save(os.path.join(out_path, f'{font_name}.ufo'))
