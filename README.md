@@ -108,13 +108,13 @@ Each letter should be drawn in a separate **.TXT file**. The file should look li
 A               # LINE 1 ━ glyph name
                 # LINE 2 ━ empty line
 ...##O...       # LINE 3 ┓
-..#...#..		  .      ┃
-..#...#..		  .      ┃
-..#...#..		  .      ┃
-..O####..		  .      ┣ glyph structure
-..#...O..		  .      ┃   
-..#...O..		  .      ┃
-.O#...##.		  .      ┃
+..#...#..	  .      ┃
+..#...#..	  .      ┃
+..#...#..	  .      ┃
+..O####..	  .      ┣ glyph structure
+..#...O..	  .      ┃   
+..#...O..	  .      ┃
+.O#...##.	  .      ┃
 .........       # LINE N ┛
 ```
 **Important notes about the glyph name**
@@ -306,18 +306,18 @@ random_function | executes a random function chosen between the ones provided
 And this is a list of possible values for each property:
 ```
 properties
-	- data type									data example
+	- data type					data example
 ```
 ```
 scale_x, scale_y, rotation, squaring
-	- an integer number (int)					1
-	- a floating point number (float)			3.14
-	- a range of int and/or float				(-3.14, 9)
-	- a list  of int and/or float				[0, 9.32, -12, 4.3]
+	- an integer number (int)			1
+	- a floating point number (float)		3.14
+	- a range of int and/or float			(-3.14, 9)
+	- a list  of int and/or float			[0, 9.32, -12, 4.3]
 
 orientation
-	- an orientation (str)						"NW" or "NE" or "SW" or "SE"
-	- a list of orientations					["NW", "NE", "SE"]
+	- an orientation (str)				"NW" or "NE" or "SW" or "SE"
+	- a list of orientations			["NW", "NE", "SE"]
 
 function_properties_list
 	- a list of function-properties couples		[(f1, f1_prop), (f2, f2_prop), …]
