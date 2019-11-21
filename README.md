@@ -6,7 +6,11 @@ Foremost thing: huge credits to [Daniele Capo](http://www.danielecapo.com/). He'
 
 And thanks also to  all the XYZ2018 partecipants: Micol Salomone, Giovanni Abbatepaolo, Roberto Ciarambino, Alberto Guerra, Greta Capozzi, Enzo Di Gioia, Elsa Moro, Giulio Galli, Alessandra Del Nero, Vittorio Veronesi, Mattia Bressan, Marco Napoletano, Dania Menafra, Laura Laricchiuta, Roberto Lenza, Eleonora Cappuccio, Marco Balestra, Lucien Haba, Ass Diop Faty, Matija Grgič.
 
+</br>
+</br>
+</br>
 
+---
 ## 0 - What does it do
 
 The GTL takes as input
@@ -38,16 +42,25 @@ The GTL is the perfect tool for the development of lazy-brutal-discrete typeface
 
 The GTL is meant to be used by everyone. If you're curious, let's dive in!
 
+</br>
+</br>
+</br>
+
+---
 ## 1 - Install guide
 The GTL requires [Python](https://www.python.org/). It has been tested only on Python 3.7.4, but should work on other versions as well (if not, stick with 3.7.4).
 
+</br>
 
+---
 ### 1.1 - Virtual Environment creation
 It is strongly recommended to create a Python Virtual Enviroment for the installation of all the needed libraries and the usage of the GTL.
 
+\-
 #### 1.1.1 - Folder creation
 Create a folder anywhere you want.
 
+\-
 #### 1.1.2 - Virtual Environment creation
 Open the terminal and input
 ```
@@ -57,6 +70,8 @@ where ```<DIR>``` is the full path of the created folder. For example:
 ```
 python3 -m venv /Users/username/Desktop/venv_gtl
 ```
+
+\-
 #### 1.1.3 - Virtual Environment activation
 The virtual enviroment needs to be activated *each time* you want to use the GTL. To do it, run in the terminal
 ```
@@ -72,6 +87,9 @@ source /Users/username/Desktop/venv_gtl/bin/activate
 ```
 (To exit from the environment anytime just enter ```deactivate``` or close the terminal.)
 
+</br>
+
+---
 ### 1.2 - Installing fontParts
 [FontParts](https://fontparts.readthedocs.io/) is the core library over which the GTL has been built. To install it - **while the virtual environment is active** - run in terminal
 ```
@@ -79,6 +97,9 @@ pip install fontParts==0.8.7
 ```
 FontParts is still in development, and newer version are already out. As of today, the GTL has been tested only on the 0.8.7 version.
 
+</br>
+
+---
 ### 1.3 - Setting up the workspace
 Download this master folder anywhere. This is the folder architecture:
 ```
@@ -98,6 +119,11 @@ Download this master folder anywhere. This is the folder architecture:
     └── ...
 ```
 
+</br>
+</br>
+</br>
+
+---
 ## 2 - How it works
 
 ### 2.1 - Drawing the letters
@@ -133,10 +159,14 @@ Other things
 
 Once you've drawn all the glyphs, store them in a folder.
 
+</br>
+
 ---
 ### 2.2 - Syntax
 
 Once you've designed the letters (or, if you're lazy, decided to use the sample letters in the master folder) it's time to define the **syntax**.
+
+\-
 
 So open ```GTL_syntax.py``` with a *code editor* and scroll all the way down: you'll find this
 ```
@@ -156,7 +186,8 @@ An instruction looks like this:
 
 **Before continuing, please check the section [Functions and Properties](#functions-and-properties) to see the complete list of Functions and Functions Properties**
 
-**Example**
+\-
+#### Example
 Let's now say you decided that you want to draw a rectangle each time there's a ```#``` in the glyph structure. According to what we said before, we need a *symbol*, a *function* and *function_properties*. Symbol and function we have (respectively ```#``` and ```rectangle```). But we do not have any *function_properties*! We'll have to *write* this one.
 
 For the moment, the syntax looks like this
@@ -166,6 +197,7 @@ syntax = {
 }
 ```
 
+\-
 #### Writing a property
 
 As you might have noticed, in the ```GTL_syntax.py``` file, above the syntax, there's a section called ```Properties```: there'll go our code.
@@ -204,14 +236,18 @@ syntax = {
 ```
 At this point, you just need to add an instruction for each symbol you used in the glyphs structures and you're good to go!
 
-**Extra tip**
+\-
+
+**Extra tip**</br>
 The property for the function ```do_nothing``` looks like this: ```p_do_nothing = {}```.
 Since the function does nothing, the container for its properties is empty.
+
+</br>
 
 ---
 ### 2.3 - How to generate the font (Where the magic happens!)
 
-#### 1. Edit GTL_params.py
+#### 2.3.1 - Edit GTL_params.py
 Next (and almost final) step: you need to edit the ```GTL_params.py``` file by adding all the requested variables.
 ```
 ## PATHS
@@ -249,7 +285,8 @@ box_layout = 1,1
 ```
 ![https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/box_layout.png](https://raw.githubusercontent.com/bbtgnn/GTL/master/readme_images/box_layout.png)
 
-#### 2. Terminal instructions to make magic happen
+\-
+#### 2.3.2 - Terminal instructions to make magic happen
 
 Activate the Virtual Environment
 
@@ -269,13 +306,17 @@ aaand… enjoy! :)
 
 (The font will be saved both as UFO format: to make it fully usable you have to export it as OTF file from a font editor such as [FontForge](https://fontforge.org/en-US/).)
 
+</br>
+</br>
+</br>
 
+---
 ## Functions and properties
 
 Here's a  list of all the available functions and their properties.
 ```
-function		| function description
-	- property		| property description
+function	| function description
+    - property	    | property description
 ```
 ```
 p_do_nothing    | does nothing
