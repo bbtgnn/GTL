@@ -7,6 +7,12 @@ Foremost thing: huge credits to [Daniele Capo](http://www.danielecapo.com/). He'
 And thanks also to  all the XYZ2018 partecipants: Micol Salomone, Giovanni Abbatepaolo, Roberto Ciarambino, Alberto Guerra, Greta Capozzi, Enzo Di Gioia, Elsa Moro, Giulio Galli, Alessandra Del Nero, Vittorio Veronesi, Mattia Bressan, Marco Napoletano, Dania Menafra, Laura Laricchiuta, Roberto Lenza, Eleonora Cappuccio, Marco Balestra, Lucien Haba, Ass Diop Faty, Matija Grgič.
 
 </br>
+
+Some notes before starting:
+- Please read the full guide before going step-by-step.
+- ```#``` are used throughout this guide to indicate lines that are _comments_: it means they do not need to be typed at all.
+
+</br>
 </br>
 </br>
 
@@ -15,7 +21,7 @@ And thanks also to  all the XYZ2018 partecipants: Micol Salomone, Giovanni Abbat
 
 The GTL takes as input
 
- - a **structure** - ASCII-like drawings of glyphs
+ - a **structure** - [ASCII-like](https://www.asciiart.eu/animals/cats) drawings of glyphs
 ```
 .........     ........
 ...O##...     ........
@@ -48,7 +54,7 @@ The GTL is meant to be used by everyone. If you're curious, let's dive in!
 
 ---
 ## 1 - Install guide
-The GTL requires [Python](https://www.python.org/). It has been tested only on Python 3.7.4, but should work on other versions as well (if not, stick with 3.7.4).
+The GTL requires [Python](https://www.python.org/downloads/) 3.6 or 3.7.
 
 </br>
 
@@ -58,7 +64,7 @@ It is strongly recommended to create a Python Virtual Enviroment for the install
 
 \-
 #### 1.1.1 - Folder creation
-Create a folder anywhere you want.
+Create a folder anywhere on your computer and give it appropriate name (e.g. ```venv_gtl```).
 
 \-
 #### 1.1.2 - Virtual Environment creation
@@ -91,11 +97,18 @@ source /Users/username/Desktop/venv_gtl/bin/activate
 
 ---
 ### 1.2 - Installing fontParts
-[FontParts](https://fontparts.readthedocs.io/) is the core library over which the GTL has been built. To install it - **while the virtual environment is active** - run in terminal
+[FontParts](https://fontparts.readthedocs.io/) is the core library over which the GTL has been built. FontParts is still in development, and newer version are already out. As of today, the GTL has been tested only on the 0.8.7 version.
+
+To install fontparts - **while the virtual environment is active** - run in terminal
 ```
 pip install fontParts==0.8.7
 ```
-FontParts is still in development, and newer version are already out. As of today, the GTL has been tested only on the 0.8.7 version.
+After you'll run this command probably you'll get two (probably yellow) lines saying
+```
+You are using pip version 19.0.3, however version 19.3.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+```
+Just ignore them.
 
 </br>
 
@@ -105,17 +118,19 @@ Download this master folder anywhere. This is the folder architecture:
 ```
 .
 │
-├── GTL                  # CORE FOLDER, don't touch
+├── GTL			# CORE FOLDER, don't touch
 │   └── ...
 │
-├── GTL_syntax.py        # Here you'll set the syntax
-├── GTL_params.py        # Here you'll set some minor (but important) parameters
-├── GTL_main.py          # This is the file to run to generate the font
+├── GTL_main.py		# This is the file to run to generate the font
+├── GTL_params.py	# Here you'll set some minor (but important) parameters
+├── GTL_syntax.py	# Here you'll set the syntax
 │
-├── LICENSE              # …
-├── README.md            # …
+├── test_letters	# Here's a sample of some letters ready to use
+│   └── ...
 │
-└── test_letters         # Here's a sample of some letters ready to use
+├── LICENSE		# Ignore
+├── README.md		# Ignore
+└── readme_images	# Ignore
     └── ...
 ```
 
@@ -153,8 +168,8 @@ A               # LINE 1 ━ glyph name
 - It's important to have at least one **empty** column for each side, to give glyphs some margin.
 
 Other things
--  Glyphs from the same font can have different widths (a different row length).
-- You can use all the symbols you want in the glyph structure. The more the symbols, the more will be possible to create complex designs and behaviours. 
+- Glyphs from the same font can have different widths (a different row length).
+- You can use all the symbols you want in the glyph structure. The more the symbols, the more will be possible to create complex designs.
 - Remember that the _space_ is also a glyph.
 
 Once you've drawn all the glyphs, store them in a folder.
