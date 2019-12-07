@@ -114,7 +114,9 @@ Just ignore them.
 
 ---
 ### 1.3 - Setting up the workspace
-Download this master folder anywhere. This is the folder architecture:
+[Download the GTL](https://github.com/bbtgnn/GTL/archive/master.zip) and save it anywhere on your computer.
+
+This is the folder architecture:
 ```
 .
 │
@@ -144,7 +146,7 @@ Download this master folder anywhere. This is the folder architecture:
 ### 2.1 - Drawing the letters
 
 First of all, you have to design the letter structure!
-Each letter should be drawn in a separate **.TXT file**. The file should look like this:
+Each letter should be drawn in a separate **.TXT file**. The file should look like this (check the ```test_letters``` folder for some samples):
 ```
 A               # LINE 1 ━ glyph name
                 # LINE 2 ━ empty line
