@@ -38,48 +38,19 @@ def draw_arc_cw(pen, p0, p1, s):
 
 # RContour -> RContour
 def make_counterclockwise(c):
-
     if c.clockwise == True:
         c.reverse()
-
     return c
-
-
-
-# set_property
-# sets function property according to format
-def set_property(p):
-
-    if (type(p) is int) or (type(p) is float) or (type(p) is str):
-        return p
-
-    elif type(p) is tuple:
-        return random.uniform(*p)
-
-    elif type(p) is list:
-        return random.choice(p)
-
-    else:
-        pass
 
 
 
 # contour_operations
 # Scales, rotates, translates the contour according to parameters
 
-# RContour, tuple, dictionary ->
-def contour_operations(c, box, properties):
-
-    # Gathering data
-    x, y = box[0], box[1]
-    scl_x = set_property(properties["scale_x"])
-    scl_y = set_property(properties["scale_y"])
-    rot = set_property(properties["rotation"])
-
-    # Applying transformations
-    c.scaleBy((scl_x, scl_y))
-    c.rotateBy(rot)
-    c.moveBy((x,y))
+def contour_operations(gly, box, rot):
+    c = gly[-1]
+    c.rotate(rot, origin=(0,box[3]/2))
+    c.moveBy((box[0], box[1]))
     make_counterclockwise(c)
     c.round()
     c.changed()

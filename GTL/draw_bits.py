@@ -74,7 +74,7 @@ def draw_bit_lin(gly, char_line, box, box_layout, syntax):
 # (So it draws the full glyph)
 
 # RGlyph, list of lists, float, (float, float), (int, int), dictionary -> RGlyph
-def draw_bit_gly(gly, gly_desc, dsc_hgt, box_size, box_layout, syntax):
+def draw_bit_gly(gly, gly_desc, box, dsc_hgt, syntax):
 
     # Setting starting coordinates
     box_x = 0
@@ -82,7 +82,7 @@ def draw_bit_gly(gly, gly_desc, dsc_hgt, box_size, box_layout, syntax):
 
     # Iterating over glyph instructions (but backwards, so that we start from the descenders)
     for char_line in gly_desc[::-1]:
-        draw_bit_lin(gly, char_line, (box_x, box_y, *box_size), box_layout, syntax)
+        draw_bit_lin(gly, char_line, box, syntax)
 
         # Updating position once a row of characters (lin) is completed
         box_x = 0
@@ -96,7 +96,7 @@ def draw_bit_gly(gly, gly_desc, dsc_hgt, box_size, box_layout, syntax):
 # This function generates a full set of *alternative* (alt) glyphs from instructions.
 
 # RFont, dictionary, string, float, (float, float), (int, int), dictionary -> RFont
-def draw_bit_fnt(fnt, fnt_dict, dsc_hgt, box_size, box_layout, syntax):
+def draw_bit_fnt(fnt, fnt_dict, box_hgt, dsc_hgt, syntax):
 
     # Iterating over the dictionary (the instructions)
     for gly_name in fnt_dict.keys():
@@ -113,6 +113,6 @@ def draw_bit_fnt(fnt, fnt_dict, dsc_hgt, box_size, box_layout, syntax):
         gly.width = box_size[0] * len(gly_desc[0])
 
         # Drawing the glyph
-        draw_bit_gly(gly, gly_desc, dsc_hgt, box_size, box_layout, syntax)
+        draw_bit_gly(gly, gly_desc, dsc_hgt, box_hgt, syntax)
 
     return fnt

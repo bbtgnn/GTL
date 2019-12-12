@@ -3,43 +3,27 @@
 ## PATHS
 
 # Path of folder containing glyphs txt
-txt_path = ""
+txt_path = "/Users/Abbatepaolo/Documents/GitHub/GTL/csv_letters"
 
 # Path of folder of output font
-out_path = ""
+out_path = "/Users/Abbatepaolo/Documents/GitHub/GTL/"
 
 
 ## FONT INFO
 
 # Font name
-font_name = ""
+font_name = "XYZ_Retorica"
 
 # Style name (Regular, Bold, Rectangular, Dizzy, etc)
-style_name = ""
+style_name = "Regular"
 
 
 ## FONT METRICS
 
 # Set baseline row (counting from bottom of txt)
-fnt_baseline = 
+fnt_baseline = 1
 
-# Set font x-height (number of rows)
-fnt_xht = 
+# Set font x-height and descender (number of rows)
+fnt_xht = 512
+fnt_dsc = 0
 
-# Set font capital height (number of rows)
-fnt_cap = 
-
-# Set font ascender height (number of rows)
-fnt_asc = 
-
-# Set font descender height (number of rows)
-fnt_dsc = 
-
-
-## BOX PROPERTIES
-
-# FLOAT - Set box width ratio (width_ratio = 1 for square proportions)
-width_ratio = 
-
-# (INT, INT) - Set box layout (e.g. box_layout = (1,1))
-box_layout = 
