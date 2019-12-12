@@ -4,7 +4,7 @@ from ._utilities import *
 
 
 # RGlyph, tuple(float, 4), dict ->
-def curva(gly, box, rot, tck, sqr):
+def curva(gly, box, rot, tck, sqr=.56):
 
     # Useful shortcut
     x, y, w, h = box[0], box[1], box[2], box[3]

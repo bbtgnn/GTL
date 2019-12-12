@@ -32,16 +32,7 @@ UPM = 1000
 # Creating the dictionary with all the instructions
 fnt_dict = GTL.csv_reader.get_font_from_folder(txt_path)
 
-# Getting number of lines from first dictionary entry
-gly_name = next(iter(fnt_dict))
-gly_strc = fnt_dict[gly_name]
-line_num = len(gly_strc)
 
-# Calculating box height
-box_hgt = fnt_xht / 3
-
-# Calculating bottom line
-bottom = -box_hgt * fnt_baseline
 
 
 
@@ -61,8 +52,8 @@ fnt.info.ascender   = fnt_xht
 # Generating the font
 GTL.draw_bits.draw_bit_fnt(fnt      = fnt,
                            fnt_dict = fnt_dict,
-                           box_hgt	= box_hgt,
-                           dsc_hgt  = bottom,
+                           dsc_hgt  = fnt_xht/3,
+                           box_size = (fnt_xht/3, fnt_xht/3),
                            syntax   = syntax)
 
 # Exporting the font
