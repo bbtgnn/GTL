@@ -12,4 +12,4 @@ def barra(gly, box, rot, tck):
     else:
         rect(gly, box.c, box.w, tck)
 
-    #contour_operations(gly)
+    contour_operations(gly)

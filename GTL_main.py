@@ -35,7 +35,7 @@ csv_path = "/Users/Abbatepaolo/Documents/GitHub/GTL/csv_letters"
 ### DRAWING FONT
 
 # Creating the font
-fnt = Typeface(family_name="retorica", wh=(100,100))
+fnt = Typeface(family_name="retorica", wh=(200,200))
 
 # # Setting the metrics
 # fnt.info.unitsPerEm = UPM

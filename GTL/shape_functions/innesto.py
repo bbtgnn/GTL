@@ -1,30 +1,18 @@
 # -*- coding: utf-8 -*-
 from ._utilities import *
-
+from .barra import *
+from .terminazione import *
 
 
 # RGlyph, tuple(float, 4), dict ->
 def innesto(gly, box, rot, tck):
 
     # Useful shortcuts
-    x, y, w, h = box.x, box.y, box.w, box.h
+    x, y, w, h = box.c[0], box.c[1], box.w, box.h
     t = tck/2
 
-    # Points (ideally, we draw at (0,0), then we translate)
-    p0 = -t    , 0
-    p1 =  p0[0], h
-    p2 =  t    , p1[1]
-    p3 =  p2[0], h/2+t
-    p4 =  w/2  , p3[1]
-    p5 =  p4[0], h/2-t
-    p6 =  t    , p5[1]
-    p7 =  t    , 0
+    barra(gly, box, rot, tck)
+    terminazione(gly, box, rot, tck)
 
-    # Drawing contour
-    pen = gly.getPen()
-    pen.moveTo(p0)
-    for p in [p1, p2, p3, p4, p5, p6, p7]:
-        pen.lineTo(p)
-    pen.closePath()
-
-    contour_operations(gly, box, rot)
+    # 0 - 1
+    # 
