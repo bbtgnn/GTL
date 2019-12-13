@@ -12,7 +12,7 @@ def innesto(gly, box, rot, tck):
     t = tck/2
 
     barra(gly, box, rot, tck)
+    contour_operations(gly)
+    rot = [1, 0, 3, 2][rot]
     terminazione(gly, box, rot, tck)
-
-    # 0 - 1
-    # 
+    contour_operations(gly)

@@ -1,32 +1,36 @@
 ### MODULES
 
+import os
+import csv
+
 from pathlib import Path
 import fontParts.world as fp
-import csv
-import os
 
 from GTL.shape_functions.angolo import angolo
 from GTL.shape_functions.curva import curva
 from GTL.shape_functions.barra import barra
 from GTL.shape_functions.innesto import innesto
 from GTL.shape_functions.terminazione import terminazione
+from GTL.shape_functions.diagonale import diagonale
 from GTL.shape_functions.vuoto import vuoto
+from GTL.shape_functions.v import v
 
 
 
 ### SYNTAX
+
 sintassi = {
 	"A": angolo,
 	"C": curva,
 	"B": barra,
 	"I": innesto,
 	"T": terminazione,
-	"" : vuoto
+	"D": diagonale,
+	"V": v,
+	"0": vuoto
 }
 
 
-lunghezza_espansione = 4
-tck = 40
 
 
 ### CLASSES
@@ -49,8 +53,8 @@ class Typeface:
 		self.family_name = family_name
 		self.wh = wh
 		self.glyphs = []
-		self.rfont = fp.NewFont(family_name, style_name)
 		self.espansione = espansione
+		self.rfont = fp.NewFont(family_name, style_name)
 
 
 	def generate_glyphs(self, path):
@@ -67,12 +71,6 @@ class Typeface:
 
 	def save_font(self, output_path):
 		self.rfont.save(os.path.join(output_path, f'{self.family_name}.ufo'))
-
-
-	def add_space(self, width):
-		gly = self.rfont.newGlyph("space")
-		gly.width = width * self.wh[0]
-		gly.unicode = "0020"
 
 
 

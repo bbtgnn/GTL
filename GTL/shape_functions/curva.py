@@ -6,31 +6,55 @@ from ._utilities import *
 # RGlyph, tuple(float, 4), dict ->
 def curva(gly, box, rot, tck, sqr=.56):
 
-    # Useful shortcuts
-    x, y, w, h = box.x, box.y, box.w, box.h
-    t = tck/2
-
-    # Points (ideally, we draw at (0,0), then we translate)
-    p0 = -t    , 0
-    p1 =  w/2  , h/2+t
-    p2 =  p1[0], h/2-t
-    p3 =  t    , 0
-
-    p01 = p0[0], p1[1]
-    p23 = p3[0], p2[1]
-
-    m0 = interpolate_points(p0, p01, sqr)
-    m1 = interpolate_points(p1, p01, sqr)
-    m2 = interpolate_points(p2, p23, sqr)
-    m3 = interpolate_points(p3, p23, sqr)
-
-
-    # Drawing contour
+    # Drawing
     pen = gly.getPen()
-    pen.moveTo(p0)
-    pen.curveTo(m0, m1, p1)
-    pen.lineTo(p2)
-    pen.curveTo(m2, m3, p3)
-    pen.closePath()
 
-    contour_operations(gly, box, rot+90)
+    for f in (1,-1):
+
+        apt_hor = box.c[0] + f*tck/2, box.y
+        apt_ver = box.x             , box.c[1] + f*tck/2
+
+        cpt = apt_hor[0], apt_ver[1]
+
+        cpt_hor = interpolate_points(apt_hor, cpt, sqr)
+        cpt_ver = interpolate_points(apt_ver, cpt, sqr)
+
+        bpt_lst = [apt_hor, cpt_hor, cpt_ver, apt_ver]
+
+        l = bpt_lst
+        l = l[::f]
+
+        if f == 1:
+            pen.moveTo(l[0])
+        if f == -1:
+            pen.lineTo(l[0])
+        pen.curveTo(l[1], l[2], l[3])
+
+    pen.closePath()
+    if rot == 0:
+        tx, ty =  1,  1
+    if rot == 1:
+        tx, ty = -1,  1
+    if rot == 2:
+        tx, ty = -1, -1
+    if rot == 3:
+        tx, ty = 1 , -1
+    gly[-1].scaleBy((tx, ty), origin=box.c)
+    contour_operations(gly)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
