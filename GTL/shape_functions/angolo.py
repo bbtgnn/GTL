@@ -6,8 +6,6 @@ from ._utilities import *
 # RGlyph, tuple(float, 4), dict ->
 def angolo(gly, box, rot, tck):
 
-    print(box.x, box.y)
-
     # Useful shortcuts
     x, y, w, h = box.c[0], box.c[1], box.w, box.h
 

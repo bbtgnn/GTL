@@ -5,5 +5,12 @@ from .diagonale import *
 
 def v(gly, box, rot, tck):
 
-	diagonale(gly, box, rot, tck)
-	diagonale(gly, box, rot+1, tck)
+	d = {
+		0: [2, 1],
+		1: [0, 1],
+		2: [3, 0],
+		3: [3, 2]
+	}
+
+	diagonale(gly, box, d[rot][0], tck)
+	diagonale(gly, box, d[rot][1], tck)

@@ -2,6 +2,7 @@
 
 import os
 import csv
+import json
 
 from pathlib import Path
 import fontParts.world as fp
@@ -49,16 +50,43 @@ class Box:
 
 class Typeface:
 
-	def __init__(self, family_name, wh, style_name="Regular", espansione=1):
-		self.family_name = family_name
-		self.wh = wh
+	UPM = 1000
+
+	def __init__(self, config_path):
+
+		config_path = Path(config_path)
+		self.config = json.loads(config_path.read_text())
+
+		self.path = Path(self.config['path_csv_glyphs'])
+		self.family = self.config['font_name']
+		self.rfont = fp.NewFont(familyName=self.family, styleName=self.config['style_name'])
+		self.__setup()
 		self.glyphs = []
-		self.espansione = espansione
-		self.rfont = fp.NewFont(family_name, style_name)
+		self.__generate_glyphs()
 
 
-	def generate_glyphs(self, path):
-		csv_list = Path(path).glob("**/*.csv")
+	def __setup(self):
+
+		self.cell_hgt = int(self.UPM / self.config["line_num"])
+		self.cell_wdt = self.cell_hgt * self.config["size_ratio"]
+		self.size = self.cell_wdt, self.cell_hgt
+
+		self.tck = self.config["tck"]
+		self.sqr = self.config["sqr"]
+		self.exp = self.config["exp"]
+		self.expansion_factor = self.config["expansion_factor"]
+
+		self.rfont.info.unitsPerEm = self.UPM
+		metrics = self.config["font_metrics"]
+
+		self.rfont.info.descender 	= - metrics['fnt_dsc'] * self.cell_hgt
+		self.rfont.info.xHeight 	=   metrics['fnt_xht'] * self.cell_hgt
+		self.rfont.info.capHeight 	=   metrics['fnt_cap'] * self.cell_hgt
+		self.rfont.info.ascender 	=   metrics['fnt_asc'] * self.cell_hgt
+
+
+	def __generate_glyphs(self):
+		csv_list = Path(self.path).glob("**/*.csv")
 		for csv_file in csv_list:
 			gly = Glyph(self, csv_file)
 			self.glyphs.append(gly)
@@ -69,8 +97,9 @@ class Typeface:
 			glyph.render()
 
 
-	def save_font(self, output_path):
-		self.rfont.save(os.path.join(output_path, f'{self.family_name}.ufo'))
+	def save_font(self):
+		path = Path(f'{self.family}.ufo')
+		self.rfont.save(str(path))
 
 
 
@@ -87,13 +116,22 @@ class Glyph:
 
 		self.rglyph = self.font.rfont.newGlyph(self.name)
 		self.rglyph.width = self.__get_width()
-		self.rglyph.unicode = self.__unicode_name()
+		self.__set_unicode_name()
 
 
-	def __unicode_name(self):
+	def __set_unicode_name(self):
+
 		if "." in self.name:
-			return None
-		return hex(ord(self.name))[2:].zfill(4)
+			pass
+
+		else:
+			aglfn = Path("GTL/assets/aglfn.txt").read_text().splitlines()
+			for glyph_line in aglfn:
+				glyph_cols = glyph_line.split(';')
+				if self.name in glyph_cols:
+					val = hex(int(glyph_cols[0], 16))
+					self.rglyph.unicode = val
+
 
 
 	def __get_width(self):
@@ -118,13 +156,13 @@ class Glyph:
 		for i, line in enumerate(reversed(gly_lines)):
 			row = []
 			for j, data in enumerate(line):
-				cell = Cell(px, py, i=i, j=j, data=data, glyph=self)
+				cell = Cell(px, py, i=i, j=j, data=data.strip(), glyph=self)
 				row.append(cell)
 				w, h = cell.get_size()
 				px += w
 			self.cells.append(row)
 			px = 0
-			py += self.font.wh[1]
+			py += self.font.size[1]
 
 
 	def render(self):
@@ -151,10 +189,11 @@ class Cell:
 		self.negative = negative
 
 
+
 	def get_size(self):
-		w, h = self.glyph.font.wh
+		w, h = self.glyph.font.size
 		if self.extend:
-			w *= lunghezza_espansione
+			w *= self.glyph.font.expansion_factor
 		return (w, h)
 
 
@@ -162,7 +201,7 @@ class Cell:
 		sintassi[self.char](gly = self.glyph.rglyph,
 							box = self.box,
 							rot = self.rotate,
-							tck = tck
+							tck = self.glyph.font.tck
 							)
 
 		# for row in self.glyph.cells:

@@ -50,20 +50,3 @@ def diagonale(gly, box, rot, tck):
         tx, ty = 1 , -1
     gly[-1].scaleBy((tx, ty), origin=box.c)
     contour_operations(gly)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

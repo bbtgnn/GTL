@@ -3,7 +3,7 @@
 	"font_name": "XYZ_Retorica",
 	"style_name": "Regular",
 
-	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/GTL/csv_letters",
+	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/GTL/retorica",
 	"path_font_output": "/Users/Abbatepaolo/Documents/GitHub/GTL/",
 
 	"font_metrics": {
@@ -14,8 +14,10 @@
 		"fnt_dsc": 0
 	},
 
-	"cell_wdt": 200,
-	"cell_hgt": 200,
+	"line_num": 3,
+	"em": 1000,
+	"size_ratio": 1,
+	"expansion_factor": 1,
 
 	"tck": 40,
 	"sqr": 0.56,
