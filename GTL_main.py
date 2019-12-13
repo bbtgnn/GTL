@@ -6,7 +6,7 @@ import os
 
 import fontParts.world as fp
 
-from GTL.cell import Typeface, Glyph, Cell
+from GTL.classes import Typeface, Glyph, Cell
 
 from GTL.shape_functions import *
 
@@ -35,7 +35,7 @@ csv_path = "/Users/Abbatepaolo/Documents/GitHub/GTL/csv_letters"
 ### DRAWING FONT
 
 # Creating the font
-fnt = Typeface(family_name="eretica", box=(100,100))
+fnt = Typeface(family_name="retorica", wh=(100,100))
 
 # # Setting the metrics
 # fnt.info.unitsPerEm = UPM
@@ -54,4 +54,5 @@ fnt = Typeface(family_name="eretica", box=(100,100))
 
 fnt.generate_glyphs(csv_path)
 fnt.render()
+fnt.add_space(2)
 fnt.save_font("/Users/Abbatepaolo/Documents/GitHub/GTL")

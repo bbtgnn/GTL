@@ -13,44 +13,33 @@ def interpolate_points(pA, pB, f):
 
 
 
-# draw_arc
-# Draws a clockwise arc between two points given squaring
-
-# tuple, tuple, tuple, float ->
-def draw_arc_cw(pen, p0, p1, s):
-
-    # Determining the maximum point
-    if (p1[0]-p0[0]) * (p1[1]-p0[1]) > 0:
-        pM = p0[0], p1[1]
-    else:
-        pM = p1[0], p0[1]
-
-    # Calculating mid interpolated points
-    pI = [interpolate_points(p, pM, s) for p in (p0, p1)]
-
-    # Drawing curve
-    pen.curveTo(pI[0], pI[1], p1)
-
-
-
-# make_counterclockwise
-# Makes a contour counterclockwise
-
-# RContour -> RContour
-def make_counterclockwise(c):
-    if c.clockwise == True:
-        c.reverse()
-    return c
 
 
 
 # contour_operations
-# Scales, rotates, translates the contour according to parameters
-
-def contour_operations(gly, box, rot):
+def contour_operations(gly):
     c = gly[-1]
-    c.rotate(rot, origin=(0,box[3]/2))
-    c.moveBy((box[0], box[1]))
-    make_counterclockwise(c)
+    # Making anticlockwise
+    if c.clockwise == True:
+        c.reverse()
     c.round()
     c.changed()
+
+
+
+# Rect
+def rect(gly, c, w, h):
+
+    # Points
+    p0 = c[0]  - w/2, c[1]  - h/2
+    p1 = p0[0]      , p0[1] + h
+    p2 = p0[0] + w  , p1[1]
+    p3 = p2[0]      , p0[1]
+
+    # Drawing
+    pen = gly.getPen()
+    pen.moveTo(p0)
+    pen.lineTo(p1)
+    pen.lineTo(p2)
+    pen.lineTo(p3)
+    pen.closePath()

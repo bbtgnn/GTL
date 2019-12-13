@@ -6,23 +6,29 @@ from ._utilities import *
 # RGlyph, tuple(float, 4), dict ->
 def angolo(gly, box, rot, tck):
 
-    # Useful shortcut
-    x, y, w, h = box[0], box[1], box[2], box[3]
-    t = tck/2
+    print(box.x, box.y)
 
-    # Points (ideally, we draw at (0,0), then we translate)
-    p0 = -t    , 0
-    p1 =  p0[0], h/2+t
-    p2 =  w/2  , p1[1]
-    p3 =  p2[0], h/2-t
-    p4 =  t    , p3[1]
-    p5 =  p4[0], 0
+    # Useful shortcuts
+    x, y, w, h = box.x, box.y, box.w, box.h
 
-    # Drawing contour
-    pen = gly.getPen()
-    pen.moveTo(p0)
-    for p in [p1, p2, p3]:
-        pen.lineTo(p)
-    pen.closePath()
+    bar_hor = w/2 + tck/2
+    bar_ver = h/2 + tck/2
 
-    contour_operations(gly, box, rot)
+    if   rot in [1,2]:
+        c_hor_x = x - w/2 + bar_hor/2
+    elif rot in [0,3]:
+        c_hor_x = x + w/2 - bar_hor/2
+    c_hor_y = box.c[1]
+
+    c_ver_x = box.c[0]
+    if   rot in [0,1]:
+        c_ver_y = y + t - bar_ver
+    elif rot in [2,3]:
+        c_ver_y = y - t + bar_ver
+
+    print(c_hor_x,c_hor_y)
+
+    rect(gly, (c_hor_x,c_hor_y), bar_hor, tck)
+    rect(gly, (c_ver_x,c_ver_y), tck, bar_hor)
+
+    contour_operations(gly)

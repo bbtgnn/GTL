@@ -4,10 +4,10 @@ from ._utilities import *
 
 
 # RGlyph, tuple(float, 4), dict ->
-def barra(gly, box, rot, tck):
+def innesto(gly, box, rot, tck):
 
-    # Useful shortcut
-    x, y, w, h = box[0], box[1], box[2], box[3]
+    # Useful shortcuts
+    x, y, w, h = box.x, box.y, box.w, box.h
     t = tck/2
 
     # Points (ideally, we draw at (0,0), then we translate)
