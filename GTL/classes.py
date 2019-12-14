@@ -60,8 +60,9 @@ class Typeface:
 		self.config = json.loads(config_path.read_text())
 
 		self.path = Path(self.config['path_csv_glyphs'])
-		self.family = self.config['font_name']
-		self.rfont = fp.NewFont(familyName=self.family, styleName=self.config['style_name'])
+		self.font_name = self.config['font_name']
+		self.style_name = self.config['style_name']
+		self.rfont = fp.NewFont(familyName=self.font_name, styleName=self.config['style_name'])
 		self.__setup()
 		self.glyphs = []
 		self.__generate_glyphs()
@@ -103,7 +104,7 @@ class Typeface:
 
 
 	def save_font(self):
-		path = Path(f'{self.family}.ufo')
+		path = Path(f'{self.font_name}-{self.style_name}.ufo')
 		self.rfont.save(str(path))
 
 
@@ -130,7 +131,9 @@ class Glyph:
 			pass
 
 		else:
-			aglfn = Path("GTL/assets/aglfn.txt").read_text().splitlines()
+			module_path = os.path.abspath(os.path.dirname(__file__))
+			txt_path = os.path.join(module_path, "assets", "aglfn.txt")
+			aglfn = Path(txt_path).read_text().splitlines()
 			for glyph_line in aglfn:
 				glyph_cols = glyph_line.split(';')
 				if self.name in glyph_cols:

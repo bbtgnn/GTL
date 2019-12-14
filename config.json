@@ -1,9 +1,9 @@
 {
 
-	"font_name": "XYZ_Retorica-Pieces-Super",
+	"font_name": "XYZ_Retorica",
 	"style_name": "Regular",
 
-	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/GTL/retorica_pieces",
+	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/GTL/retorica",
 	"path_font_output": "/Users/Abbatepaolo/Documents/GitHub/GTL/",
 
 	"font_metrics": {
@@ -23,7 +23,7 @@
 	"size_ratio": 1,
 	"allungamento": 1,
 
-	"tck": 400,
+	"tck": 100,
 	"tck_min": 1,
 	"sqr": 0.65,
 	"inv": false
