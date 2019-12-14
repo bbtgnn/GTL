@@ -107,18 +107,6 @@ class Typeface:
 		self.rfont.save(str(path))
 
 
-	# def invert(self):
-	# 	for glyph in self.glyphs:
-	# 		gly = glyph.rglyph
-	# 		gly.removeOverlap()
-	# 		for row in glyph.cells:
-	# 			for cell in row:
-	# 				if cell.box.x + cell.box.w > glyph.width:
-	# 					pass
-	# 				else:
-	# 					rect(gly, cell.box.c, cell.box.w, cell.box.h)
-
-
 
 class Glyph:
 

@@ -8,13 +8,17 @@
 
 	"font_metrics": {
 		"fnt_baseline": 0,
-		"fnt_xht": 1,
-		"fnt_cap": 1,
-		"fnt_asc": 1,
+		"fnt_xht": 3,
+		"fnt_cap": 3,
+		"fnt_asc": 3,
 		"fnt_dsc": 0
 	},
 
-	"line_num": 1,
+	"stylistic_sets": [
+		"climax"
+	],
+
+	"line_num": 3,
 	"em": 1002,
 	"size_ratio": 1,
 	"allungamento": 1,
