@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon.alt1.ss05" format="2">
+  <advance width="1008"/>
+  <outline>
+    <contour>
+      <point x="529" y="336" type="curve"/>
+      <point x="479" y="336" type="line"/>
+      <point x="479" y="243"/>
+      <point x="429" y="193"/>
+      <point x="336" y="193" type="curve"/>
+      <point x="336" y="143" type="line"/>
+      <point x="461" y="143"/>
+      <point x="529" y="211"/>
+    </contour>
+    <contour>
+      <point x="479" y="479" type="line"/>
+      <point x="529" y="479" type="line"/>
+      <point x="529" y="672" type="line"/>
+      <point x="479" y="672" type="line"/>
+    </contour>
+  </outline>
+</glyph>

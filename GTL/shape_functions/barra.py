@@ -4,7 +4,7 @@ from ._utilities import *
 
 
 # Barra
-def barra(gly, box, rot, tck):
+def barra(gly, box, rot, tck, *arg):
 
     # Drawing rectangle
     if rot % 2 == 0:

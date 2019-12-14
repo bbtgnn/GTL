@@ -2,5 +2,5 @@
 
 
 
-def vuoto(gly, box, rot, tck):
+def vuoto(gly, box, rot, tck, *arg):
 	return

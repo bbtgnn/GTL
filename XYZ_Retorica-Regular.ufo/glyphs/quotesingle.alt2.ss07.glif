@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotesingle.alt2.ss07" format="2">
+  <advance width="1008"/>
+  <outline>
+    <contour>
+      <point x="479" y="1008" type="line"/>
+      <point x="479" y="883"/>
+      <point x="547" y="815"/>
+      <point x="672" y="815" type="curve"/>
+      <point x="672" y="865" type="line"/>
+      <point x="579" y="865"/>
+      <point x="529" y="915"/>
+      <point x="529" y="1008" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

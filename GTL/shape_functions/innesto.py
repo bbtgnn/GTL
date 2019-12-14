@@ -5,7 +5,7 @@ from .terminazione import *
 
 
 # RGlyph, tuple(float, 4), dict ->
-def innesto(gly, box, rot, tck):
+def innesto(gly, box, rot, tck, *arg):
 
     # Useful shortcuts
     x, y, w, h = box.c[0], box.c[1], box.w, box.h

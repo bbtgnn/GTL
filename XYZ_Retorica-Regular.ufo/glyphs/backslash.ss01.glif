@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backslash.ss01" format="2">
+  <advance width="1344"/>
+  <outline>
+    <contour>
+      <point x="882" y="336" type="line"/>
+      <point x="798" y="336" type="line"/>
+      <point x="798" y="301" type="line"/>
+      <point x="973" y="126" type="line"/>
+      <point x="1008" y="126" type="line"/>
+      <point x="1008" y="210" type="line"/>
+    </contour>
+    <contour>
+      <point x="537" y="672" type="line"/>
+      <point x="471" y="672" type="line"/>
+      <point x="471" y="644" type="line"/>
+      <point x="644" y="471" type="line"/>
+      <point x="672" y="471" type="line"/>
+      <point x="672" y="537" type="line"/>
+    </contour>
+    <contour>
+      <point x="798" y="336" type="line"/>
+      <point x="882" y="336" type="line"/>
+      <point x="882" y="371" type="line"/>
+      <point x="707" y="546" type="line"/>
+      <point x="672" y="546" type="line"/>
+      <point x="672" y="462" type="line"/>
+    </contour>
+    <contour>
+      <point x="471" y="672" type="line"/>
+      <point x="537" y="672" type="line"/>
+      <point x="537" y="700" type="line"/>
+      <point x="364" y="873" type="line"/>
+      <point x="336" y="873" type="line"/>
+      <point x="336" y="807" type="line"/>
+    </contour>
+    <contour>
+      <point x="882" y="672" type="line"/>
+      <point x="1008" y="798" type="line"/>
+      <point x="1008" y="882" type="line"/>
+      <point x="973" y="882" type="line"/>
+      <point x="798" y="707" type="line"/>
+      <point x="798" y="672" type="line"/>
+    </contour>
+  </outline>
+</glyph>

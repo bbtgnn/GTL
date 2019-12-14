@@ -3,7 +3,7 @@ from ._utilities import *
 from .diagonale import *
 
 
-def v(gly, box, rot, tck):
+def v(gly, box, rot, tck, *arg):
 
 	d = {
 		0: [2, 1],

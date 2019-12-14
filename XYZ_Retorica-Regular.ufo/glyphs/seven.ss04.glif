@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.ss04" format="2">
+  <advance width="672"/>
+  <outline>
+    <contour>
+      <point x="479" y="143" type="line"/>
+      <point x="529" y="143" type="line"/>
+      <point x="529" y="336" type="line"/>
+      <point x="479" y="336" type="line"/>
+    </contour>
+    <contour>
+      <point x="466" y="336" type="line"/>
+      <point x="542" y="336" type="line"/>
+      <point x="542" y="672" type="line"/>
+      <point x="466" y="672" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="466" type="line"/>
+      <point x="542" y="466" type="line"/>
+      <point x="542" y="542" type="line"/>
+      <point x="336" y="542" type="line"/>
+    </contour>
+    <contour>
+      <point x="118" y="790" type="line"/>
+      <point x="336" y="790" type="line"/>
+      <point x="336" y="890" type="line"/>
+      <point x="118" y="890" type="line"/>
+    </contour>
+    <contour>
+      <point x="118" y="672" type="line"/>
+      <point x="218" y="672" type="line"/>
+      <point x="218" y="890" type="line"/>
+      <point x="118" y="890" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="790" type="line"/>
+      <point x="554" y="790" type="line"/>
+      <point x="554" y="890" type="line"/>
+      <point x="336" y="890" type="line"/>
+    </contour>
+    <contour>
+      <point x="454" y="672" type="line"/>
+      <point x="554" y="672" type="line"/>
+      <point x="554" y="890" type="line"/>
+      <point x="454" y="890" type="line"/>
+    </contour>
+  </outline>
+</glyph>

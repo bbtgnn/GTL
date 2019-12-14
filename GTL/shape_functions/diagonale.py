@@ -5,7 +5,7 @@ from math import atan, cos
 
 
 # 
-def diagonale(gly, box, rot, tck):
+def diagonale(gly, box, rot, tck, *arg):
 
     t = tck/2
 

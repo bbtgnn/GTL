@@ -18,23 +18,74 @@
 	"em": 1002,
 	"size_ratio": 1,
 
-	"stylistic_sets": {
+	"stylistic_sets": [
 
-		"climax": {
-			"tck": 100,
-			"tck_min": 1,
+		{
 			"sqr": 0.65,
+			"tck": 50,
 			"allungamento": 1,
-			"inv": false
+
+			"climax": {
+				"horizontal": true,
+				"tck_max": 100,
+				"reverse": false
+			}
 		},
 
-		"climax-invert": {
-			"tck": 100,
-			"tck_min": 1,
+		{
 			"sqr": 0.65,
+			"tck": 50,
 			"allungamento": 1,
-			"inv": false
+
+			"climax": {
+				"horizontal": true,
+				"tck_max": 100,
+				"reverse": true
+			}
+		},
+
+		{
+			"sqr": 0.65,
+			"tck": 50,
+			"allungamento": 1,
+
+			"climax": {
+				"horizontal": false,
+				"tck_max": 100,
+				"reverse": true
+			}
+		},
+
+		{
+			"sqr": 0.65,
+			"tck": 50,
+			"allungamento": 1,
+
+			"climax": {
+				"horizontal": false,
+				"tck_max": 100,
+				"reverse": false
+			}
+		},
+
+		{
+			"sqr": 0.65,
+			"tck": 50,
+			"allungamento": 2
+		},
+
+		{
+			"sqr": 0.65,
+			"tck": 50,
+			"allungamento": 3
+		},
+
+		{
+			"sqr": 0.65,
+			"tck": 50,
+			"allungamento": 4
 		}
 
-	}
+	]
+
 }

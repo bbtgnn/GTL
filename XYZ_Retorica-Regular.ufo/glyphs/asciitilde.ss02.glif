@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asciitilde.ss02" format="2">
+  <advance width="1680"/>
+  <outline>
+    <contour>
+      <point x="802" y="672" type="line"/>
+      <point x="802" y="538"/>
+      <point x="874" y="466"/>
+      <point x="1008" y="466" type="curve"/>
+      <point x="1008" y="542" type="line"/>
+      <point x="923" y="542"/>
+      <point x="878" y="587"/>
+      <point x="878" y="672" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1207" y="672" type="curve"/>
+      <point x="1145" y="672" type="line"/>
+      <point x="1145" y="583"/>
+      <point x="1097" y="535"/>
+      <point x="1008" y="535" type="curve"/>
+      <point x="1008" y="473" type="line"/>
+      <point x="1138" y="473"/>
+      <point x="1207" y="542"/>
+    </contour>
+    <contour>
+      <point x="460" y="672" type="curve"/>
+      <point x="548" y="672" type="line"/>
+      <point x="548" y="753"/>
+      <point x="591" y="796"/>
+      <point x="672" y="796" type="curve"/>
+      <point x="672" y="884" type="line"/>
+      <point x="534" y="884"/>
+      <point x="460" y="810"/>
+    </contour>
+    <contour>
+      <point x="878" y="672" type="line"/>
+      <point x="878" y="806"/>
+      <point x="806" y="878"/>
+      <point x="672" y="878" type="curve"/>
+      <point x="672" y="802" type="line"/>
+      <point x="757" y="802"/>
+      <point x="802" y="757"/>
+      <point x="802" y="672" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

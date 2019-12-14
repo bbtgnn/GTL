@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash.ss03" format="2">
+  <advance width="1344"/>
+  <outline>
+    <contour>
+      <point x="454" y="336" type="line"/>
+      <point x="336" y="218" type="line"/>
+      <point x="336" y="118" type="line"/>
+      <point x="377" y="118" type="line"/>
+      <point x="554" y="295" type="line"/>
+      <point x="554" y="336" type="line"/>
+    </contour>
+    <contour>
+      <point x="542" y="336" type="line"/>
+      <point x="672" y="466" type="line"/>
+      <point x="672" y="542" type="line"/>
+      <point x="641" y="542" type="line"/>
+      <point x="466" y="367" type="line"/>
+      <point x="466" y="336" type="line"/>
+    </contour>
+    <contour>
+      <point x="802" y="672" type="line"/>
+      <point x="672" y="542" type="line"/>
+      <point x="672" y="466" type="line"/>
+      <point x="703" y="466" type="line"/>
+      <point x="878" y="641" type="line"/>
+      <point x="878" y="672" type="line"/>
+    </contour>
+    <contour>
+      <point x="865" y="672" type="line"/>
+      <point x="1008" y="815" type="line"/>
+      <point x="1008" y="865" type="line"/>
+      <point x="987" y="865" type="line"/>
+      <point x="815" y="693" type="line"/>
+      <point x="815" y="672" type="line"/>
+    </contour>
+  </outline>
+</glyph>

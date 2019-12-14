@@ -4,7 +4,9 @@ from ._utilities import *
 
 
 # RGlyph, tuple(float, 4), dict ->
-def curva(gly, box, rot, tck, sqr=.56):
+def curva(gly, box, rot, tck, *arg):
+
+    sqr = arg[0]
 
     # Drawing
     pen = gly.getPen()

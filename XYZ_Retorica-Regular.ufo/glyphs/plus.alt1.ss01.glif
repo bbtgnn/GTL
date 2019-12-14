@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plus.alt1.ss01" format="2">
+  <advance width="1680"/>
+  <outline>
+    <contour>
+      <point x="802" y="130" type="line"/>
+      <point x="878" y="130" type="line"/>
+      <point x="878" y="336" type="line"/>
+      <point x="802" y="336" type="line"/>
+    </contour>
+    <contour>
+      <point x="473" y="473" type="line"/>
+      <point x="672" y="473" type="line"/>
+      <point x="672" y="535" type="line"/>
+      <point x="473" y="535" type="line"/>
+    </contour>
+    <contour>
+      <point x="802" y="466" type="line"/>
+      <point x="1008" y="466" type="line"/>
+      <point x="1008" y="542" type="line"/>
+      <point x="802" y="542" type="line"/>
+    </contour>
+    <contour>
+      <point x="802" y="466" type="line"/>
+      <point x="878" y="466" type="line"/>
+      <point x="878" y="672" type="line"/>
+      <point x="802" y="672" type="line"/>
+    </contour>
+    <contour>
+      <point x="1008" y="460" type="line"/>
+      <point x="1220" y="460" type="line"/>
+      <point x="1220" y="548" type="line"/>
+      <point x="1008" y="548" type="line"/>
+    </contour>
+    <contour>
+      <point x="802" y="672" type="line"/>
+      <point x="878" y="672" type="line"/>
+      <point x="878" y="878" type="line"/>
+      <point x="802" y="878" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -10,52 +10,238 @@
     <string>a.alt1.ss01.glif</string>
     <key>a.alt1.ss02</key>
     <string>a.alt1.ss02.glif</string>
+    <key>a.alt1.ss03</key>
+    <string>a.alt1.ss03.glif</string>
+    <key>a.alt1.ss04</key>
+    <string>a.alt1.ss04.glif</string>
+    <key>a.alt1.ss05</key>
+    <string>a.alt1.ss05.glif</string>
+    <key>a.alt1.ss06</key>
+    <string>a.alt1.ss06.glif</string>
+    <key>a.alt1.ss07</key>
+    <string>a.alt1.ss07.glif</string>
     <key>a.alt2</key>
     <string>a.alt2.glif</string>
     <key>a.alt2.ss01</key>
     <string>a.alt2.ss01.glif</string>
     <key>a.alt2.ss02</key>
     <string>a.alt2.ss02.glif</string>
+    <key>a.alt2.ss03</key>
+    <string>a.alt2.ss03.glif</string>
+    <key>a.alt2.ss04</key>
+    <string>a.alt2.ss04.glif</string>
+    <key>a.alt2.ss05</key>
+    <string>a.alt2.ss05.glif</string>
+    <key>a.alt2.ss06</key>
+    <string>a.alt2.ss06.glif</string>
+    <key>a.alt2.ss07</key>
+    <string>a.alt2.ss07.glif</string>
     <key>a.ss01</key>
     <string>a.ss01.glif</string>
     <key>a.ss02</key>
     <string>a.ss02.glif</string>
+    <key>a.ss03</key>
+    <string>a.ss03.glif</string>
+    <key>a.ss04</key>
+    <string>a.ss04.glif</string>
+    <key>a.ss05</key>
+    <string>a.ss05.glif</string>
+    <key>a.ss06</key>
+    <string>a.ss06.glif</string>
+    <key>a.ss07</key>
+    <string>a.ss07.glif</string>
     <key>aacute</key>
     <string>aacute.glif</string>
     <key>aacute.ss01</key>
     <string>aacute.ss01.glif</string>
     <key>aacute.ss02</key>
     <string>aacute.ss02.glif</string>
+    <key>aacute.ss03</key>
+    <string>aacute.ss03.glif</string>
+    <key>aacute.ss04</key>
+    <string>aacute.ss04.glif</string>
+    <key>aacute.ss05</key>
+    <string>aacute.ss05.glif</string>
+    <key>aacute.ss06</key>
+    <string>aacute.ss06.glif</string>
+    <key>aacute.ss07</key>
+    <string>aacute.ss07.glif</string>
     <key>agrave</key>
     <string>agrave.glif</string>
     <key>agrave.ss01</key>
     <string>agrave.ss01.glif</string>
     <key>agrave.ss02</key>
     <string>agrave.ss02.glif</string>
+    <key>agrave.ss03</key>
+    <string>agrave.ss03.glif</string>
+    <key>agrave.ss04</key>
+    <string>agrave.ss04.glif</string>
+    <key>agrave.ss05</key>
+    <string>agrave.ss05.glif</string>
+    <key>agrave.ss06</key>
+    <string>agrave.ss06.glif</string>
+    <key>agrave.ss07</key>
+    <string>agrave.ss07.glif</string>
     <key>arrowdown</key>
     <string>arrowdown.glif</string>
     <key>arrowdown.ss01</key>
     <string>arrowdown.ss01.glif</string>
     <key>arrowdown.ss02</key>
     <string>arrowdown.ss02.glif</string>
+    <key>arrowdown.ss03</key>
+    <string>arrowdown.ss03.glif</string>
+    <key>arrowdown.ss04</key>
+    <string>arrowdown.ss04.glif</string>
+    <key>arrowdown.ss05</key>
+    <string>arrowdown.ss05.glif</string>
+    <key>arrowdown.ss06</key>
+    <string>arrowdown.ss06.glif</string>
+    <key>arrowdown.ss07</key>
+    <string>arrowdown.ss07.glif</string>
     <key>arrowleft</key>
     <string>arrowleft.glif</string>
     <key>arrowleft.ss01</key>
     <string>arrowleft.ss01.glif</string>
     <key>arrowleft.ss02</key>
     <string>arrowleft.ss02.glif</string>
+    <key>arrowleft.ss03</key>
+    <string>arrowleft.ss03.glif</string>
+    <key>arrowleft.ss04</key>
+    <string>arrowleft.ss04.glif</string>
+    <key>arrowleft.ss05</key>
+    <string>arrowleft.ss05.glif</string>
+    <key>arrowleft.ss06</key>
+    <string>arrowleft.ss06.glif</string>
+    <key>arrowleft.ss07</key>
+    <string>arrowleft.ss07.glif</string>
     <key>arrowright</key>
     <string>arrowright.glif</string>
     <key>arrowright.ss01</key>
     <string>arrowright.ss01.glif</string>
     <key>arrowright.ss02</key>
     <string>arrowright.ss02.glif</string>
+    <key>arrowright.ss03</key>
+    <string>arrowright.ss03.glif</string>
+    <key>arrowright.ss04</key>
+    <string>arrowright.ss04.glif</string>
+    <key>arrowright.ss05</key>
+    <string>arrowright.ss05.glif</string>
+    <key>arrowright.ss06</key>
+    <string>arrowright.ss06.glif</string>
+    <key>arrowright.ss07</key>
+    <string>arrowright.ss07.glif</string>
     <key>arrowup</key>
     <string>arrowup.glif</string>
     <key>arrowup.ss01</key>
     <string>arrowup.ss01.glif</string>
     <key>arrowup.ss02</key>
     <string>arrowup.ss02.glif</string>
+    <key>arrowup.ss03</key>
+    <string>arrowup.ss03.glif</string>
+    <key>arrowup.ss04</key>
+    <string>arrowup.ss04.glif</string>
+    <key>arrowup.ss05</key>
+    <string>arrowup.ss05.glif</string>
+    <key>arrowup.ss06</key>
+    <string>arrowup.ss06.glif</string>
+    <key>arrowup.ss07</key>
+    <string>arrowup.ss07.glif</string>
+    <key>asciicircum</key>
+    <string>asciicircum.glif</string>
+    <key>asciicircum.ss01</key>
+    <string>asciicircum.ss01.glif</string>
+    <key>asciicircum.ss02</key>
+    <string>asciicircum.ss02.glif</string>
+    <key>asciicircum.ss03</key>
+    <string>asciicircum.ss03.glif</string>
+    <key>asciicircum.ss04</key>
+    <string>asciicircum.ss04.glif</string>
+    <key>asciicircum.ss05</key>
+    <string>asciicircum.ss05.glif</string>
+    <key>asciicircum.ss06</key>
+    <string>asciicircum.ss06.glif</string>
+    <key>asciicircum.ss07</key>
+    <string>asciicircum.ss07.glif</string>
+    <key>asciitilde</key>
+    <string>asciitilde.glif</string>
+    <key>asciitilde.alt1</key>
+    <string>asciitilde.alt1.glif</string>
+    <key>asciitilde.alt1.ss01</key>
+    <string>asciitilde.alt1.ss01.glif</string>
+    <key>asciitilde.alt1.ss02</key>
+    <string>asciitilde.alt1.ss02.glif</string>
+    <key>asciitilde.alt1.ss03</key>
+    <string>asciitilde.alt1.ss03.glif</string>
+    <key>asciitilde.alt1.ss04</key>
+    <string>asciitilde.alt1.ss04.glif</string>
+    <key>asciitilde.alt1.ss05</key>
+    <string>asciitilde.alt1.ss05.glif</string>
+    <key>asciitilde.alt1.ss06</key>
+    <string>asciitilde.alt1.ss06.glif</string>
+    <key>asciitilde.alt1.ss07</key>
+    <string>asciitilde.alt1.ss07.glif</string>
+    <key>asciitilde.ss01</key>
+    <string>asciitilde.ss01.glif</string>
+    <key>asciitilde.ss02</key>
+    <string>asciitilde.ss02.glif</string>
+    <key>asciitilde.ss03</key>
+    <string>asciitilde.ss03.glif</string>
+    <key>asciitilde.ss04</key>
+    <string>asciitilde.ss04.glif</string>
+    <key>asciitilde.ss05</key>
+    <string>asciitilde.ss05.glif</string>
+    <key>asciitilde.ss06</key>
+    <string>asciitilde.ss06.glif</string>
+    <key>asciitilde.ss07</key>
+    <string>asciitilde.ss07.glif</string>
+    <key>asterisk</key>
+    <string>asterisk.glif</string>
+    <key>asterisk.alt1</key>
+    <string>asterisk.alt1.glif</string>
+    <key>asterisk.alt1.ss01</key>
+    <string>asterisk.alt1.ss01.glif</string>
+    <key>asterisk.alt1.ss02</key>
+    <string>asterisk.alt1.ss02.glif</string>
+    <key>asterisk.alt1.ss03</key>
+    <string>asterisk.alt1.ss03.glif</string>
+    <key>asterisk.alt1.ss04</key>
+    <string>asterisk.alt1.ss04.glif</string>
+    <key>asterisk.alt1.ss05</key>
+    <string>asterisk.alt1.ss05.glif</string>
+    <key>asterisk.alt1.ss06</key>
+    <string>asterisk.alt1.ss06.glif</string>
+    <key>asterisk.alt1.ss07</key>
+    <string>asterisk.alt1.ss07.glif</string>
+    <key>asterisk.alt2</key>
+    <string>asterisk.alt2.glif</string>
+    <key>asterisk.alt2.ss01</key>
+    <string>asterisk.alt2.ss01.glif</string>
+    <key>asterisk.alt2.ss02</key>
+    <string>asterisk.alt2.ss02.glif</string>
+    <key>asterisk.alt2.ss03</key>
+    <string>asterisk.alt2.ss03.glif</string>
+    <key>asterisk.alt2.ss04</key>
+    <string>asterisk.alt2.ss04.glif</string>
+    <key>asterisk.alt2.ss05</key>
+    <string>asterisk.alt2.ss05.glif</string>
+    <key>asterisk.alt2.ss06</key>
+    <string>asterisk.alt2.ss06.glif</string>
+    <key>asterisk.alt2.ss07</key>
+    <string>asterisk.alt2.ss07.glif</string>
+    <key>asterisk.ss01</key>
+    <string>asterisk.ss01.glif</string>
+    <key>asterisk.ss02</key>
+    <string>asterisk.ss02.glif</string>
+    <key>asterisk.ss03</key>
+    <string>asterisk.ss03.glif</string>
+    <key>asterisk.ss04</key>
+    <string>asterisk.ss04.glif</string>
+    <key>asterisk.ss05</key>
+    <string>asterisk.ss05.glif</string>
+    <key>asterisk.ss06</key>
+    <string>asterisk.ss06.glif</string>
+    <key>asterisk.ss07</key>
+    <string>asterisk.ss07.glif</string>
     <key>b</key>
     <string>b.glif</string>
     <key>b.alt1</key>
@@ -64,22 +250,158 @@
     <string>b.alt1.ss01.glif</string>
     <key>b.alt1.ss02</key>
     <string>b.alt1.ss02.glif</string>
+    <key>b.alt1.ss03</key>
+    <string>b.alt1.ss03.glif</string>
+    <key>b.alt1.ss04</key>
+    <string>b.alt1.ss04.glif</string>
+    <key>b.alt1.ss05</key>
+    <string>b.alt1.ss05.glif</string>
+    <key>b.alt1.ss06</key>
+    <string>b.alt1.ss06.glif</string>
+    <key>b.alt1.ss07</key>
+    <string>b.alt1.ss07.glif</string>
     <key>b.alt2</key>
     <string>b.alt2.glif</string>
     <key>b.alt2.ss01</key>
     <string>b.alt2.ss01.glif</string>
     <key>b.alt2.ss02</key>
     <string>b.alt2.ss02.glif</string>
+    <key>b.alt2.ss03</key>
+    <string>b.alt2.ss03.glif</string>
+    <key>b.alt2.ss04</key>
+    <string>b.alt2.ss04.glif</string>
+    <key>b.alt2.ss05</key>
+    <string>b.alt2.ss05.glif</string>
+    <key>b.alt2.ss06</key>
+    <string>b.alt2.ss06.glif</string>
+    <key>b.alt2.ss07</key>
+    <string>b.alt2.ss07.glif</string>
     <key>b.alt3</key>
     <string>b.alt3.glif</string>
     <key>b.alt3.ss01</key>
     <string>b.alt3.ss01.glif</string>
     <key>b.alt3.ss02</key>
     <string>b.alt3.ss02.glif</string>
+    <key>b.alt3.ss03</key>
+    <string>b.alt3.ss03.glif</string>
+    <key>b.alt3.ss04</key>
+    <string>b.alt3.ss04.glif</string>
+    <key>b.alt3.ss05</key>
+    <string>b.alt3.ss05.glif</string>
+    <key>b.alt3.ss06</key>
+    <string>b.alt3.ss06.glif</string>
+    <key>b.alt3.ss07</key>
+    <string>b.alt3.ss07.glif</string>
     <key>b.ss01</key>
     <string>b.ss01.glif</string>
     <key>b.ss02</key>
     <string>b.ss02.glif</string>
+    <key>b.ss03</key>
+    <string>b.ss03.glif</string>
+    <key>b.ss04</key>
+    <string>b.ss04.glif</string>
+    <key>b.ss05</key>
+    <string>b.ss05.glif</string>
+    <key>b.ss06</key>
+    <string>b.ss06.glif</string>
+    <key>b.ss07</key>
+    <string>b.ss07.glif</string>
+    <key>backslash</key>
+    <string>backslash.glif</string>
+    <key>backslash.ss01</key>
+    <string>backslash.ss01.glif</string>
+    <key>backslash.ss02</key>
+    <string>backslash.ss02.glif</string>
+    <key>backslash.ss03</key>
+    <string>backslash.ss03.glif</string>
+    <key>backslash.ss04</key>
+    <string>backslash.ss04.glif</string>
+    <key>backslash.ss05</key>
+    <string>backslash.ss05.glif</string>
+    <key>backslash.ss06</key>
+    <string>backslash.ss06.glif</string>
+    <key>backslash.ss07</key>
+    <string>backslash.ss07.glif</string>
+    <key>bar</key>
+    <string>bar.glif</string>
+    <key>bar.ss01</key>
+    <string>bar.ss01.glif</string>
+    <key>bar.ss02</key>
+    <string>bar.ss02.glif</string>
+    <key>bar.ss03</key>
+    <string>bar.ss03.glif</string>
+    <key>bar.ss04</key>
+    <string>bar.ss04.glif</string>
+    <key>bar.ss05</key>
+    <string>bar.ss05.glif</string>
+    <key>bar.ss06</key>
+    <string>bar.ss06.glif</string>
+    <key>bar.ss07</key>
+    <string>bar.ss07.glif</string>
+    <key>braceleft</key>
+    <string>braceleft.glif</string>
+    <key>braceleft.ss01</key>
+    <string>braceleft.ss01.glif</string>
+    <key>braceleft.ss02</key>
+    <string>braceleft.ss02.glif</string>
+    <key>braceleft.ss03</key>
+    <string>braceleft.ss03.glif</string>
+    <key>braceleft.ss04</key>
+    <string>braceleft.ss04.glif</string>
+    <key>braceleft.ss05</key>
+    <string>braceleft.ss05.glif</string>
+    <key>braceleft.ss06</key>
+    <string>braceleft.ss06.glif</string>
+    <key>braceleft.ss07</key>
+    <string>braceleft.ss07.glif</string>
+    <key>braceright</key>
+    <string>braceright.glif</string>
+    <key>braceright.ss01</key>
+    <string>braceright.ss01.glif</string>
+    <key>braceright.ss02</key>
+    <string>braceright.ss02.glif</string>
+    <key>braceright.ss03</key>
+    <string>braceright.ss03.glif</string>
+    <key>braceright.ss04</key>
+    <string>braceright.ss04.glif</string>
+    <key>braceright.ss05</key>
+    <string>braceright.ss05.glif</string>
+    <key>braceright.ss06</key>
+    <string>braceright.ss06.glif</string>
+    <key>braceright.ss07</key>
+    <string>braceright.ss07.glif</string>
+    <key>bracketleft</key>
+    <string>bracketleft.glif</string>
+    <key>bracketleft.ss01</key>
+    <string>bracketleft.ss01.glif</string>
+    <key>bracketleft.ss02</key>
+    <string>bracketleft.ss02.glif</string>
+    <key>bracketleft.ss03</key>
+    <string>bracketleft.ss03.glif</string>
+    <key>bracketleft.ss04</key>
+    <string>bracketleft.ss04.glif</string>
+    <key>bracketleft.ss05</key>
+    <string>bracketleft.ss05.glif</string>
+    <key>bracketleft.ss06</key>
+    <string>bracketleft.ss06.glif</string>
+    <key>bracketleft.ss07</key>
+    <string>bracketleft.ss07.glif</string>
+    <key>bracketright</key>
+    <string>bracketright.glif</string>
+    <key>bracketright.ss01</key>
+    <string>bracketright.ss01.glif</string>
+    <key>bracketright.ss02</key>
+    <string>bracketright.ss02.glif</string>
+    <key>bracketright.ss03</key>
+    <string>bracketright.ss03.glif</string>
+    <key>bracketright.ss04</key>
+    <string>bracketright.ss04.glif</string>
+    <key>bracketright.ss05</key>
+    <string>bracketright.ss05.glif</string>
+    <key>bracketright.ss06</key>
+    <string>bracketright.ss06.glif</string>
+    <key>bracketright.ss07</key>
+    <string>bracketright.ss07.glif</string>
     <key>c</key>
     <string>c.glif</string>
     <key>c.alt1</key>
@@ -88,34 +410,110 @@
     <string>c.alt1.ss01.glif</string>
     <key>c.alt1.ss02</key>
     <string>c.alt1.ss02.glif</string>
+    <key>c.alt1.ss03</key>
+    <string>c.alt1.ss03.glif</string>
+    <key>c.alt1.ss04</key>
+    <string>c.alt1.ss04.glif</string>
+    <key>c.alt1.ss05</key>
+    <string>c.alt1.ss05.glif</string>
+    <key>c.alt1.ss06</key>
+    <string>c.alt1.ss06.glif</string>
+    <key>c.alt1.ss07</key>
+    <string>c.alt1.ss07.glif</string>
     <key>c.alt2</key>
     <string>c.alt2.glif</string>
     <key>c.alt2.ss01</key>
     <string>c.alt2.ss01.glif</string>
     <key>c.alt2.ss02</key>
     <string>c.alt2.ss02.glif</string>
+    <key>c.alt2.ss03</key>
+    <string>c.alt2.ss03.glif</string>
+    <key>c.alt2.ss04</key>
+    <string>c.alt2.ss04.glif</string>
+    <key>c.alt2.ss05</key>
+    <string>c.alt2.ss05.glif</string>
+    <key>c.alt2.ss06</key>
+    <string>c.alt2.ss06.glif</string>
+    <key>c.alt2.ss07</key>
+    <string>c.alt2.ss07.glif</string>
     <key>c.alt3</key>
     <string>c.alt3.glif</string>
     <key>c.alt3.ss01</key>
     <string>c.alt3.ss01.glif</string>
     <key>c.alt3.ss02</key>
     <string>c.alt3.ss02.glif</string>
+    <key>c.alt3.ss03</key>
+    <string>c.alt3.ss03.glif</string>
+    <key>c.alt3.ss04</key>
+    <string>c.alt3.ss04.glif</string>
+    <key>c.alt3.ss05</key>
+    <string>c.alt3.ss05.glif</string>
+    <key>c.alt3.ss06</key>
+    <string>c.alt3.ss06.glif</string>
+    <key>c.alt3.ss07</key>
+    <string>c.alt3.ss07.glif</string>
     <key>c.ss01</key>
     <string>c.ss01.glif</string>
     <key>c.ss02</key>
     <string>c.ss02.glif</string>
+    <key>c.ss03</key>
+    <string>c.ss03.glif</string>
+    <key>c.ss04</key>
+    <string>c.ss04.glif</string>
+    <key>c.ss05</key>
+    <string>c.ss05.glif</string>
+    <key>c.ss06</key>
+    <string>c.ss06.glif</string>
+    <key>c.ss07</key>
+    <string>c.ss07.glif</string>
     <key>colon</key>
     <string>colon.glif</string>
     <key>colon.ss01</key>
     <string>colon.ss01.glif</string>
     <key>colon.ss02</key>
     <string>colon.ss02.glif</string>
+    <key>colon.ss03</key>
+    <string>colon.ss03.glif</string>
+    <key>colon.ss04</key>
+    <string>colon.ss04.glif</string>
+    <key>colon.ss05</key>
+    <string>colon.ss05.glif</string>
+    <key>colon.ss06</key>
+    <string>colon.ss06.glif</string>
+    <key>colon.ss07</key>
+    <string>colon.ss07.glif</string>
     <key>comma</key>
     <string>comma.glif</string>
+    <key>comma.alt1</key>
+    <string>comma.alt1.glif</string>
+    <key>comma.alt1.ss01</key>
+    <string>comma.alt1.ss01.glif</string>
+    <key>comma.alt1.ss02</key>
+    <string>comma.alt1.ss02.glif</string>
+    <key>comma.alt1.ss03</key>
+    <string>comma.alt1.ss03.glif</string>
+    <key>comma.alt1.ss04</key>
+    <string>comma.alt1.ss04.glif</string>
+    <key>comma.alt1.ss05</key>
+    <string>comma.alt1.ss05.glif</string>
+    <key>comma.alt1.ss06</key>
+    <string>comma.alt1.ss06.glif</string>
+    <key>comma.alt1.ss07</key>
+    <string>comma.alt1.ss07.glif</string>
     <key>comma.ss01</key>
     <string>comma.ss01.glif</string>
     <key>comma.ss02</key>
     <string>comma.ss02.glif</string>
+    <key>comma.ss03</key>
+    <string>comma.ss03.glif</string>
+    <key>comma.ss04</key>
+    <string>comma.ss04.glif</string>
+    <key>comma.ss05</key>
+    <string>comma.ss05.glif</string>
+    <key>comma.ss06</key>
+    <string>comma.ss06.glif</string>
+    <key>comma.ss07</key>
+    <string>comma.ss07.glif</string>
     <key>d</key>
     <string>d.glif</string>
     <key>d.alt1</key>
@@ -124,34 +522,94 @@
     <string>d.alt1.ss01.glif</string>
     <key>d.alt1.ss02</key>
     <string>d.alt1.ss02.glif</string>
+    <key>d.alt1.ss03</key>
+    <string>d.alt1.ss03.glif</string>
+    <key>d.alt1.ss04</key>
+    <string>d.alt1.ss04.glif</string>
+    <key>d.alt1.ss05</key>
+    <string>d.alt1.ss05.glif</string>
+    <key>d.alt1.ss06</key>
+    <string>d.alt1.ss06.glif</string>
+    <key>d.alt1.ss07</key>
+    <string>d.alt1.ss07.glif</string>
     <key>d.alt2</key>
     <string>d.alt2.glif</string>
     <key>d.alt2.ss01</key>
     <string>d.alt2.ss01.glif</string>
     <key>d.alt2.ss02</key>
     <string>d.alt2.ss02.glif</string>
+    <key>d.alt2.ss03</key>
+    <string>d.alt2.ss03.glif</string>
+    <key>d.alt2.ss04</key>
+    <string>d.alt2.ss04.glif</string>
+    <key>d.alt2.ss05</key>
+    <string>d.alt2.ss05.glif</string>
+    <key>d.alt2.ss06</key>
+    <string>d.alt2.ss06.glif</string>
+    <key>d.alt2.ss07</key>
+    <string>d.alt2.ss07.glif</string>
     <key>d.alt3</key>
     <string>d.alt3.glif</string>
     <key>d.alt3.ss01</key>
     <string>d.alt3.ss01.glif</string>
     <key>d.alt3.ss02</key>
     <string>d.alt3.ss02.glif</string>
+    <key>d.alt3.ss03</key>
+    <string>d.alt3.ss03.glif</string>
+    <key>d.alt3.ss04</key>
+    <string>d.alt3.ss04.glif</string>
+    <key>d.alt3.ss05</key>
+    <string>d.alt3.ss05.glif</string>
+    <key>d.alt3.ss06</key>
+    <string>d.alt3.ss06.glif</string>
+    <key>d.alt3.ss07</key>
+    <string>d.alt3.ss07.glif</string>
     <key>d.alt4</key>
     <string>d.alt4.glif</string>
     <key>d.alt4.ss01</key>
     <string>d.alt4.ss01.glif</string>
     <key>d.alt4.ss02</key>
     <string>d.alt4.ss02.glif</string>
+    <key>d.alt4.ss03</key>
+    <string>d.alt4.ss03.glif</string>
+    <key>d.alt4.ss04</key>
+    <string>d.alt4.ss04.glif</string>
+    <key>d.alt4.ss05</key>
+    <string>d.alt4.ss05.glif</string>
+    <key>d.alt4.ss06</key>
+    <string>d.alt4.ss06.glif</string>
+    <key>d.alt4.ss07</key>
+    <string>d.alt4.ss07.glif</string>
     <key>d.alt5</key>
     <string>d.alt5.glif</string>
     <key>d.alt5.ss01</key>
     <string>d.alt5.ss01.glif</string>
     <key>d.alt5.ss02</key>
     <string>d.alt5.ss02.glif</string>
+    <key>d.alt5.ss03</key>
+    <string>d.alt5.ss03.glif</string>
+    <key>d.alt5.ss04</key>
+    <string>d.alt5.ss04.glif</string>
+    <key>d.alt5.ss05</key>
+    <string>d.alt5.ss05.glif</string>
+    <key>d.alt5.ss06</key>
+    <string>d.alt5.ss06.glif</string>
+    <key>d.alt5.ss07</key>
+    <string>d.alt5.ss07.glif</string>
     <key>d.ss01</key>
     <string>d.ss01.glif</string>
     <key>d.ss02</key>
     <string>d.ss02.glif</string>
+    <key>d.ss03</key>
+    <string>d.ss03.glif</string>
+    <key>d.ss04</key>
+    <string>d.ss04.glif</string>
+    <key>d.ss05</key>
+    <string>d.ss05.glif</string>
+    <key>d.ss06</key>
+    <string>d.ss06.glif</string>
+    <key>d.ss07</key>
+    <string>d.ss07.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>e.alt1</key>
@@ -160,40 +618,110 @@
     <string>e.alt1.ss01.glif</string>
     <key>e.alt1.ss02</key>
     <string>e.alt1.ss02.glif</string>
+    <key>e.alt1.ss03</key>
+    <string>e.alt1.ss03.glif</string>
+    <key>e.alt1.ss04</key>
+    <string>e.alt1.ss04.glif</string>
+    <key>e.alt1.ss05</key>
+    <string>e.alt1.ss05.glif</string>
+    <key>e.alt1.ss06</key>
+    <string>e.alt1.ss06.glif</string>
+    <key>e.alt1.ss07</key>
+    <string>e.alt1.ss07.glif</string>
     <key>e.alt2</key>
     <string>e.alt2.glif</string>
     <key>e.alt2.ss01</key>
     <string>e.alt2.ss01.glif</string>
     <key>e.alt2.ss02</key>
     <string>e.alt2.ss02.glif</string>
+    <key>e.alt2.ss03</key>
+    <string>e.alt2.ss03.glif</string>
+    <key>e.alt2.ss04</key>
+    <string>e.alt2.ss04.glif</string>
+    <key>e.alt2.ss05</key>
+    <string>e.alt2.ss05.glif</string>
+    <key>e.alt2.ss06</key>
+    <string>e.alt2.ss06.glif</string>
+    <key>e.alt2.ss07</key>
+    <string>e.alt2.ss07.glif</string>
     <key>e.alt3</key>
     <string>e.alt3.glif</string>
     <key>e.alt3.ss01</key>
     <string>e.alt3.ss01.glif</string>
     <key>e.alt3.ss02</key>
     <string>e.alt3.ss02.glif</string>
+    <key>e.alt3.ss03</key>
+    <string>e.alt3.ss03.glif</string>
+    <key>e.alt3.ss04</key>
+    <string>e.alt3.ss04.glif</string>
+    <key>e.alt3.ss05</key>
+    <string>e.alt3.ss05.glif</string>
+    <key>e.alt3.ss06</key>
+    <string>e.alt3.ss06.glif</string>
+    <key>e.alt3.ss07</key>
+    <string>e.alt3.ss07.glif</string>
     <key>e.alt4</key>
     <string>e.alt4.glif</string>
     <key>e.alt4.ss01</key>
     <string>e.alt4.ss01.glif</string>
     <key>e.alt4.ss02</key>
     <string>e.alt4.ss02.glif</string>
+    <key>e.alt4.ss03</key>
+    <string>e.alt4.ss03.glif</string>
+    <key>e.alt4.ss04</key>
+    <string>e.alt4.ss04.glif</string>
+    <key>e.alt4.ss05</key>
+    <string>e.alt4.ss05.glif</string>
+    <key>e.alt4.ss06</key>
+    <string>e.alt4.ss06.glif</string>
+    <key>e.alt4.ss07</key>
+    <string>e.alt4.ss07.glif</string>
     <key>e.ss01</key>
     <string>e.ss01.glif</string>
     <key>e.ss02</key>
     <string>e.ss02.glif</string>
+    <key>e.ss03</key>
+    <string>e.ss03.glif</string>
+    <key>e.ss04</key>
+    <string>e.ss04.glif</string>
+    <key>e.ss05</key>
+    <string>e.ss05.glif</string>
+    <key>e.ss06</key>
+    <string>e.ss06.glif</string>
+    <key>e.ss07</key>
+    <string>e.ss07.glif</string>
     <key>eacute</key>
     <string>eacute.glif</string>
     <key>eacute.ss01</key>
     <string>eacute.ss01.glif</string>
     <key>eacute.ss02</key>
     <string>eacute.ss02.glif</string>
+    <key>eacute.ss03</key>
+    <string>eacute.ss03.glif</string>
+    <key>eacute.ss04</key>
+    <string>eacute.ss04.glif</string>
+    <key>eacute.ss05</key>
+    <string>eacute.ss05.glif</string>
+    <key>eacute.ss06</key>
+    <string>eacute.ss06.glif</string>
+    <key>eacute.ss07</key>
+    <string>eacute.ss07.glif</string>
     <key>egrave</key>
     <string>egrave.glif</string>
     <key>egrave.ss01</key>
     <string>egrave.ss01.glif</string>
     <key>egrave.ss02</key>
     <string>egrave.ss02.glif</string>
+    <key>egrave.ss03</key>
+    <string>egrave.ss03.glif</string>
+    <key>egrave.ss04</key>
+    <string>egrave.ss04.glif</string>
+    <key>egrave.ss05</key>
+    <string>egrave.ss05.glif</string>
+    <key>egrave.ss06</key>
+    <string>egrave.ss06.glif</string>
+    <key>egrave.ss07</key>
+    <string>egrave.ss07.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
     <key>eight.alt1</key>
@@ -202,16 +730,62 @@
     <string>eight.alt1.ss01.glif</string>
     <key>eight.alt1.ss02</key>
     <string>eight.alt1.ss02.glif</string>
+    <key>eight.alt1.ss03</key>
+    <string>eight.alt1.ss03.glif</string>
+    <key>eight.alt1.ss04</key>
+    <string>eight.alt1.ss04.glif</string>
+    <key>eight.alt1.ss05</key>
+    <string>eight.alt1.ss05.glif</string>
+    <key>eight.alt1.ss06</key>
+    <string>eight.alt1.ss06.glif</string>
+    <key>eight.alt1.ss07</key>
+    <string>eight.alt1.ss07.glif</string>
     <key>eight.ss01</key>
     <string>eight.ss01.glif</string>
     <key>eight.ss02</key>
     <string>eight.ss02.glif</string>
+    <key>eight.ss03</key>
+    <string>eight.ss03.glif</string>
+    <key>eight.ss04</key>
+    <string>eight.ss04.glif</string>
+    <key>eight.ss05</key>
+    <string>eight.ss05.glif</string>
+    <key>eight.ss06</key>
+    <string>eight.ss06.glif</string>
+    <key>eight.ss07</key>
+    <string>eight.ss07.glif</string>
+    <key>equal</key>
+    <string>equal.glif</string>
+    <key>equal.ss01</key>
+    <string>equal.ss01.glif</string>
+    <key>equal.ss02</key>
+    <string>equal.ss02.glif</string>
+    <key>equal.ss03</key>
+    <string>equal.ss03.glif</string>
+    <key>equal.ss04</key>
+    <string>equal.ss04.glif</string>
+    <key>equal.ss05</key>
+    <string>equal.ss05.glif</string>
+    <key>equal.ss06</key>
+    <string>equal.ss06.glif</string>
+    <key>equal.ss07</key>
+    <string>equal.ss07.glif</string>
     <key>exclam</key>
     <string>exclam.glif</string>
     <key>exclam.ss01</key>
     <string>exclam.ss01.glif</string>
     <key>exclam.ss02</key>
     <string>exclam.ss02.glif</string>
+    <key>exclam.ss03</key>
+    <string>exclam.ss03.glif</string>
+    <key>exclam.ss04</key>
+    <string>exclam.ss04.glif</string>
+    <key>exclam.ss05</key>
+    <string>exclam.ss05.glif</string>
+    <key>exclam.ss06</key>
+    <string>exclam.ss06.glif</string>
+    <key>exclam.ss07</key>
+    <string>exclam.ss07.glif</string>
     <key>f</key>
     <string>f.glif</string>
     <key>f.alt1</key>
@@ -220,28 +794,78 @@
     <string>f.alt1.ss01.glif</string>
     <key>f.alt1.ss02</key>
     <string>f.alt1.ss02.glif</string>
+    <key>f.alt1.ss03</key>
+    <string>f.alt1.ss03.glif</string>
+    <key>f.alt1.ss04</key>
+    <string>f.alt1.ss04.glif</string>
+    <key>f.alt1.ss05</key>
+    <string>f.alt1.ss05.glif</string>
+    <key>f.alt1.ss06</key>
+    <string>f.alt1.ss06.glif</string>
+    <key>f.alt1.ss07</key>
+    <string>f.alt1.ss07.glif</string>
     <key>f.alt2</key>
     <string>f.alt2.glif</string>
     <key>f.alt2.ss01</key>
     <string>f.alt2.ss01.glif</string>
     <key>f.alt2.ss02</key>
     <string>f.alt2.ss02.glif</string>
+    <key>f.alt2.ss03</key>
+    <string>f.alt2.ss03.glif</string>
+    <key>f.alt2.ss04</key>
+    <string>f.alt2.ss04.glif</string>
+    <key>f.alt2.ss05</key>
+    <string>f.alt2.ss05.glif</string>
+    <key>f.alt2.ss06</key>
+    <string>f.alt2.ss06.glif</string>
+    <key>f.alt2.ss07</key>
+    <string>f.alt2.ss07.glif</string>
     <key>f.alt3</key>
     <string>f.alt3.glif</string>
     <key>f.alt3.ss01</key>
     <string>f.alt3.ss01.glif</string>
     <key>f.alt3.ss02</key>
     <string>f.alt3.ss02.glif</string>
+    <key>f.alt3.ss03</key>
+    <string>f.alt3.ss03.glif</string>
+    <key>f.alt3.ss04</key>
+    <string>f.alt3.ss04.glif</string>
+    <key>f.alt3.ss05</key>
+    <string>f.alt3.ss05.glif</string>
+    <key>f.alt3.ss06</key>
+    <string>f.alt3.ss06.glif</string>
+    <key>f.alt3.ss07</key>
+    <string>f.alt3.ss07.glif</string>
     <key>f.ss01</key>
     <string>f.ss01.glif</string>
     <key>f.ss02</key>
     <string>f.ss02.glif</string>
+    <key>f.ss03</key>
+    <string>f.ss03.glif</string>
+    <key>f.ss04</key>
+    <string>f.ss04.glif</string>
+    <key>f.ss05</key>
+    <string>f.ss05.glif</string>
+    <key>f.ss06</key>
+    <string>f.ss06.glif</string>
+    <key>f.ss07</key>
+    <string>f.ss07.glif</string>
     <key>five</key>
     <string>five.glif</string>
     <key>five.ss01</key>
     <string>five.ss01.glif</string>
     <key>five.ss02</key>
     <string>five.ss02.glif</string>
+    <key>five.ss03</key>
+    <string>five.ss03.glif</string>
+    <key>five.ss04</key>
+    <string>five.ss04.glif</string>
+    <key>five.ss05</key>
+    <string>five.ss05.glif</string>
+    <key>five.ss06</key>
+    <string>five.ss06.glif</string>
+    <key>five.ss07</key>
+    <string>five.ss07.glif</string>
     <key>four</key>
     <string>four.glif</string>
     <key>four.alt1</key>
@@ -250,10 +874,30 @@
     <string>four.alt1.ss01.glif</string>
     <key>four.alt1.ss02</key>
     <string>four.alt1.ss02.glif</string>
+    <key>four.alt1.ss03</key>
+    <string>four.alt1.ss03.glif</string>
+    <key>four.alt1.ss04</key>
+    <string>four.alt1.ss04.glif</string>
+    <key>four.alt1.ss05</key>
+    <string>four.alt1.ss05.glif</string>
+    <key>four.alt1.ss06</key>
+    <string>four.alt1.ss06.glif</string>
+    <key>four.alt1.ss07</key>
+    <string>four.alt1.ss07.glif</string>
     <key>four.ss01</key>
     <string>four.ss01.glif</string>
     <key>four.ss02</key>
     <string>four.ss02.glif</string>
+    <key>four.ss03</key>
+    <string>four.ss03.glif</string>
+    <key>four.ss04</key>
+    <string>four.ss04.glif</string>
+    <key>four.ss05</key>
+    <string>four.ss05.glif</string>
+    <key>four.ss06</key>
+    <string>four.ss06.glif</string>
+    <key>four.ss07</key>
+    <string>four.ss07.glif</string>
     <key>g</key>
     <string>g.glif</string>
     <key>g.alt1</key>
@@ -262,28 +906,78 @@
     <string>g.alt1.ss01.glif</string>
     <key>g.alt1.ss02</key>
     <string>g.alt1.ss02.glif</string>
+    <key>g.alt1.ss03</key>
+    <string>g.alt1.ss03.glif</string>
+    <key>g.alt1.ss04</key>
+    <string>g.alt1.ss04.glif</string>
+    <key>g.alt1.ss05</key>
+    <string>g.alt1.ss05.glif</string>
+    <key>g.alt1.ss06</key>
+    <string>g.alt1.ss06.glif</string>
+    <key>g.alt1.ss07</key>
+    <string>g.alt1.ss07.glif</string>
     <key>g.alt2</key>
     <string>g.alt2.glif</string>
     <key>g.alt2.ss01</key>
     <string>g.alt2.ss01.glif</string>
     <key>g.alt2.ss02</key>
     <string>g.alt2.ss02.glif</string>
+    <key>g.alt2.ss03</key>
+    <string>g.alt2.ss03.glif</string>
+    <key>g.alt2.ss04</key>
+    <string>g.alt2.ss04.glif</string>
+    <key>g.alt2.ss05</key>
+    <string>g.alt2.ss05.glif</string>
+    <key>g.alt2.ss06</key>
+    <string>g.alt2.ss06.glif</string>
+    <key>g.alt2.ss07</key>
+    <string>g.alt2.ss07.glif</string>
     <key>g.alt3</key>
     <string>g.alt3.glif</string>
     <key>g.alt3.ss01</key>
     <string>g.alt3.ss01.glif</string>
     <key>g.alt3.ss02</key>
     <string>g.alt3.ss02.glif</string>
+    <key>g.alt3.ss03</key>
+    <string>g.alt3.ss03.glif</string>
+    <key>g.alt3.ss04</key>
+    <string>g.alt3.ss04.glif</string>
+    <key>g.alt3.ss05</key>
+    <string>g.alt3.ss05.glif</string>
+    <key>g.alt3.ss06</key>
+    <string>g.alt3.ss06.glif</string>
+    <key>g.alt3.ss07</key>
+    <string>g.alt3.ss07.glif</string>
     <key>g.alt4</key>
     <string>g.alt4.glif</string>
     <key>g.alt4.ss01</key>
     <string>g.alt4.ss01.glif</string>
     <key>g.alt4.ss02</key>
     <string>g.alt4.ss02.glif</string>
+    <key>g.alt4.ss03</key>
+    <string>g.alt4.ss03.glif</string>
+    <key>g.alt4.ss04</key>
+    <string>g.alt4.ss04.glif</string>
+    <key>g.alt4.ss05</key>
+    <string>g.alt4.ss05.glif</string>
+    <key>g.alt4.ss06</key>
+    <string>g.alt4.ss06.glif</string>
+    <key>g.alt4.ss07</key>
+    <string>g.alt4.ss07.glif</string>
     <key>g.ss01</key>
     <string>g.ss01.glif</string>
     <key>g.ss02</key>
     <string>g.ss02.glif</string>
+    <key>g.ss03</key>
+    <string>g.ss03.glif</string>
+    <key>g.ss04</key>
+    <string>g.ss04.glif</string>
+    <key>g.ss05</key>
+    <string>g.ss05.glif</string>
+    <key>g.ss06</key>
+    <string>g.ss06.glif</string>
+    <key>g.ss07</key>
+    <string>g.ss07.glif</string>
     <key>h</key>
     <string>h.glif</string>
     <key>h.alt1</key>
@@ -292,22 +986,62 @@
     <string>h.alt1.ss01.glif</string>
     <key>h.alt1.ss02</key>
     <string>h.alt1.ss02.glif</string>
+    <key>h.alt1.ss03</key>
+    <string>h.alt1.ss03.glif</string>
+    <key>h.alt1.ss04</key>
+    <string>h.alt1.ss04.glif</string>
+    <key>h.alt1.ss05</key>
+    <string>h.alt1.ss05.glif</string>
+    <key>h.alt1.ss06</key>
+    <string>h.alt1.ss06.glif</string>
+    <key>h.alt1.ss07</key>
+    <string>h.alt1.ss07.glif</string>
     <key>h.alt2</key>
     <string>h.alt2.glif</string>
     <key>h.alt2.ss01</key>
     <string>h.alt2.ss01.glif</string>
     <key>h.alt2.ss02</key>
     <string>h.alt2.ss02.glif</string>
+    <key>h.alt2.ss03</key>
+    <string>h.alt2.ss03.glif</string>
+    <key>h.alt2.ss04</key>
+    <string>h.alt2.ss04.glif</string>
+    <key>h.alt2.ss05</key>
+    <string>h.alt2.ss05.glif</string>
+    <key>h.alt2.ss06</key>
+    <string>h.alt2.ss06.glif</string>
+    <key>h.alt2.ss07</key>
+    <string>h.alt2.ss07.glif</string>
     <key>h.ss01</key>
     <string>h.ss01.glif</string>
     <key>h.ss02</key>
     <string>h.ss02.glif</string>
+    <key>h.ss03</key>
+    <string>h.ss03.glif</string>
+    <key>h.ss04</key>
+    <string>h.ss04.glif</string>
+    <key>h.ss05</key>
+    <string>h.ss05.glif</string>
+    <key>h.ss06</key>
+    <string>h.ss06.glif</string>
+    <key>h.ss07</key>
+    <string>h.ss07.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
     <key>hyphen.ss01</key>
     <string>hyphen.ss01.glif</string>
     <key>hyphen.ss02</key>
     <string>hyphen.ss02.glif</string>
+    <key>hyphen.ss03</key>
+    <string>hyphen.ss03.glif</string>
+    <key>hyphen.ss04</key>
+    <string>hyphen.ss04.glif</string>
+    <key>hyphen.ss05</key>
+    <string>hyphen.ss05.glif</string>
+    <key>hyphen.ss06</key>
+    <string>hyphen.ss06.glif</string>
+    <key>hyphen.ss07</key>
+    <string>hyphen.ss07.glif</string>
     <key>i</key>
     <string>i.glif</string>
     <key>i.alt1</key>
@@ -316,40 +1050,110 @@
     <string>i.alt1.ss01.glif</string>
     <key>i.alt1.ss02</key>
     <string>i.alt1.ss02.glif</string>
+    <key>i.alt1.ss03</key>
+    <string>i.alt1.ss03.glif</string>
+    <key>i.alt1.ss04</key>
+    <string>i.alt1.ss04.glif</string>
+    <key>i.alt1.ss05</key>
+    <string>i.alt1.ss05.glif</string>
+    <key>i.alt1.ss06</key>
+    <string>i.alt1.ss06.glif</string>
+    <key>i.alt1.ss07</key>
+    <string>i.alt1.ss07.glif</string>
     <key>i.alt2</key>
     <string>i.alt2.glif</string>
     <key>i.alt2.ss01</key>
     <string>i.alt2.ss01.glif</string>
     <key>i.alt2.ss02</key>
     <string>i.alt2.ss02.glif</string>
+    <key>i.alt2.ss03</key>
+    <string>i.alt2.ss03.glif</string>
+    <key>i.alt2.ss04</key>
+    <string>i.alt2.ss04.glif</string>
+    <key>i.alt2.ss05</key>
+    <string>i.alt2.ss05.glif</string>
+    <key>i.alt2.ss06</key>
+    <string>i.alt2.ss06.glif</string>
+    <key>i.alt2.ss07</key>
+    <string>i.alt2.ss07.glif</string>
     <key>i.alt3</key>
     <string>i.alt3.glif</string>
     <key>i.alt3.ss01</key>
     <string>i.alt3.ss01.glif</string>
     <key>i.alt3.ss02</key>
     <string>i.alt3.ss02.glif</string>
+    <key>i.alt3.ss03</key>
+    <string>i.alt3.ss03.glif</string>
+    <key>i.alt3.ss04</key>
+    <string>i.alt3.ss04.glif</string>
+    <key>i.alt3.ss05</key>
+    <string>i.alt3.ss05.glif</string>
+    <key>i.alt3.ss06</key>
+    <string>i.alt3.ss06.glif</string>
+    <key>i.alt3.ss07</key>
+    <string>i.alt3.ss07.glif</string>
     <key>i.alt4</key>
     <string>i.alt4.glif</string>
     <key>i.alt4.ss01</key>
     <string>i.alt4.ss01.glif</string>
     <key>i.alt4.ss02</key>
     <string>i.alt4.ss02.glif</string>
+    <key>i.alt4.ss03</key>
+    <string>i.alt4.ss03.glif</string>
+    <key>i.alt4.ss04</key>
+    <string>i.alt4.ss04.glif</string>
+    <key>i.alt4.ss05</key>
+    <string>i.alt4.ss05.glif</string>
+    <key>i.alt4.ss06</key>
+    <string>i.alt4.ss06.glif</string>
+    <key>i.alt4.ss07</key>
+    <string>i.alt4.ss07.glif</string>
     <key>i.ss01</key>
     <string>i.ss01.glif</string>
     <key>i.ss02</key>
     <string>i.ss02.glif</string>
+    <key>i.ss03</key>
+    <string>i.ss03.glif</string>
+    <key>i.ss04</key>
+    <string>i.ss04.glif</string>
+    <key>i.ss05</key>
+    <string>i.ss05.glif</string>
+    <key>i.ss06</key>
+    <string>i.ss06.glif</string>
+    <key>i.ss07</key>
+    <string>i.ss07.glif</string>
     <key>iacute</key>
     <string>iacute.glif</string>
     <key>iacute.ss01</key>
     <string>iacute.ss01.glif</string>
     <key>iacute.ss02</key>
     <string>iacute.ss02.glif</string>
+    <key>iacute.ss03</key>
+    <string>iacute.ss03.glif</string>
+    <key>iacute.ss04</key>
+    <string>iacute.ss04.glif</string>
+    <key>iacute.ss05</key>
+    <string>iacute.ss05.glif</string>
+    <key>iacute.ss06</key>
+    <string>iacute.ss06.glif</string>
+    <key>iacute.ss07</key>
+    <string>iacute.ss07.glif</string>
     <key>igrave</key>
     <string>igrave.glif</string>
     <key>igrave.ss01</key>
     <string>igrave.ss01.glif</string>
     <key>igrave.ss02</key>
     <string>igrave.ss02.glif</string>
+    <key>igrave.ss03</key>
+    <string>igrave.ss03.glif</string>
+    <key>igrave.ss04</key>
+    <string>igrave.ss04.glif</string>
+    <key>igrave.ss05</key>
+    <string>igrave.ss05.glif</string>
+    <key>igrave.ss06</key>
+    <string>igrave.ss06.glif</string>
+    <key>igrave.ss07</key>
+    <string>igrave.ss07.glif</string>
     <key>j</key>
     <string>j.glif</string>
     <key>j.alt1</key>
@@ -358,16 +1162,46 @@
     <string>j.alt1.ss01.glif</string>
     <key>j.alt1.ss02</key>
     <string>j.alt1.ss02.glif</string>
+    <key>j.alt1.ss03</key>
+    <string>j.alt1.ss03.glif</string>
+    <key>j.alt1.ss04</key>
+    <string>j.alt1.ss04.glif</string>
+    <key>j.alt1.ss05</key>
+    <string>j.alt1.ss05.glif</string>
+    <key>j.alt1.ss06</key>
+    <string>j.alt1.ss06.glif</string>
+    <key>j.alt1.ss07</key>
+    <string>j.alt1.ss07.glif</string>
     <key>j.alt2</key>
     <string>j.alt2.glif</string>
     <key>j.alt2.ss01</key>
     <string>j.alt2.ss01.glif</string>
     <key>j.alt2.ss02</key>
     <string>j.alt2.ss02.glif</string>
+    <key>j.alt2.ss03</key>
+    <string>j.alt2.ss03.glif</string>
+    <key>j.alt2.ss04</key>
+    <string>j.alt2.ss04.glif</string>
+    <key>j.alt2.ss05</key>
+    <string>j.alt2.ss05.glif</string>
+    <key>j.alt2.ss06</key>
+    <string>j.alt2.ss06.glif</string>
+    <key>j.alt2.ss07</key>
+    <string>j.alt2.ss07.glif</string>
     <key>j.ss01</key>
     <string>j.ss01.glif</string>
     <key>j.ss02</key>
     <string>j.ss02.glif</string>
+    <key>j.ss03</key>
+    <string>j.ss03.glif</string>
+    <key>j.ss04</key>
+    <string>j.ss04.glif</string>
+    <key>j.ss05</key>
+    <string>j.ss05.glif</string>
+    <key>j.ss06</key>
+    <string>j.ss06.glif</string>
+    <key>j.ss07</key>
+    <string>j.ss07.glif</string>
     <key>k</key>
     <string>k.glif</string>
     <key>k.alt1</key>
@@ -376,16 +1210,46 @@
     <string>k.alt1.ss01.glif</string>
     <key>k.alt1.ss02</key>
     <string>k.alt1.ss02.glif</string>
+    <key>k.alt1.ss03</key>
+    <string>k.alt1.ss03.glif</string>
+    <key>k.alt1.ss04</key>
+    <string>k.alt1.ss04.glif</string>
+    <key>k.alt1.ss05</key>
+    <string>k.alt1.ss05.glif</string>
+    <key>k.alt1.ss06</key>
+    <string>k.alt1.ss06.glif</string>
+    <key>k.alt1.ss07</key>
+    <string>k.alt1.ss07.glif</string>
     <key>k.alt2</key>
     <string>k.alt2.glif</string>
     <key>k.alt2.ss01</key>
     <string>k.alt2.ss01.glif</string>
     <key>k.alt2.ss02</key>
     <string>k.alt2.ss02.glif</string>
+    <key>k.alt2.ss03</key>
+    <string>k.alt2.ss03.glif</string>
+    <key>k.alt2.ss04</key>
+    <string>k.alt2.ss04.glif</string>
+    <key>k.alt2.ss05</key>
+    <string>k.alt2.ss05.glif</string>
+    <key>k.alt2.ss06</key>
+    <string>k.alt2.ss06.glif</string>
+    <key>k.alt2.ss07</key>
+    <string>k.alt2.ss07.glif</string>
     <key>k.ss01</key>
     <string>k.ss01.glif</string>
     <key>k.ss02</key>
     <string>k.ss02.glif</string>
+    <key>k.ss03</key>
+    <string>k.ss03.glif</string>
+    <key>k.ss04</key>
+    <string>k.ss04.glif</string>
+    <key>k.ss05</key>
+    <string>k.ss05.glif</string>
+    <key>k.ss06</key>
+    <string>k.ss06.glif</string>
+    <key>k.ss07</key>
+    <string>k.ss07.glif</string>
     <key>l</key>
     <string>l.glif</string>
     <key>l.alt1</key>
@@ -394,28 +1258,78 @@
     <string>l.alt1.ss01.glif</string>
     <key>l.alt1.ss02</key>
     <string>l.alt1.ss02.glif</string>
+    <key>l.alt1.ss03</key>
+    <string>l.alt1.ss03.glif</string>
+    <key>l.alt1.ss04</key>
+    <string>l.alt1.ss04.glif</string>
+    <key>l.alt1.ss05</key>
+    <string>l.alt1.ss05.glif</string>
+    <key>l.alt1.ss06</key>
+    <string>l.alt1.ss06.glif</string>
+    <key>l.alt1.ss07</key>
+    <string>l.alt1.ss07.glif</string>
     <key>l.alt2</key>
     <string>l.alt2.glif</string>
     <key>l.alt2.ss01</key>
     <string>l.alt2.ss01.glif</string>
     <key>l.alt2.ss02</key>
     <string>l.alt2.ss02.glif</string>
+    <key>l.alt2.ss03</key>
+    <string>l.alt2.ss03.glif</string>
+    <key>l.alt2.ss04</key>
+    <string>l.alt2.ss04.glif</string>
+    <key>l.alt2.ss05</key>
+    <string>l.alt2.ss05.glif</string>
+    <key>l.alt2.ss06</key>
+    <string>l.alt2.ss06.glif</string>
+    <key>l.alt2.ss07</key>
+    <string>l.alt2.ss07.glif</string>
     <key>l.alt3</key>
     <string>l.alt3.glif</string>
     <key>l.alt3.ss01</key>
     <string>l.alt3.ss01.glif</string>
     <key>l.alt3.ss02</key>
     <string>l.alt3.ss02.glif</string>
+    <key>l.alt3.ss03</key>
+    <string>l.alt3.ss03.glif</string>
+    <key>l.alt3.ss04</key>
+    <string>l.alt3.ss04.glif</string>
+    <key>l.alt3.ss05</key>
+    <string>l.alt3.ss05.glif</string>
+    <key>l.alt3.ss06</key>
+    <string>l.alt3.ss06.glif</string>
+    <key>l.alt3.ss07</key>
+    <string>l.alt3.ss07.glif</string>
     <key>l.alt4</key>
     <string>l.alt4.glif</string>
     <key>l.alt4.ss01</key>
     <string>l.alt4.ss01.glif</string>
     <key>l.alt4.ss02</key>
     <string>l.alt4.ss02.glif</string>
+    <key>l.alt4.ss03</key>
+    <string>l.alt4.ss03.glif</string>
+    <key>l.alt4.ss04</key>
+    <string>l.alt4.ss04.glif</string>
+    <key>l.alt4.ss05</key>
+    <string>l.alt4.ss05.glif</string>
+    <key>l.alt4.ss06</key>
+    <string>l.alt4.ss06.glif</string>
+    <key>l.alt4.ss07</key>
+    <string>l.alt4.ss07.glif</string>
     <key>l.ss01</key>
     <string>l.ss01.glif</string>
     <key>l.ss02</key>
     <string>l.ss02.glif</string>
+    <key>l.ss03</key>
+    <string>l.ss03.glif</string>
+    <key>l.ss04</key>
+    <string>l.ss04.glif</string>
+    <key>l.ss05</key>
+    <string>l.ss05.glif</string>
+    <key>l.ss06</key>
+    <string>l.ss06.glif</string>
+    <key>l.ss07</key>
+    <string>l.ss07.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>m.alt1</key>
@@ -424,28 +1338,78 @@
     <string>m.alt1.ss01.glif</string>
     <key>m.alt1.ss02</key>
     <string>m.alt1.ss02.glif</string>
+    <key>m.alt1.ss03</key>
+    <string>m.alt1.ss03.glif</string>
+    <key>m.alt1.ss04</key>
+    <string>m.alt1.ss04.glif</string>
+    <key>m.alt1.ss05</key>
+    <string>m.alt1.ss05.glif</string>
+    <key>m.alt1.ss06</key>
+    <string>m.alt1.ss06.glif</string>
+    <key>m.alt1.ss07</key>
+    <string>m.alt1.ss07.glif</string>
     <key>m.alt2</key>
     <string>m.alt2.glif</string>
     <key>m.alt2.ss01</key>
     <string>m.alt2.ss01.glif</string>
     <key>m.alt2.ss02</key>
     <string>m.alt2.ss02.glif</string>
+    <key>m.alt2.ss03</key>
+    <string>m.alt2.ss03.glif</string>
+    <key>m.alt2.ss04</key>
+    <string>m.alt2.ss04.glif</string>
+    <key>m.alt2.ss05</key>
+    <string>m.alt2.ss05.glif</string>
+    <key>m.alt2.ss06</key>
+    <string>m.alt2.ss06.glif</string>
+    <key>m.alt2.ss07</key>
+    <string>m.alt2.ss07.glif</string>
     <key>m.alt3</key>
     <string>m.alt3.glif</string>
     <key>m.alt3.ss01</key>
     <string>m.alt3.ss01.glif</string>
     <key>m.alt3.ss02</key>
     <string>m.alt3.ss02.glif</string>
+    <key>m.alt3.ss03</key>
+    <string>m.alt3.ss03.glif</string>
+    <key>m.alt3.ss04</key>
+    <string>m.alt3.ss04.glif</string>
+    <key>m.alt3.ss05</key>
+    <string>m.alt3.ss05.glif</string>
+    <key>m.alt3.ss06</key>
+    <string>m.alt3.ss06.glif</string>
+    <key>m.alt3.ss07</key>
+    <string>m.alt3.ss07.glif</string>
     <key>m.alt4</key>
     <string>m.alt4.glif</string>
     <key>m.alt4.ss01</key>
     <string>m.alt4.ss01.glif</string>
     <key>m.alt4.ss02</key>
     <string>m.alt4.ss02.glif</string>
+    <key>m.alt4.ss03</key>
+    <string>m.alt4.ss03.glif</string>
+    <key>m.alt4.ss04</key>
+    <string>m.alt4.ss04.glif</string>
+    <key>m.alt4.ss05</key>
+    <string>m.alt4.ss05.glif</string>
+    <key>m.alt4.ss06</key>
+    <string>m.alt4.ss06.glif</string>
+    <key>m.alt4.ss07</key>
+    <string>m.alt4.ss07.glif</string>
     <key>m.ss01</key>
     <string>m.ss01.glif</string>
     <key>m.ss02</key>
     <string>m.ss02.glif</string>
+    <key>m.ss03</key>
+    <string>m.ss03.glif</string>
+    <key>m.ss04</key>
+    <string>m.ss04.glif</string>
+    <key>m.ss05</key>
+    <string>m.ss05.glif</string>
+    <key>m.ss06</key>
+    <string>m.ss06.glif</string>
+    <key>m.ss07</key>
+    <string>m.ss07.glif</string>
     <key>n</key>
     <string>n.glif</string>
     <key>n.alt1</key>
@@ -454,22 +1418,62 @@
     <string>n.alt1.ss01.glif</string>
     <key>n.alt1.ss02</key>
     <string>n.alt1.ss02.glif</string>
+    <key>n.alt1.ss03</key>
+    <string>n.alt1.ss03.glif</string>
+    <key>n.alt1.ss04</key>
+    <string>n.alt1.ss04.glif</string>
+    <key>n.alt1.ss05</key>
+    <string>n.alt1.ss05.glif</string>
+    <key>n.alt1.ss06</key>
+    <string>n.alt1.ss06.glif</string>
+    <key>n.alt1.ss07</key>
+    <string>n.alt1.ss07.glif</string>
     <key>n.alt2</key>
     <string>n.alt2.glif</string>
     <key>n.alt2.ss01</key>
     <string>n.alt2.ss01.glif</string>
     <key>n.alt2.ss02</key>
     <string>n.alt2.ss02.glif</string>
+    <key>n.alt2.ss03</key>
+    <string>n.alt2.ss03.glif</string>
+    <key>n.alt2.ss04</key>
+    <string>n.alt2.ss04.glif</string>
+    <key>n.alt2.ss05</key>
+    <string>n.alt2.ss05.glif</string>
+    <key>n.alt2.ss06</key>
+    <string>n.alt2.ss06.glif</string>
+    <key>n.alt2.ss07</key>
+    <string>n.alt2.ss07.glif</string>
     <key>n.alt3</key>
     <string>n.alt3.glif</string>
     <key>n.alt3.ss01</key>
     <string>n.alt3.ss01.glif</string>
     <key>n.alt3.ss02</key>
     <string>n.alt3.ss02.glif</string>
+    <key>n.alt3.ss03</key>
+    <string>n.alt3.ss03.glif</string>
+    <key>n.alt3.ss04</key>
+    <string>n.alt3.ss04.glif</string>
+    <key>n.alt3.ss05</key>
+    <string>n.alt3.ss05.glif</string>
+    <key>n.alt3.ss06</key>
+    <string>n.alt3.ss06.glif</string>
+    <key>n.alt3.ss07</key>
+    <string>n.alt3.ss07.glif</string>
     <key>n.ss01</key>
     <string>n.ss01.glif</string>
     <key>n.ss02</key>
     <string>n.ss02.glif</string>
+    <key>n.ss03</key>
+    <string>n.ss03.glif</string>
+    <key>n.ss04</key>
+    <string>n.ss04.glif</string>
+    <key>n.ss05</key>
+    <string>n.ss05.glif</string>
+    <key>n.ss06</key>
+    <string>n.ss06.glif</string>
+    <key>n.ss07</key>
+    <string>n.ss07.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
     <key>nine.alt1</key>
@@ -478,16 +1482,78 @@
     <string>nine.alt1.ss01.glif</string>
     <key>nine.alt1.ss02</key>
     <string>nine.alt1.ss02.glif</string>
+    <key>nine.alt1.ss03</key>
+    <string>nine.alt1.ss03.glif</string>
+    <key>nine.alt1.ss04</key>
+    <string>nine.alt1.ss04.glif</string>
+    <key>nine.alt1.ss05</key>
+    <string>nine.alt1.ss05.glif</string>
+    <key>nine.alt1.ss06</key>
+    <string>nine.alt1.ss06.glif</string>
+    <key>nine.alt1.ss07</key>
+    <string>nine.alt1.ss07.glif</string>
     <key>nine.alt2</key>
     <string>nine.alt2.glif</string>
     <key>nine.alt2.ss01</key>
     <string>nine.alt2.ss01.glif</string>
     <key>nine.alt2.ss02</key>
     <string>nine.alt2.ss02.glif</string>
+    <key>nine.alt2.ss03</key>
+    <string>nine.alt2.ss03.glif</string>
+    <key>nine.alt2.ss04</key>
+    <string>nine.alt2.ss04.glif</string>
+    <key>nine.alt2.ss05</key>
+    <string>nine.alt2.ss05.glif</string>
+    <key>nine.alt2.ss06</key>
+    <string>nine.alt2.ss06.glif</string>
+    <key>nine.alt2.ss07</key>
+    <string>nine.alt2.ss07.glif</string>
     <key>nine.ss01</key>
     <string>nine.ss01.glif</string>
     <key>nine.ss02</key>
     <string>nine.ss02.glif</string>
+    <key>nine.ss03</key>
+    <string>nine.ss03.glif</string>
+    <key>nine.ss04</key>
+    <string>nine.ss04.glif</string>
+    <key>nine.ss05</key>
+    <string>nine.ss05.glif</string>
+    <key>nine.ss06</key>
+    <string>nine.ss06.glif</string>
+    <key>nine.ss07</key>
+    <string>nine.ss07.glif</string>
+    <key>numbersign</key>
+    <string>numbersign.glif</string>
+    <key>numbersign.alt1</key>
+    <string>numbersign.alt1.glif</string>
+    <key>numbersign.alt1.ss01</key>
+    <string>numbersign.alt1.ss01.glif</string>
+    <key>numbersign.alt1.ss02</key>
+    <string>numbersign.alt1.ss02.glif</string>
+    <key>numbersign.alt1.ss03</key>
+    <string>numbersign.alt1.ss03.glif</string>
+    <key>numbersign.alt1.ss04</key>
+    <string>numbersign.alt1.ss04.glif</string>
+    <key>numbersign.alt1.ss05</key>
+    <string>numbersign.alt1.ss05.glif</string>
+    <key>numbersign.alt1.ss06</key>
+    <string>numbersign.alt1.ss06.glif</string>
+    <key>numbersign.alt1.ss07</key>
+    <string>numbersign.alt1.ss07.glif</string>
+    <key>numbersign.ss01</key>
+    <string>numbersign.ss01.glif</string>
+    <key>numbersign.ss02</key>
+    <string>numbersign.ss02.glif</string>
+    <key>numbersign.ss03</key>
+    <string>numbersign.ss03.glif</string>
+    <key>numbersign.ss04</key>
+    <string>numbersign.ss04.glif</string>
+    <key>numbersign.ss05</key>
+    <string>numbersign.ss05.glif</string>
+    <key>numbersign.ss06</key>
+    <string>numbersign.ss06.glif</string>
+    <key>numbersign.ss07</key>
+    <string>numbersign.ss07.glif</string>
     <key>o</key>
     <string>o.glif</string>
     <key>o.alt1</key>
@@ -496,46 +1562,126 @@
     <string>o.alt1.ss01.glif</string>
     <key>o.alt1.ss02</key>
     <string>o.alt1.ss02.glif</string>
+    <key>o.alt1.ss03</key>
+    <string>o.alt1.ss03.glif</string>
+    <key>o.alt1.ss04</key>
+    <string>o.alt1.ss04.glif</string>
+    <key>o.alt1.ss05</key>
+    <string>o.alt1.ss05.glif</string>
+    <key>o.alt1.ss06</key>
+    <string>o.alt1.ss06.glif</string>
+    <key>o.alt1.ss07</key>
+    <string>o.alt1.ss07.glif</string>
     <key>o.alt2</key>
     <string>o.alt2.glif</string>
     <key>o.alt2.ss01</key>
     <string>o.alt2.ss01.glif</string>
     <key>o.alt2.ss02</key>
     <string>o.alt2.ss02.glif</string>
+    <key>o.alt2.ss03</key>
+    <string>o.alt2.ss03.glif</string>
+    <key>o.alt2.ss04</key>
+    <string>o.alt2.ss04.glif</string>
+    <key>o.alt2.ss05</key>
+    <string>o.alt2.ss05.glif</string>
+    <key>o.alt2.ss06</key>
+    <string>o.alt2.ss06.glif</string>
+    <key>o.alt2.ss07</key>
+    <string>o.alt2.ss07.glif</string>
     <key>o.alt3</key>
     <string>o.alt3.glif</string>
     <key>o.alt3.ss01</key>
     <string>o.alt3.ss01.glif</string>
     <key>o.alt3.ss02</key>
     <string>o.alt3.ss02.glif</string>
+    <key>o.alt3.ss03</key>
+    <string>o.alt3.ss03.glif</string>
+    <key>o.alt3.ss04</key>
+    <string>o.alt3.ss04.glif</string>
+    <key>o.alt3.ss05</key>
+    <string>o.alt3.ss05.glif</string>
+    <key>o.alt3.ss06</key>
+    <string>o.alt3.ss06.glif</string>
+    <key>o.alt3.ss07</key>
+    <string>o.alt3.ss07.glif</string>
     <key>o.alt4</key>
     <string>o.alt4.glif</string>
     <key>o.alt4.ss01</key>
     <string>o.alt4.ss01.glif</string>
     <key>o.alt4.ss02</key>
     <string>o.alt4.ss02.glif</string>
+    <key>o.alt4.ss03</key>
+    <string>o.alt4.ss03.glif</string>
+    <key>o.alt4.ss04</key>
+    <string>o.alt4.ss04.glif</string>
+    <key>o.alt4.ss05</key>
+    <string>o.alt4.ss05.glif</string>
+    <key>o.alt4.ss06</key>
+    <string>o.alt4.ss06.glif</string>
+    <key>o.alt4.ss07</key>
+    <string>o.alt4.ss07.glif</string>
     <key>o.alt5</key>
     <string>o.alt5.glif</string>
     <key>o.alt5.ss01</key>
     <string>o.alt5.ss01.glif</string>
     <key>o.alt5.ss02</key>
     <string>o.alt5.ss02.glif</string>
+    <key>o.alt5.ss03</key>
+    <string>o.alt5.ss03.glif</string>
+    <key>o.alt5.ss04</key>
+    <string>o.alt5.ss04.glif</string>
+    <key>o.alt5.ss05</key>
+    <string>o.alt5.ss05.glif</string>
+    <key>o.alt5.ss06</key>
+    <string>o.alt5.ss06.glif</string>
+    <key>o.alt5.ss07</key>
+    <string>o.alt5.ss07.glif</string>
     <key>o.ss01</key>
     <string>o.ss01.glif</string>
     <key>o.ss02</key>
     <string>o.ss02.glif</string>
+    <key>o.ss03</key>
+    <string>o.ss03.glif</string>
+    <key>o.ss04</key>
+    <string>o.ss04.glif</string>
+    <key>o.ss05</key>
+    <string>o.ss05.glif</string>
+    <key>o.ss06</key>
+    <string>o.ss06.glif</string>
+    <key>o.ss07</key>
+    <string>o.ss07.glif</string>
     <key>oacute</key>
     <string>oacute.glif</string>
     <key>oacute.ss01</key>
     <string>oacute.ss01.glif</string>
     <key>oacute.ss02</key>
     <string>oacute.ss02.glif</string>
+    <key>oacute.ss03</key>
+    <string>oacute.ss03.glif</string>
+    <key>oacute.ss04</key>
+    <string>oacute.ss04.glif</string>
+    <key>oacute.ss05</key>
+    <string>oacute.ss05.glif</string>
+    <key>oacute.ss06</key>
+    <string>oacute.ss06.glif</string>
+    <key>oacute.ss07</key>
+    <string>oacute.ss07.glif</string>
     <key>ograve</key>
     <string>ograve.glif</string>
     <key>ograve.ss01</key>
     <string>ograve.ss01.glif</string>
     <key>ograve.ss02</key>
     <string>ograve.ss02.glif</string>
+    <key>ograve.ss03</key>
+    <string>ograve.ss03.glif</string>
+    <key>ograve.ss04</key>
+    <string>ograve.ss04.glif</string>
+    <key>ograve.ss05</key>
+    <string>ograve.ss05.glif</string>
+    <key>ograve.ss06</key>
+    <string>ograve.ss06.glif</string>
+    <key>ograve.ss07</key>
+    <string>ograve.ss07.glif</string>
     <key>one</key>
     <string>one.glif</string>
     <key>one.alt1</key>
@@ -544,40 +1690,110 @@
     <string>one.alt1.ss01.glif</string>
     <key>one.alt1.ss02</key>
     <string>one.alt1.ss02.glif</string>
+    <key>one.alt1.ss03</key>
+    <string>one.alt1.ss03.glif</string>
+    <key>one.alt1.ss04</key>
+    <string>one.alt1.ss04.glif</string>
+    <key>one.alt1.ss05</key>
+    <string>one.alt1.ss05.glif</string>
+    <key>one.alt1.ss06</key>
+    <string>one.alt1.ss06.glif</string>
+    <key>one.alt1.ss07</key>
+    <string>one.alt1.ss07.glif</string>
     <key>one.alt2</key>
     <string>one.alt2.glif</string>
     <key>one.alt2.ss01</key>
     <string>one.alt2.ss01.glif</string>
     <key>one.alt2.ss02</key>
     <string>one.alt2.ss02.glif</string>
+    <key>one.alt2.ss03</key>
+    <string>one.alt2.ss03.glif</string>
+    <key>one.alt2.ss04</key>
+    <string>one.alt2.ss04.glif</string>
+    <key>one.alt2.ss05</key>
+    <string>one.alt2.ss05.glif</string>
+    <key>one.alt2.ss06</key>
+    <string>one.alt2.ss06.glif</string>
+    <key>one.alt2.ss07</key>
+    <string>one.alt2.ss07.glif</string>
     <key>one.alt3</key>
     <string>one.alt3.glif</string>
     <key>one.alt3.ss01</key>
     <string>one.alt3.ss01.glif</string>
     <key>one.alt3.ss02</key>
     <string>one.alt3.ss02.glif</string>
+    <key>one.alt3.ss03</key>
+    <string>one.alt3.ss03.glif</string>
+    <key>one.alt3.ss04</key>
+    <string>one.alt3.ss04.glif</string>
+    <key>one.alt3.ss05</key>
+    <string>one.alt3.ss05.glif</string>
+    <key>one.alt3.ss06</key>
+    <string>one.alt3.ss06.glif</string>
+    <key>one.alt3.ss07</key>
+    <string>one.alt3.ss07.glif</string>
     <key>one.alt4</key>
     <string>one.alt4.glif</string>
     <key>one.alt4.ss01</key>
     <string>one.alt4.ss01.glif</string>
     <key>one.alt4.ss02</key>
     <string>one.alt4.ss02.glif</string>
+    <key>one.alt4.ss03</key>
+    <string>one.alt4.ss03.glif</string>
+    <key>one.alt4.ss04</key>
+    <string>one.alt4.ss04.glif</string>
+    <key>one.alt4.ss05</key>
+    <string>one.alt4.ss05.glif</string>
+    <key>one.alt4.ss06</key>
+    <string>one.alt4.ss06.glif</string>
+    <key>one.alt4.ss07</key>
+    <string>one.alt4.ss07.glif</string>
     <key>one.alt5</key>
     <string>one.alt5.glif</string>
     <key>one.alt5.ss01</key>
     <string>one.alt5.ss01.glif</string>
     <key>one.alt5.ss02</key>
     <string>one.alt5.ss02.glif</string>
+    <key>one.alt5.ss03</key>
+    <string>one.alt5.ss03.glif</string>
+    <key>one.alt5.ss04</key>
+    <string>one.alt5.ss04.glif</string>
+    <key>one.alt5.ss05</key>
+    <string>one.alt5.ss05.glif</string>
+    <key>one.alt5.ss06</key>
+    <string>one.alt5.ss06.glif</string>
+    <key>one.alt5.ss07</key>
+    <string>one.alt5.ss07.glif</string>
     <key>one.alt6</key>
     <string>one.alt6.glif</string>
     <key>one.alt6.ss01</key>
     <string>one.alt6.ss01.glif</string>
     <key>one.alt6.ss02</key>
     <string>one.alt6.ss02.glif</string>
+    <key>one.alt6.ss03</key>
+    <string>one.alt6.ss03.glif</string>
+    <key>one.alt6.ss04</key>
+    <string>one.alt6.ss04.glif</string>
+    <key>one.alt6.ss05</key>
+    <string>one.alt6.ss05.glif</string>
+    <key>one.alt6.ss06</key>
+    <string>one.alt6.ss06.glif</string>
+    <key>one.alt6.ss07</key>
+    <string>one.alt6.ss07.glif</string>
     <key>one.ss01</key>
     <string>one.ss01.glif</string>
     <key>one.ss02</key>
     <string>one.ss02.glif</string>
+    <key>one.ss03</key>
+    <string>one.ss03.glif</string>
+    <key>one.ss04</key>
+    <string>one.ss04.glif</string>
+    <key>one.ss05</key>
+    <string>one.ss05.glif</string>
+    <key>one.ss06</key>
+    <string>one.ss06.glif</string>
+    <key>one.ss07</key>
+    <string>one.ss07.glif</string>
     <key>p</key>
     <string>p.glif</string>
     <key>p.alt1</key>
@@ -586,40 +1802,174 @@
     <string>p.alt1.ss01.glif</string>
     <key>p.alt1.ss02</key>
     <string>p.alt1.ss02.glif</string>
+    <key>p.alt1.ss03</key>
+    <string>p.alt1.ss03.glif</string>
+    <key>p.alt1.ss04</key>
+    <string>p.alt1.ss04.glif</string>
+    <key>p.alt1.ss05</key>
+    <string>p.alt1.ss05.glif</string>
+    <key>p.alt1.ss06</key>
+    <string>p.alt1.ss06.glif</string>
+    <key>p.alt1.ss07</key>
+    <string>p.alt1.ss07.glif</string>
     <key>p.alt2</key>
     <string>p.alt2.glif</string>
     <key>p.alt2.ss01</key>
     <string>p.alt2.ss01.glif</string>
     <key>p.alt2.ss02</key>
     <string>p.alt2.ss02.glif</string>
+    <key>p.alt2.ss03</key>
+    <string>p.alt2.ss03.glif</string>
+    <key>p.alt2.ss04</key>
+    <string>p.alt2.ss04.glif</string>
+    <key>p.alt2.ss05</key>
+    <string>p.alt2.ss05.glif</string>
+    <key>p.alt2.ss06</key>
+    <string>p.alt2.ss06.glif</string>
+    <key>p.alt2.ss07</key>
+    <string>p.alt2.ss07.glif</string>
     <key>p.alt3</key>
     <string>p.alt3.glif</string>
     <key>p.alt3.ss01</key>
     <string>p.alt3.ss01.glif</string>
     <key>p.alt3.ss02</key>
     <string>p.alt3.ss02.glif</string>
+    <key>p.alt3.ss03</key>
+    <string>p.alt3.ss03.glif</string>
+    <key>p.alt3.ss04</key>
+    <string>p.alt3.ss04.glif</string>
+    <key>p.alt3.ss05</key>
+    <string>p.alt3.ss05.glif</string>
+    <key>p.alt3.ss06</key>
+    <string>p.alt3.ss06.glif</string>
+    <key>p.alt3.ss07</key>
+    <string>p.alt3.ss07.glif</string>
     <key>p.alt4</key>
     <string>p.alt4.glif</string>
     <key>p.alt4.ss01</key>
     <string>p.alt4.ss01.glif</string>
     <key>p.alt4.ss02</key>
     <string>p.alt4.ss02.glif</string>
+    <key>p.alt4.ss03</key>
+    <string>p.alt4.ss03.glif</string>
+    <key>p.alt4.ss04</key>
+    <string>p.alt4.ss04.glif</string>
+    <key>p.alt4.ss05</key>
+    <string>p.alt4.ss05.glif</string>
+    <key>p.alt4.ss06</key>
+    <string>p.alt4.ss06.glif</string>
+    <key>p.alt4.ss07</key>
+    <string>p.alt4.ss07.glif</string>
     <key>p.alt5</key>
     <string>p.alt5.glif</string>
     <key>p.alt5.ss01</key>
     <string>p.alt5.ss01.glif</string>
     <key>p.alt5.ss02</key>
     <string>p.alt5.ss02.glif</string>
+    <key>p.alt5.ss03</key>
+    <string>p.alt5.ss03.glif</string>
+    <key>p.alt5.ss04</key>
+    <string>p.alt5.ss04.glif</string>
+    <key>p.alt5.ss05</key>
+    <string>p.alt5.ss05.glif</string>
+    <key>p.alt5.ss06</key>
+    <string>p.alt5.ss06.glif</string>
+    <key>p.alt5.ss07</key>
+    <string>p.alt5.ss07.glif</string>
     <key>p.ss01</key>
     <string>p.ss01.glif</string>
     <key>p.ss02</key>
     <string>p.ss02.glif</string>
+    <key>p.ss03</key>
+    <string>p.ss03.glif</string>
+    <key>p.ss04</key>
+    <string>p.ss04.glif</string>
+    <key>p.ss05</key>
+    <string>p.ss05.glif</string>
+    <key>p.ss06</key>
+    <string>p.ss06.glif</string>
+    <key>p.ss07</key>
+    <string>p.ss07.glif</string>
+    <key>parenleft</key>
+    <string>parenleft.glif</string>
+    <key>parenleft.ss01</key>
+    <string>parenleft.ss01.glif</string>
+    <key>parenleft.ss02</key>
+    <string>parenleft.ss02.glif</string>
+    <key>parenleft.ss03</key>
+    <string>parenleft.ss03.glif</string>
+    <key>parenleft.ss04</key>
+    <string>parenleft.ss04.glif</string>
+    <key>parenleft.ss05</key>
+    <string>parenleft.ss05.glif</string>
+    <key>parenleft.ss06</key>
+    <string>parenleft.ss06.glif</string>
+    <key>parenleft.ss07</key>
+    <string>parenleft.ss07.glif</string>
+    <key>parenright</key>
+    <string>parenright.glif</string>
+    <key>parenright.ss01</key>
+    <string>parenright.ss01.glif</string>
+    <key>parenright.ss02</key>
+    <string>parenright.ss02.glif</string>
+    <key>parenright.ss03</key>
+    <string>parenright.ss03.glif</string>
+    <key>parenright.ss04</key>
+    <string>parenright.ss04.glif</string>
+    <key>parenright.ss05</key>
+    <string>parenright.ss05.glif</string>
+    <key>parenright.ss06</key>
+    <string>parenright.ss06.glif</string>
+    <key>parenright.ss07</key>
+    <string>parenright.ss07.glif</string>
     <key>period</key>
     <string>period.glif</string>
     <key>period.ss01</key>
     <string>period.ss01.glif</string>
     <key>period.ss02</key>
     <string>period.ss02.glif</string>
+    <key>period.ss03</key>
+    <string>period.ss03.glif</string>
+    <key>period.ss04</key>
+    <string>period.ss04.glif</string>
+    <key>period.ss05</key>
+    <string>period.ss05.glif</string>
+    <key>period.ss06</key>
+    <string>period.ss06.glif</string>
+    <key>period.ss07</key>
+    <string>period.ss07.glif</string>
+    <key>plus</key>
+    <string>plus.glif</string>
+    <key>plus.alt1</key>
+    <string>plus.alt1.glif</string>
+    <key>plus.alt1.ss01</key>
+    <string>plus.alt1.ss01.glif</string>
+    <key>plus.alt1.ss02</key>
+    <string>plus.alt1.ss02.glif</string>
+    <key>plus.alt1.ss03</key>
+    <string>plus.alt1.ss03.glif</string>
+    <key>plus.alt1.ss04</key>
+    <string>plus.alt1.ss04.glif</string>
+    <key>plus.alt1.ss05</key>
+    <string>plus.alt1.ss05.glif</string>
+    <key>plus.alt1.ss06</key>
+    <string>plus.alt1.ss06.glif</string>
+    <key>plus.alt1.ss07</key>
+    <string>plus.alt1.ss07.glif</string>
+    <key>plus.ss01</key>
+    <string>plus.ss01.glif</string>
+    <key>plus.ss02</key>
+    <string>plus.ss02.glif</string>
+    <key>plus.ss03</key>
+    <string>plus.ss03.glif</string>
+    <key>plus.ss04</key>
+    <string>plus.ss04.glif</string>
+    <key>plus.ss05</key>
+    <string>plus.ss05.glif</string>
+    <key>plus.ss06</key>
+    <string>plus.ss06.glif</string>
+    <key>plus.ss07</key>
+    <string>plus.ss07.glif</string>
     <key>q</key>
     <string>q.glif</string>
     <key>q.alt1</key>
@@ -628,34 +1978,126 @@
     <string>q.alt1.ss01.glif</string>
     <key>q.alt1.ss02</key>
     <string>q.alt1.ss02.glif</string>
+    <key>q.alt1.ss03</key>
+    <string>q.alt1.ss03.glif</string>
+    <key>q.alt1.ss04</key>
+    <string>q.alt1.ss04.glif</string>
+    <key>q.alt1.ss05</key>
+    <string>q.alt1.ss05.glif</string>
+    <key>q.alt1.ss06</key>
+    <string>q.alt1.ss06.glif</string>
+    <key>q.alt1.ss07</key>
+    <string>q.alt1.ss07.glif</string>
     <key>q.alt2</key>
     <string>q.alt2.glif</string>
     <key>q.alt2.ss01</key>
     <string>q.alt2.ss01.glif</string>
     <key>q.alt2.ss02</key>
     <string>q.alt2.ss02.glif</string>
+    <key>q.alt2.ss03</key>
+    <string>q.alt2.ss03.glif</string>
+    <key>q.alt2.ss04</key>
+    <string>q.alt2.ss04.glif</string>
+    <key>q.alt2.ss05</key>
+    <string>q.alt2.ss05.glif</string>
+    <key>q.alt2.ss06</key>
+    <string>q.alt2.ss06.glif</string>
+    <key>q.alt2.ss07</key>
+    <string>q.alt2.ss07.glif</string>
     <key>q.alt3</key>
     <string>q.alt3.glif</string>
     <key>q.alt3.ss01</key>
     <string>q.alt3.ss01.glif</string>
     <key>q.alt3.ss02</key>
     <string>q.alt3.ss02.glif</string>
+    <key>q.alt3.ss03</key>
+    <string>q.alt3.ss03.glif</string>
+    <key>q.alt3.ss04</key>
+    <string>q.alt3.ss04.glif</string>
+    <key>q.alt3.ss05</key>
+    <string>q.alt3.ss05.glif</string>
+    <key>q.alt3.ss06</key>
+    <string>q.alt3.ss06.glif</string>
+    <key>q.alt3.ss07</key>
+    <string>q.alt3.ss07.glif</string>
     <key>q.ss01</key>
     <string>q.ss01.glif</string>
     <key>q.ss02</key>
     <string>q.ss02.glif</string>
+    <key>q.ss03</key>
+    <string>q.ss03.glif</string>
+    <key>q.ss04</key>
+    <string>q.ss04.glif</string>
+    <key>q.ss05</key>
+    <string>q.ss05.glif</string>
+    <key>q.ss06</key>
+    <string>q.ss06.glif</string>
+    <key>q.ss07</key>
+    <string>q.ss07.glif</string>
     <key>question</key>
     <string>question.glif</string>
     <key>question.ss01</key>
     <string>question.ss01.glif</string>
     <key>question.ss02</key>
     <string>question.ss02.glif</string>
+    <key>question.ss03</key>
+    <string>question.ss03.glif</string>
+    <key>question.ss04</key>
+    <string>question.ss04.glif</string>
+    <key>question.ss05</key>
+    <string>question.ss05.glif</string>
+    <key>question.ss06</key>
+    <string>question.ss06.glif</string>
+    <key>question.ss07</key>
+    <string>question.ss07.glif</string>
     <key>quotesingle</key>
     <string>quotesingle.glif</string>
+    <key>quotesingle.alt1</key>
+    <string>quotesingle.alt1.glif</string>
+    <key>quotesingle.alt1.ss01</key>
+    <string>quotesingle.alt1.ss01.glif</string>
+    <key>quotesingle.alt1.ss02</key>
+    <string>quotesingle.alt1.ss02.glif</string>
+    <key>quotesingle.alt1.ss03</key>
+    <string>quotesingle.alt1.ss03.glif</string>
+    <key>quotesingle.alt1.ss04</key>
+    <string>quotesingle.alt1.ss04.glif</string>
+    <key>quotesingle.alt1.ss05</key>
+    <string>quotesingle.alt1.ss05.glif</string>
+    <key>quotesingle.alt1.ss06</key>
+    <string>quotesingle.alt1.ss06.glif</string>
+    <key>quotesingle.alt1.ss07</key>
+    <string>quotesingle.alt1.ss07.glif</string>
+    <key>quotesingle.alt2</key>
+    <string>quotesingle.alt2.glif</string>
+    <key>quotesingle.alt2.ss01</key>
+    <string>quotesingle.alt2.ss01.glif</string>
+    <key>quotesingle.alt2.ss02</key>
+    <string>quotesingle.alt2.ss02.glif</string>
+    <key>quotesingle.alt2.ss03</key>
+    <string>quotesingle.alt2.ss03.glif</string>
+    <key>quotesingle.alt2.ss04</key>
+    <string>quotesingle.alt2.ss04.glif</string>
+    <key>quotesingle.alt2.ss05</key>
+    <string>quotesingle.alt2.ss05.glif</string>
+    <key>quotesingle.alt2.ss06</key>
+    <string>quotesingle.alt2.ss06.glif</string>
+    <key>quotesingle.alt2.ss07</key>
+    <string>quotesingle.alt2.ss07.glif</string>
     <key>quotesingle.ss01</key>
     <string>quotesingle.ss01.glif</string>
     <key>quotesingle.ss02</key>
     <string>quotesingle.ss02.glif</string>
+    <key>quotesingle.ss03</key>
+    <string>quotesingle.ss03.glif</string>
+    <key>quotesingle.ss04</key>
+    <string>quotesingle.ss04.glif</string>
+    <key>quotesingle.ss05</key>
+    <string>quotesingle.ss05.glif</string>
+    <key>quotesingle.ss06</key>
+    <string>quotesingle.ss06.glif</string>
+    <key>quotesingle.ss07</key>
+    <string>quotesingle.ss07.glif</string>
     <key>r</key>
     <string>r.glif</string>
     <key>r.alt1</key>
@@ -664,34 +2106,94 @@
     <string>r.alt1.ss01.glif</string>
     <key>r.alt1.ss02</key>
     <string>r.alt1.ss02.glif</string>
+    <key>r.alt1.ss03</key>
+    <string>r.alt1.ss03.glif</string>
+    <key>r.alt1.ss04</key>
+    <string>r.alt1.ss04.glif</string>
+    <key>r.alt1.ss05</key>
+    <string>r.alt1.ss05.glif</string>
+    <key>r.alt1.ss06</key>
+    <string>r.alt1.ss06.glif</string>
+    <key>r.alt1.ss07</key>
+    <string>r.alt1.ss07.glif</string>
     <key>r.alt2</key>
     <string>r.alt2.glif</string>
     <key>r.alt2.ss01</key>
     <string>r.alt2.ss01.glif</string>
     <key>r.alt2.ss02</key>
     <string>r.alt2.ss02.glif</string>
+    <key>r.alt2.ss03</key>
+    <string>r.alt2.ss03.glif</string>
+    <key>r.alt2.ss04</key>
+    <string>r.alt2.ss04.glif</string>
+    <key>r.alt2.ss05</key>
+    <string>r.alt2.ss05.glif</string>
+    <key>r.alt2.ss06</key>
+    <string>r.alt2.ss06.glif</string>
+    <key>r.alt2.ss07</key>
+    <string>r.alt2.ss07.glif</string>
     <key>r.alt3</key>
     <string>r.alt3.glif</string>
     <key>r.alt3.ss01</key>
     <string>r.alt3.ss01.glif</string>
     <key>r.alt3.ss02</key>
     <string>r.alt3.ss02.glif</string>
+    <key>r.alt3.ss03</key>
+    <string>r.alt3.ss03.glif</string>
+    <key>r.alt3.ss04</key>
+    <string>r.alt3.ss04.glif</string>
+    <key>r.alt3.ss05</key>
+    <string>r.alt3.ss05.glif</string>
+    <key>r.alt3.ss06</key>
+    <string>r.alt3.ss06.glif</string>
+    <key>r.alt3.ss07</key>
+    <string>r.alt3.ss07.glif</string>
     <key>r.alt4</key>
     <string>r.alt4.glif</string>
     <key>r.alt4.ss01</key>
     <string>r.alt4.ss01.glif</string>
     <key>r.alt4.ss02</key>
     <string>r.alt4.ss02.glif</string>
+    <key>r.alt4.ss03</key>
+    <string>r.alt4.ss03.glif</string>
+    <key>r.alt4.ss04</key>
+    <string>r.alt4.ss04.glif</string>
+    <key>r.alt4.ss05</key>
+    <string>r.alt4.ss05.glif</string>
+    <key>r.alt4.ss06</key>
+    <string>r.alt4.ss06.glif</string>
+    <key>r.alt4.ss07</key>
+    <string>r.alt4.ss07.glif</string>
     <key>r.alt5</key>
     <string>r.alt5.glif</string>
     <key>r.alt5.ss01</key>
     <string>r.alt5.ss01.glif</string>
     <key>r.alt5.ss02</key>
     <string>r.alt5.ss02.glif</string>
+    <key>r.alt5.ss03</key>
+    <string>r.alt5.ss03.glif</string>
+    <key>r.alt5.ss04</key>
+    <string>r.alt5.ss04.glif</string>
+    <key>r.alt5.ss05</key>
+    <string>r.alt5.ss05.glif</string>
+    <key>r.alt5.ss06</key>
+    <string>r.alt5.ss06.glif</string>
+    <key>r.alt5.ss07</key>
+    <string>r.alt5.ss07.glif</string>
     <key>r.ss01</key>
     <string>r.ss01.glif</string>
     <key>r.ss02</key>
     <string>r.ss02.glif</string>
+    <key>r.ss03</key>
+    <string>r.ss03.glif</string>
+    <key>r.ss04</key>
+    <string>r.ss04.glif</string>
+    <key>r.ss05</key>
+    <string>r.ss05.glif</string>
+    <key>r.ss06</key>
+    <string>r.ss06.glif</string>
+    <key>r.ss07</key>
+    <string>r.ss07.glif</string>
     <key>s</key>
     <string>s.glif</string>
     <key>s.alt1</key>
@@ -700,34 +2202,126 @@
     <string>s.alt1.ss01.glif</string>
     <key>s.alt1.ss02</key>
     <string>s.alt1.ss02.glif</string>
+    <key>s.alt1.ss03</key>
+    <string>s.alt1.ss03.glif</string>
+    <key>s.alt1.ss04</key>
+    <string>s.alt1.ss04.glif</string>
+    <key>s.alt1.ss05</key>
+    <string>s.alt1.ss05.glif</string>
+    <key>s.alt1.ss06</key>
+    <string>s.alt1.ss06.glif</string>
+    <key>s.alt1.ss07</key>
+    <string>s.alt1.ss07.glif</string>
     <key>s.alt2</key>
     <string>s.alt2.glif</string>
     <key>s.alt2.ss01</key>
     <string>s.alt2.ss01.glif</string>
     <key>s.alt2.ss02</key>
     <string>s.alt2.ss02.glif</string>
+    <key>s.alt2.ss03</key>
+    <string>s.alt2.ss03.glif</string>
+    <key>s.alt2.ss04</key>
+    <string>s.alt2.ss04.glif</string>
+    <key>s.alt2.ss05</key>
+    <string>s.alt2.ss05.glif</string>
+    <key>s.alt2.ss06</key>
+    <string>s.alt2.ss06.glif</string>
+    <key>s.alt2.ss07</key>
+    <string>s.alt2.ss07.glif</string>
     <key>s.alt3</key>
     <string>s.alt3.glif</string>
     <key>s.alt3.ss01</key>
     <string>s.alt3.ss01.glif</string>
     <key>s.alt3.ss02</key>
     <string>s.alt3.ss02.glif</string>
+    <key>s.alt3.ss03</key>
+    <string>s.alt3.ss03.glif</string>
+    <key>s.alt3.ss04</key>
+    <string>s.alt3.ss04.glif</string>
+    <key>s.alt3.ss05</key>
+    <string>s.alt3.ss05.glif</string>
+    <key>s.alt3.ss06</key>
+    <string>s.alt3.ss06.glif</string>
+    <key>s.alt3.ss07</key>
+    <string>s.alt3.ss07.glif</string>
     <key>s.alt4</key>
     <string>s.alt4.glif</string>
     <key>s.alt4.ss01</key>
     <string>s.alt4.ss01.glif</string>
     <key>s.alt4.ss02</key>
     <string>s.alt4.ss02.glif</string>
+    <key>s.alt4.ss03</key>
+    <string>s.alt4.ss03.glif</string>
+    <key>s.alt4.ss04</key>
+    <string>s.alt4.ss04.glif</string>
+    <key>s.alt4.ss05</key>
+    <string>s.alt4.ss05.glif</string>
+    <key>s.alt4.ss06</key>
+    <string>s.alt4.ss06.glif</string>
+    <key>s.alt4.ss07</key>
+    <string>s.alt4.ss07.glif</string>
     <key>s.ss01</key>
     <string>s.ss01.glif</string>
     <key>s.ss02</key>
     <string>s.ss02.glif</string>
+    <key>s.ss03</key>
+    <string>s.ss03.glif</string>
+    <key>s.ss04</key>
+    <string>s.ss04.glif</string>
+    <key>s.ss05</key>
+    <string>s.ss05.glif</string>
+    <key>s.ss06</key>
+    <string>s.ss06.glif</string>
+    <key>s.ss07</key>
+    <string>s.ss07.glif</string>
     <key>semicolon</key>
     <string>semicolon.glif</string>
+    <key>semicolon.alt1</key>
+    <string>semicolon.alt1.glif</string>
+    <key>semicolon.alt1.ss01</key>
+    <string>semicolon.alt1.ss01.glif</string>
+    <key>semicolon.alt1.ss02</key>
+    <string>semicolon.alt1.ss02.glif</string>
+    <key>semicolon.alt1.ss03</key>
+    <string>semicolon.alt1.ss03.glif</string>
+    <key>semicolon.alt1.ss04</key>
+    <string>semicolon.alt1.ss04.glif</string>
+    <key>semicolon.alt1.ss05</key>
+    <string>semicolon.alt1.ss05.glif</string>
+    <key>semicolon.alt1.ss06</key>
+    <string>semicolon.alt1.ss06.glif</string>
+    <key>semicolon.alt1.ss07</key>
+    <string>semicolon.alt1.ss07.glif</string>
+    <key>semicolon.alt2</key>
+    <string>semicolon.alt2.glif</string>
+    <key>semicolon.alt2.ss01</key>
+    <string>semicolon.alt2.ss01.glif</string>
+    <key>semicolon.alt2.ss02</key>
+    <string>semicolon.alt2.ss02.glif</string>
+    <key>semicolon.alt2.ss03</key>
+    <string>semicolon.alt2.ss03.glif</string>
+    <key>semicolon.alt2.ss04</key>
+    <string>semicolon.alt2.ss04.glif</string>
+    <key>semicolon.alt2.ss05</key>
+    <string>semicolon.alt2.ss05.glif</string>
+    <key>semicolon.alt2.ss06</key>
+    <string>semicolon.alt2.ss06.glif</string>
+    <key>semicolon.alt2.ss07</key>
+    <string>semicolon.alt2.ss07.glif</string>
     <key>semicolon.ss01</key>
     <string>semicolon.ss01.glif</string>
     <key>semicolon.ss02</key>
     <string>semicolon.ss02.glif</string>
+    <key>semicolon.ss03</key>
+    <string>semicolon.ss03.glif</string>
+    <key>semicolon.ss04</key>
+    <string>semicolon.ss04.glif</string>
+    <key>semicolon.ss05</key>
+    <string>semicolon.ss05.glif</string>
+    <key>semicolon.ss06</key>
+    <string>semicolon.ss06.glif</string>
+    <key>semicolon.ss07</key>
+    <string>semicolon.ss07.glif</string>
     <key>seven</key>
     <string>seven.glif</string>
     <key>seven.alt1</key>
@@ -736,16 +2330,46 @@
     <string>seven.alt1.ss01.glif</string>
     <key>seven.alt1.ss02</key>
     <string>seven.alt1.ss02.glif</string>
+    <key>seven.alt1.ss03</key>
+    <string>seven.alt1.ss03.glif</string>
+    <key>seven.alt1.ss04</key>
+    <string>seven.alt1.ss04.glif</string>
+    <key>seven.alt1.ss05</key>
+    <string>seven.alt1.ss05.glif</string>
+    <key>seven.alt1.ss06</key>
+    <string>seven.alt1.ss06.glif</string>
+    <key>seven.alt1.ss07</key>
+    <string>seven.alt1.ss07.glif</string>
     <key>seven.alt2</key>
     <string>seven.alt2.glif</string>
     <key>seven.alt2.ss01</key>
     <string>seven.alt2.ss01.glif</string>
     <key>seven.alt2.ss02</key>
     <string>seven.alt2.ss02.glif</string>
+    <key>seven.alt2.ss03</key>
+    <string>seven.alt2.ss03.glif</string>
+    <key>seven.alt2.ss04</key>
+    <string>seven.alt2.ss04.glif</string>
+    <key>seven.alt2.ss05</key>
+    <string>seven.alt2.ss05.glif</string>
+    <key>seven.alt2.ss06</key>
+    <string>seven.alt2.ss06.glif</string>
+    <key>seven.alt2.ss07</key>
+    <string>seven.alt2.ss07.glif</string>
     <key>seven.ss01</key>
     <string>seven.ss01.glif</string>
     <key>seven.ss02</key>
     <string>seven.ss02.glif</string>
+    <key>seven.ss03</key>
+    <string>seven.ss03.glif</string>
+    <key>seven.ss04</key>
+    <string>seven.ss04.glif</string>
+    <key>seven.ss05</key>
+    <string>seven.ss05.glif</string>
+    <key>seven.ss06</key>
+    <string>seven.ss06.glif</string>
+    <key>seven.ss07</key>
+    <string>seven.ss07.glif</string>
     <key>six</key>
     <string>six.glif</string>
     <key>six.alt1</key>
@@ -754,22 +2378,78 @@
     <string>six.alt1.ss01.glif</string>
     <key>six.alt1.ss02</key>
     <string>six.alt1.ss02.glif</string>
+    <key>six.alt1.ss03</key>
+    <string>six.alt1.ss03.glif</string>
+    <key>six.alt1.ss04</key>
+    <string>six.alt1.ss04.glif</string>
+    <key>six.alt1.ss05</key>
+    <string>six.alt1.ss05.glif</string>
+    <key>six.alt1.ss06</key>
+    <string>six.alt1.ss06.glif</string>
+    <key>six.alt1.ss07</key>
+    <string>six.alt1.ss07.glif</string>
     <key>six.alt2</key>
     <string>six.alt2.glif</string>
     <key>six.alt2.ss01</key>
     <string>six.alt2.ss01.glif</string>
     <key>six.alt2.ss02</key>
     <string>six.alt2.ss02.glif</string>
+    <key>six.alt2.ss03</key>
+    <string>six.alt2.ss03.glif</string>
+    <key>six.alt2.ss04</key>
+    <string>six.alt2.ss04.glif</string>
+    <key>six.alt2.ss05</key>
+    <string>six.alt2.ss05.glif</string>
+    <key>six.alt2.ss06</key>
+    <string>six.alt2.ss06.glif</string>
+    <key>six.alt2.ss07</key>
+    <string>six.alt2.ss07.glif</string>
     <key>six.ss01</key>
     <string>six.ss01.glif</string>
     <key>six.ss02</key>
     <string>six.ss02.glif</string>
+    <key>six.ss03</key>
+    <string>six.ss03.glif</string>
+    <key>six.ss04</key>
+    <string>six.ss04.glif</string>
+    <key>six.ss05</key>
+    <string>six.ss05.glif</string>
+    <key>six.ss06</key>
+    <string>six.ss06.glif</string>
+    <key>six.ss07</key>
+    <string>six.ss07.glif</string>
+    <key>slash</key>
+    <string>slash.glif</string>
+    <key>slash.ss01</key>
+    <string>slash.ss01.glif</string>
+    <key>slash.ss02</key>
+    <string>slash.ss02.glif</string>
+    <key>slash.ss03</key>
+    <string>slash.ss03.glif</string>
+    <key>slash.ss04</key>
+    <string>slash.ss04.glif</string>
+    <key>slash.ss05</key>
+    <string>slash.ss05.glif</string>
+    <key>slash.ss06</key>
+    <string>slash.ss06.glif</string>
+    <key>slash.ss07</key>
+    <string>slash.ss07.glif</string>
     <key>space</key>
     <string>space.glif</string>
     <key>space.ss01</key>
     <string>space.ss01.glif</string>
     <key>space.ss02</key>
     <string>space.ss02.glif</string>
+    <key>space.ss03</key>
+    <string>space.ss03.glif</string>
+    <key>space.ss04</key>
+    <string>space.ss04.glif</string>
+    <key>space.ss05</key>
+    <string>space.ss05.glif</string>
+    <key>space.ss06</key>
+    <string>space.ss06.glif</string>
+    <key>space.ss07</key>
+    <string>space.ss07.glif</string>
     <key>t</key>
     <string>t.glif</string>
     <key>t.alt1</key>
@@ -778,28 +2458,78 @@
     <string>t.alt1.ss01.glif</string>
     <key>t.alt1.ss02</key>
     <string>t.alt1.ss02.glif</string>
+    <key>t.alt1.ss03</key>
+    <string>t.alt1.ss03.glif</string>
+    <key>t.alt1.ss04</key>
+    <string>t.alt1.ss04.glif</string>
+    <key>t.alt1.ss05</key>
+    <string>t.alt1.ss05.glif</string>
+    <key>t.alt1.ss06</key>
+    <string>t.alt1.ss06.glif</string>
+    <key>t.alt1.ss07</key>
+    <string>t.alt1.ss07.glif</string>
     <key>t.alt2</key>
     <string>t.alt2.glif</string>
     <key>t.alt2.ss01</key>
     <string>t.alt2.ss01.glif</string>
     <key>t.alt2.ss02</key>
     <string>t.alt2.ss02.glif</string>
+    <key>t.alt2.ss03</key>
+    <string>t.alt2.ss03.glif</string>
+    <key>t.alt2.ss04</key>
+    <string>t.alt2.ss04.glif</string>
+    <key>t.alt2.ss05</key>
+    <string>t.alt2.ss05.glif</string>
+    <key>t.alt2.ss06</key>
+    <string>t.alt2.ss06.glif</string>
+    <key>t.alt2.ss07</key>
+    <string>t.alt2.ss07.glif</string>
     <key>t.alt3</key>
     <string>t.alt3.glif</string>
     <key>t.alt3.ss01</key>
     <string>t.alt3.ss01.glif</string>
     <key>t.alt3.ss02</key>
     <string>t.alt3.ss02.glif</string>
+    <key>t.alt3.ss03</key>
+    <string>t.alt3.ss03.glif</string>
+    <key>t.alt3.ss04</key>
+    <string>t.alt3.ss04.glif</string>
+    <key>t.alt3.ss05</key>
+    <string>t.alt3.ss05.glif</string>
+    <key>t.alt3.ss06</key>
+    <string>t.alt3.ss06.glif</string>
+    <key>t.alt3.ss07</key>
+    <string>t.alt3.ss07.glif</string>
     <key>t.alt4</key>
     <string>t.alt4.glif</string>
     <key>t.alt4.ss01</key>
     <string>t.alt4.ss01.glif</string>
     <key>t.alt4.ss02</key>
     <string>t.alt4.ss02.glif</string>
+    <key>t.alt4.ss03</key>
+    <string>t.alt4.ss03.glif</string>
+    <key>t.alt4.ss04</key>
+    <string>t.alt4.ss04.glif</string>
+    <key>t.alt4.ss05</key>
+    <string>t.alt4.ss05.glif</string>
+    <key>t.alt4.ss06</key>
+    <string>t.alt4.ss06.glif</string>
+    <key>t.alt4.ss07</key>
+    <string>t.alt4.ss07.glif</string>
     <key>t.ss01</key>
     <string>t.ss01.glif</string>
     <key>t.ss02</key>
     <string>t.ss02.glif</string>
+    <key>t.ss03</key>
+    <string>t.ss03.glif</string>
+    <key>t.ss04</key>
+    <string>t.ss04.glif</string>
+    <key>t.ss05</key>
+    <string>t.ss05.glif</string>
+    <key>t.ss06</key>
+    <string>t.ss06.glif</string>
+    <key>t.ss07</key>
+    <string>t.ss07.glif</string>
     <key>three</key>
     <string>three.glif</string>
     <key>three.alt1</key>
@@ -808,28 +2538,78 @@
     <string>three.alt1.ss01.glif</string>
     <key>three.alt1.ss02</key>
     <string>three.alt1.ss02.glif</string>
+    <key>three.alt1.ss03</key>
+    <string>three.alt1.ss03.glif</string>
+    <key>three.alt1.ss04</key>
+    <string>three.alt1.ss04.glif</string>
+    <key>three.alt1.ss05</key>
+    <string>three.alt1.ss05.glif</string>
+    <key>three.alt1.ss06</key>
+    <string>three.alt1.ss06.glif</string>
+    <key>three.alt1.ss07</key>
+    <string>three.alt1.ss07.glif</string>
     <key>three.alt2</key>
     <string>three.alt2.glif</string>
     <key>three.alt2.ss01</key>
     <string>three.alt2.ss01.glif</string>
     <key>three.alt2.ss02</key>
     <string>three.alt2.ss02.glif</string>
+    <key>three.alt2.ss03</key>
+    <string>three.alt2.ss03.glif</string>
+    <key>three.alt2.ss04</key>
+    <string>three.alt2.ss04.glif</string>
+    <key>three.alt2.ss05</key>
+    <string>three.alt2.ss05.glif</string>
+    <key>three.alt2.ss06</key>
+    <string>three.alt2.ss06.glif</string>
+    <key>three.alt2.ss07</key>
+    <string>three.alt2.ss07.glif</string>
     <key>three.alt3</key>
     <string>three.alt3.glif</string>
     <key>three.alt3.ss01</key>
     <string>three.alt3.ss01.glif</string>
     <key>three.alt3.ss02</key>
     <string>three.alt3.ss02.glif</string>
+    <key>three.alt3.ss03</key>
+    <string>three.alt3.ss03.glif</string>
+    <key>three.alt3.ss04</key>
+    <string>three.alt3.ss04.glif</string>
+    <key>three.alt3.ss05</key>
+    <string>three.alt3.ss05.glif</string>
+    <key>three.alt3.ss06</key>
+    <string>three.alt3.ss06.glif</string>
+    <key>three.alt3.ss07</key>
+    <string>three.alt3.ss07.glif</string>
     <key>three.alt4</key>
     <string>three.alt4.glif</string>
     <key>three.alt4.ss01</key>
     <string>three.alt4.ss01.glif</string>
     <key>three.alt4.ss02</key>
     <string>three.alt4.ss02.glif</string>
+    <key>three.alt4.ss03</key>
+    <string>three.alt4.ss03.glif</string>
+    <key>three.alt4.ss04</key>
+    <string>three.alt4.ss04.glif</string>
+    <key>three.alt4.ss05</key>
+    <string>three.alt4.ss05.glif</string>
+    <key>three.alt4.ss06</key>
+    <string>three.alt4.ss06.glif</string>
+    <key>three.alt4.ss07</key>
+    <string>three.alt4.ss07.glif</string>
     <key>three.ss01</key>
     <string>three.ss01.glif</string>
     <key>three.ss02</key>
     <string>three.ss02.glif</string>
+    <key>three.ss03</key>
+    <string>three.ss03.glif</string>
+    <key>three.ss04</key>
+    <string>three.ss04.glif</string>
+    <key>three.ss05</key>
+    <string>three.ss05.glif</string>
+    <key>three.ss06</key>
+    <string>three.ss06.glif</string>
+    <key>three.ss07</key>
+    <string>three.ss07.glif</string>
     <key>two</key>
     <string>two.glif</string>
     <key>two.alt1</key>
@@ -838,58 +2618,158 @@
     <string>two.alt1.ss01.glif</string>
     <key>two.alt1.ss02</key>
     <string>two.alt1.ss02.glif</string>
+    <key>two.alt1.ss03</key>
+    <string>two.alt1.ss03.glif</string>
+    <key>two.alt1.ss04</key>
+    <string>two.alt1.ss04.glif</string>
+    <key>two.alt1.ss05</key>
+    <string>two.alt1.ss05.glif</string>
+    <key>two.alt1.ss06</key>
+    <string>two.alt1.ss06.glif</string>
+    <key>two.alt1.ss07</key>
+    <string>two.alt1.ss07.glif</string>
     <key>two.alt2</key>
     <string>two.alt2.glif</string>
     <key>two.alt2.ss01</key>
     <string>two.alt2.ss01.glif</string>
     <key>two.alt2.ss02</key>
     <string>two.alt2.ss02.glif</string>
+    <key>two.alt2.ss03</key>
+    <string>two.alt2.ss03.glif</string>
+    <key>two.alt2.ss04</key>
+    <string>two.alt2.ss04.glif</string>
+    <key>two.alt2.ss05</key>
+    <string>two.alt2.ss05.glif</string>
+    <key>two.alt2.ss06</key>
+    <string>two.alt2.ss06.glif</string>
+    <key>two.alt2.ss07</key>
+    <string>two.alt2.ss07.glif</string>
     <key>two.alt3</key>
     <string>two.alt3.glif</string>
     <key>two.alt3.ss01</key>
     <string>two.alt3.ss01.glif</string>
     <key>two.alt3.ss02</key>
     <string>two.alt3.ss02.glif</string>
+    <key>two.alt3.ss03</key>
+    <string>two.alt3.ss03.glif</string>
+    <key>two.alt3.ss04</key>
+    <string>two.alt3.ss04.glif</string>
+    <key>two.alt3.ss05</key>
+    <string>two.alt3.ss05.glif</string>
+    <key>two.alt3.ss06</key>
+    <string>two.alt3.ss06.glif</string>
+    <key>two.alt3.ss07</key>
+    <string>two.alt3.ss07.glif</string>
     <key>two.alt4</key>
     <string>two.alt4.glif</string>
     <key>two.alt4.ss01</key>
     <string>two.alt4.ss01.glif</string>
     <key>two.alt4.ss02</key>
     <string>two.alt4.ss02.glif</string>
+    <key>two.alt4.ss03</key>
+    <string>two.alt4.ss03.glif</string>
+    <key>two.alt4.ss04</key>
+    <string>two.alt4.ss04.glif</string>
+    <key>two.alt4.ss05</key>
+    <string>two.alt4.ss05.glif</string>
+    <key>two.alt4.ss06</key>
+    <string>two.alt4.ss06.glif</string>
+    <key>two.alt4.ss07</key>
+    <string>two.alt4.ss07.glif</string>
     <key>two.alt5</key>
     <string>two.alt5.glif</string>
     <key>two.alt5.ss01</key>
     <string>two.alt5.ss01.glif</string>
     <key>two.alt5.ss02</key>
     <string>two.alt5.ss02.glif</string>
+    <key>two.alt5.ss03</key>
+    <string>two.alt5.ss03.glif</string>
+    <key>two.alt5.ss04</key>
+    <string>two.alt5.ss04.glif</string>
+    <key>two.alt5.ss05</key>
+    <string>two.alt5.ss05.glif</string>
+    <key>two.alt5.ss06</key>
+    <string>two.alt5.ss06.glif</string>
+    <key>two.alt5.ss07</key>
+    <string>two.alt5.ss07.glif</string>
     <key>two.alt6</key>
     <string>two.alt6.glif</string>
     <key>two.alt6.ss01</key>
     <string>two.alt6.ss01.glif</string>
     <key>two.alt6.ss02</key>
     <string>two.alt6.ss02.glif</string>
+    <key>two.alt6.ss03</key>
+    <string>two.alt6.ss03.glif</string>
+    <key>two.alt6.ss04</key>
+    <string>two.alt6.ss04.glif</string>
+    <key>two.alt6.ss05</key>
+    <string>two.alt6.ss05.glif</string>
+    <key>two.alt6.ss06</key>
+    <string>two.alt6.ss06.glif</string>
+    <key>two.alt6.ss07</key>
+    <string>two.alt6.ss07.glif</string>
     <key>two.alt7</key>
     <string>two.alt7.glif</string>
     <key>two.alt7.ss01</key>
     <string>two.alt7.ss01.glif</string>
     <key>two.alt7.ss02</key>
     <string>two.alt7.ss02.glif</string>
+    <key>two.alt7.ss03</key>
+    <string>two.alt7.ss03.glif</string>
+    <key>two.alt7.ss04</key>
+    <string>two.alt7.ss04.glif</string>
+    <key>two.alt7.ss05</key>
+    <string>two.alt7.ss05.glif</string>
+    <key>two.alt7.ss06</key>
+    <string>two.alt7.ss06.glif</string>
+    <key>two.alt7.ss07</key>
+    <string>two.alt7.ss07.glif</string>
     <key>two.alt8</key>
     <string>two.alt8.glif</string>
     <key>two.alt8.ss01</key>
     <string>two.alt8.ss01.glif</string>
     <key>two.alt8.ss02</key>
     <string>two.alt8.ss02.glif</string>
+    <key>two.alt8.ss03</key>
+    <string>two.alt8.ss03.glif</string>
+    <key>two.alt8.ss04</key>
+    <string>two.alt8.ss04.glif</string>
+    <key>two.alt8.ss05</key>
+    <string>two.alt8.ss05.glif</string>
+    <key>two.alt8.ss06</key>
+    <string>two.alt8.ss06.glif</string>
+    <key>two.alt8.ss07</key>
+    <string>two.alt8.ss07.glif</string>
     <key>two.alt9</key>
     <string>two.alt9.glif</string>
     <key>two.alt9.ss01</key>
     <string>two.alt9.ss01.glif</string>
     <key>two.alt9.ss02</key>
     <string>two.alt9.ss02.glif</string>
+    <key>two.alt9.ss03</key>
+    <string>two.alt9.ss03.glif</string>
+    <key>two.alt9.ss04</key>
+    <string>two.alt9.ss04.glif</string>
+    <key>two.alt9.ss05</key>
+    <string>two.alt9.ss05.glif</string>
+    <key>two.alt9.ss06</key>
+    <string>two.alt9.ss06.glif</string>
+    <key>two.alt9.ss07</key>
+    <string>two.alt9.ss07.glif</string>
     <key>two.ss01</key>
     <string>two.ss01.glif</string>
     <key>two.ss02</key>
     <string>two.ss02.glif</string>
+    <key>two.ss03</key>
+    <string>two.ss03.glif</string>
+    <key>two.ss04</key>
+    <string>two.ss04.glif</string>
+    <key>two.ss05</key>
+    <string>two.ss05.glif</string>
+    <key>two.ss06</key>
+    <string>two.ss06.glif</string>
+    <key>two.ss07</key>
+    <string>two.ss07.glif</string>
     <key>u</key>
     <string>u.glif</string>
     <key>u.alt1</key>
@@ -898,34 +2778,110 @@
     <string>u.alt1.ss01.glif</string>
     <key>u.alt1.ss02</key>
     <string>u.alt1.ss02.glif</string>
+    <key>u.alt1.ss03</key>
+    <string>u.alt1.ss03.glif</string>
+    <key>u.alt1.ss04</key>
+    <string>u.alt1.ss04.glif</string>
+    <key>u.alt1.ss05</key>
+    <string>u.alt1.ss05.glif</string>
+    <key>u.alt1.ss06</key>
+    <string>u.alt1.ss06.glif</string>
+    <key>u.alt1.ss07</key>
+    <string>u.alt1.ss07.glif</string>
     <key>u.alt2</key>
     <string>u.alt2.glif</string>
     <key>u.alt2.ss01</key>
     <string>u.alt2.ss01.glif</string>
     <key>u.alt2.ss02</key>
     <string>u.alt2.ss02.glif</string>
+    <key>u.alt2.ss03</key>
+    <string>u.alt2.ss03.glif</string>
+    <key>u.alt2.ss04</key>
+    <string>u.alt2.ss04.glif</string>
+    <key>u.alt2.ss05</key>
+    <string>u.alt2.ss05.glif</string>
+    <key>u.alt2.ss06</key>
+    <string>u.alt2.ss06.glif</string>
+    <key>u.alt2.ss07</key>
+    <string>u.alt2.ss07.glif</string>
     <key>u.alt3</key>
     <string>u.alt3.glif</string>
     <key>u.alt3.ss01</key>
     <string>u.alt3.ss01.glif</string>
     <key>u.alt3.ss02</key>
     <string>u.alt3.ss02.glif</string>
+    <key>u.alt3.ss03</key>
+    <string>u.alt3.ss03.glif</string>
+    <key>u.alt3.ss04</key>
+    <string>u.alt3.ss04.glif</string>
+    <key>u.alt3.ss05</key>
+    <string>u.alt3.ss05.glif</string>
+    <key>u.alt3.ss06</key>
+    <string>u.alt3.ss06.glif</string>
+    <key>u.alt3.ss07</key>
+    <string>u.alt3.ss07.glif</string>
     <key>u.ss01</key>
     <string>u.ss01.glif</string>
     <key>u.ss02</key>
     <string>u.ss02.glif</string>
+    <key>u.ss03</key>
+    <string>u.ss03.glif</string>
+    <key>u.ss04</key>
+    <string>u.ss04.glif</string>
+    <key>u.ss05</key>
+    <string>u.ss05.glif</string>
+    <key>u.ss06</key>
+    <string>u.ss06.glif</string>
+    <key>u.ss07</key>
+    <string>u.ss07.glif</string>
     <key>uacute</key>
     <string>uacute.glif</string>
     <key>uacute.ss01</key>
     <string>uacute.ss01.glif</string>
     <key>uacute.ss02</key>
     <string>uacute.ss02.glif</string>
+    <key>uacute.ss03</key>
+    <string>uacute.ss03.glif</string>
+    <key>uacute.ss04</key>
+    <string>uacute.ss04.glif</string>
+    <key>uacute.ss05</key>
+    <string>uacute.ss05.glif</string>
+    <key>uacute.ss06</key>
+    <string>uacute.ss06.glif</string>
+    <key>uacute.ss07</key>
+    <string>uacute.ss07.glif</string>
     <key>ugrave</key>
     <string>ugrave.glif</string>
     <key>ugrave.ss01</key>
     <string>ugrave.ss01.glif</string>
     <key>ugrave.ss02</key>
     <string>ugrave.ss02.glif</string>
+    <key>ugrave.ss03</key>
+    <string>ugrave.ss03.glif</string>
+    <key>ugrave.ss04</key>
+    <string>ugrave.ss04.glif</string>
+    <key>ugrave.ss05</key>
+    <string>ugrave.ss05.glif</string>
+    <key>ugrave.ss06</key>
+    <string>ugrave.ss06.glif</string>
+    <key>ugrave.ss07</key>
+    <string>ugrave.ss07.glif</string>
+    <key>underscore</key>
+    <string>underscore.glif</string>
+    <key>underscore.ss01</key>
+    <string>underscore.ss01.glif</string>
+    <key>underscore.ss02</key>
+    <string>underscore.ss02.glif</string>
+    <key>underscore.ss03</key>
+    <string>underscore.ss03.glif</string>
+    <key>underscore.ss04</key>
+    <string>underscore.ss04.glif</string>
+    <key>underscore.ss05</key>
+    <string>underscore.ss05.glif</string>
+    <key>underscore.ss06</key>
+    <string>underscore.ss06.glif</string>
+    <key>underscore.ss07</key>
+    <string>underscore.ss07.glif</string>
     <key>v</key>
     <string>v.glif</string>
     <key>v.alt1</key>
@@ -934,22 +2890,62 @@
     <string>v.alt1.ss01.glif</string>
     <key>v.alt1.ss02</key>
     <string>v.alt1.ss02.glif</string>
+    <key>v.alt1.ss03</key>
+    <string>v.alt1.ss03.glif</string>
+    <key>v.alt1.ss04</key>
+    <string>v.alt1.ss04.glif</string>
+    <key>v.alt1.ss05</key>
+    <string>v.alt1.ss05.glif</string>
+    <key>v.alt1.ss06</key>
+    <string>v.alt1.ss06.glif</string>
+    <key>v.alt1.ss07</key>
+    <string>v.alt1.ss07.glif</string>
     <key>v.alt2</key>
     <string>v.alt2.glif</string>
     <key>v.alt2.ss01</key>
     <string>v.alt2.ss01.glif</string>
     <key>v.alt2.ss02</key>
     <string>v.alt2.ss02.glif</string>
+    <key>v.alt2.ss03</key>
+    <string>v.alt2.ss03.glif</string>
+    <key>v.alt2.ss04</key>
+    <string>v.alt2.ss04.glif</string>
+    <key>v.alt2.ss05</key>
+    <string>v.alt2.ss05.glif</string>
+    <key>v.alt2.ss06</key>
+    <string>v.alt2.ss06.glif</string>
+    <key>v.alt2.ss07</key>
+    <string>v.alt2.ss07.glif</string>
     <key>v.alt3</key>
     <string>v.alt3.glif</string>
     <key>v.alt3.ss01</key>
     <string>v.alt3.ss01.glif</string>
     <key>v.alt3.ss02</key>
     <string>v.alt3.ss02.glif</string>
+    <key>v.alt3.ss03</key>
+    <string>v.alt3.ss03.glif</string>
+    <key>v.alt3.ss04</key>
+    <string>v.alt3.ss04.glif</string>
+    <key>v.alt3.ss05</key>
+    <string>v.alt3.ss05.glif</string>
+    <key>v.alt3.ss06</key>
+    <string>v.alt3.ss06.glif</string>
+    <key>v.alt3.ss07</key>
+    <string>v.alt3.ss07.glif</string>
     <key>v.ss01</key>
     <string>v.ss01.glif</string>
     <key>v.ss02</key>
     <string>v.ss02.glif</string>
+    <key>v.ss03</key>
+    <string>v.ss03.glif</string>
+    <key>v.ss04</key>
+    <string>v.ss04.glif</string>
+    <key>v.ss05</key>
+    <string>v.ss05.glif</string>
+    <key>v.ss06</key>
+    <string>v.ss06.glif</string>
+    <key>v.ss07</key>
+    <string>v.ss07.glif</string>
     <key>w</key>
     <string>w.glif</string>
     <key>w.alt1</key>
@@ -958,22 +2954,62 @@
     <string>w.alt1.ss01.glif</string>
     <key>w.alt1.ss02</key>
     <string>w.alt1.ss02.glif</string>
+    <key>w.alt1.ss03</key>
+    <string>w.alt1.ss03.glif</string>
+    <key>w.alt1.ss04</key>
+    <string>w.alt1.ss04.glif</string>
+    <key>w.alt1.ss05</key>
+    <string>w.alt1.ss05.glif</string>
+    <key>w.alt1.ss06</key>
+    <string>w.alt1.ss06.glif</string>
+    <key>w.alt1.ss07</key>
+    <string>w.alt1.ss07.glif</string>
     <key>w.alt2</key>
     <string>w.alt2.glif</string>
     <key>w.alt2.ss01</key>
     <string>w.alt2.ss01.glif</string>
     <key>w.alt2.ss02</key>
     <string>w.alt2.ss02.glif</string>
+    <key>w.alt2.ss03</key>
+    <string>w.alt2.ss03.glif</string>
+    <key>w.alt2.ss04</key>
+    <string>w.alt2.ss04.glif</string>
+    <key>w.alt2.ss05</key>
+    <string>w.alt2.ss05.glif</string>
+    <key>w.alt2.ss06</key>
+    <string>w.alt2.ss06.glif</string>
+    <key>w.alt2.ss07</key>
+    <string>w.alt2.ss07.glif</string>
     <key>w.alt3</key>
     <string>w.alt3.glif</string>
     <key>w.alt3.ss01</key>
     <string>w.alt3.ss01.glif</string>
     <key>w.alt3.ss02</key>
     <string>w.alt3.ss02.glif</string>
+    <key>w.alt3.ss03</key>
+    <string>w.alt3.ss03.glif</string>
+    <key>w.alt3.ss04</key>
+    <string>w.alt3.ss04.glif</string>
+    <key>w.alt3.ss05</key>
+    <string>w.alt3.ss05.glif</string>
+    <key>w.alt3.ss06</key>
+    <string>w.alt3.ss06.glif</string>
+    <key>w.alt3.ss07</key>
+    <string>w.alt3.ss07.glif</string>
     <key>w.ss01</key>
     <string>w.ss01.glif</string>
     <key>w.ss02</key>
     <string>w.ss02.glif</string>
+    <key>w.ss03</key>
+    <string>w.ss03.glif</string>
+    <key>w.ss04</key>
+    <string>w.ss04.glif</string>
+    <key>w.ss05</key>
+    <string>w.ss05.glif</string>
+    <key>w.ss06</key>
+    <string>w.ss06.glif</string>
+    <key>w.ss07</key>
+    <string>w.ss07.glif</string>
     <key>x</key>
     <string>x.glif</string>
     <key>x.alt1</key>
@@ -982,16 +3018,46 @@
     <string>x.alt1.ss01.glif</string>
     <key>x.alt1.ss02</key>
     <string>x.alt1.ss02.glif</string>
+    <key>x.alt1.ss03</key>
+    <string>x.alt1.ss03.glif</string>
+    <key>x.alt1.ss04</key>
+    <string>x.alt1.ss04.glif</string>
+    <key>x.alt1.ss05</key>
+    <string>x.alt1.ss05.glif</string>
+    <key>x.alt1.ss06</key>
+    <string>x.alt1.ss06.glif</string>
+    <key>x.alt1.ss07</key>
+    <string>x.alt1.ss07.glif</string>
     <key>x.alt2</key>
     <string>x.alt2.glif</string>
     <key>x.alt2.ss01</key>
     <string>x.alt2.ss01.glif</string>
     <key>x.alt2.ss02</key>
     <string>x.alt2.ss02.glif</string>
+    <key>x.alt2.ss03</key>
+    <string>x.alt2.ss03.glif</string>
+    <key>x.alt2.ss04</key>
+    <string>x.alt2.ss04.glif</string>
+    <key>x.alt2.ss05</key>
+    <string>x.alt2.ss05.glif</string>
+    <key>x.alt2.ss06</key>
+    <string>x.alt2.ss06.glif</string>
+    <key>x.alt2.ss07</key>
+    <string>x.alt2.ss07.glif</string>
     <key>x.ss01</key>
     <string>x.ss01.glif</string>
     <key>x.ss02</key>
     <string>x.ss02.glif</string>
+    <key>x.ss03</key>
+    <string>x.ss03.glif</string>
+    <key>x.ss04</key>
+    <string>x.ss04.glif</string>
+    <key>x.ss05</key>
+    <string>x.ss05.glif</string>
+    <key>x.ss06</key>
+    <string>x.ss06.glif</string>
+    <key>x.ss07</key>
+    <string>x.ss07.glif</string>
     <key>y</key>
     <string>y.glif</string>
     <key>y.alt1</key>
@@ -1000,22 +3066,62 @@
     <string>y.alt1.ss01.glif</string>
     <key>y.alt1.ss02</key>
     <string>y.alt1.ss02.glif</string>
+    <key>y.alt1.ss03</key>
+    <string>y.alt1.ss03.glif</string>
+    <key>y.alt1.ss04</key>
+    <string>y.alt1.ss04.glif</string>
+    <key>y.alt1.ss05</key>
+    <string>y.alt1.ss05.glif</string>
+    <key>y.alt1.ss06</key>
+    <string>y.alt1.ss06.glif</string>
+    <key>y.alt1.ss07</key>
+    <string>y.alt1.ss07.glif</string>
     <key>y.alt2</key>
     <string>y.alt2.glif</string>
     <key>y.alt2.ss01</key>
     <string>y.alt2.ss01.glif</string>
     <key>y.alt2.ss02</key>
     <string>y.alt2.ss02.glif</string>
+    <key>y.alt2.ss03</key>
+    <string>y.alt2.ss03.glif</string>
+    <key>y.alt2.ss04</key>
+    <string>y.alt2.ss04.glif</string>
+    <key>y.alt2.ss05</key>
+    <string>y.alt2.ss05.glif</string>
+    <key>y.alt2.ss06</key>
+    <string>y.alt2.ss06.glif</string>
+    <key>y.alt2.ss07</key>
+    <string>y.alt2.ss07.glif</string>
     <key>y.alt3</key>
     <string>y.alt3.glif</string>
     <key>y.alt3.ss01</key>
     <string>y.alt3.ss01.glif</string>
     <key>y.alt3.ss02</key>
     <string>y.alt3.ss02.glif</string>
+    <key>y.alt3.ss03</key>
+    <string>y.alt3.ss03.glif</string>
+    <key>y.alt3.ss04</key>
+    <string>y.alt3.ss04.glif</string>
+    <key>y.alt3.ss05</key>
+    <string>y.alt3.ss05.glif</string>
+    <key>y.alt3.ss06</key>
+    <string>y.alt3.ss06.glif</string>
+    <key>y.alt3.ss07</key>
+    <string>y.alt3.ss07.glif</string>
     <key>y.ss01</key>
     <string>y.ss01.glif</string>
     <key>y.ss02</key>
     <string>y.ss02.glif</string>
+    <key>y.ss03</key>
+    <string>y.ss03.glif</string>
+    <key>y.ss04</key>
+    <string>y.ss04.glif</string>
+    <key>y.ss05</key>
+    <string>y.ss05.glif</string>
+    <key>y.ss06</key>
+    <string>y.ss06.glif</string>
+    <key>y.ss07</key>
+    <string>y.ss07.glif</string>
     <key>z</key>
     <string>z.glif</string>
     <key>z.alt1</key>
@@ -1024,22 +3130,62 @@
     <string>z.alt1.ss01.glif</string>
     <key>z.alt1.ss02</key>
     <string>z.alt1.ss02.glif</string>
+    <key>z.alt1.ss03</key>
+    <string>z.alt1.ss03.glif</string>
+    <key>z.alt1.ss04</key>
+    <string>z.alt1.ss04.glif</string>
+    <key>z.alt1.ss05</key>
+    <string>z.alt1.ss05.glif</string>
+    <key>z.alt1.ss06</key>
+    <string>z.alt1.ss06.glif</string>
+    <key>z.alt1.ss07</key>
+    <string>z.alt1.ss07.glif</string>
     <key>z.alt2</key>
     <string>z.alt2.glif</string>
     <key>z.alt2.ss01</key>
     <string>z.alt2.ss01.glif</string>
     <key>z.alt2.ss02</key>
     <string>z.alt2.ss02.glif</string>
+    <key>z.alt2.ss03</key>
+    <string>z.alt2.ss03.glif</string>
+    <key>z.alt2.ss04</key>
+    <string>z.alt2.ss04.glif</string>
+    <key>z.alt2.ss05</key>
+    <string>z.alt2.ss05.glif</string>
+    <key>z.alt2.ss06</key>
+    <string>z.alt2.ss06.glif</string>
+    <key>z.alt2.ss07</key>
+    <string>z.alt2.ss07.glif</string>
     <key>z.alt3</key>
     <string>z.alt3.glif</string>
     <key>z.alt3.ss01</key>
     <string>z.alt3.ss01.glif</string>
     <key>z.alt3.ss02</key>
     <string>z.alt3.ss02.glif</string>
+    <key>z.alt3.ss03</key>
+    <string>z.alt3.ss03.glif</string>
+    <key>z.alt3.ss04</key>
+    <string>z.alt3.ss04.glif</string>
+    <key>z.alt3.ss05</key>
+    <string>z.alt3.ss05.glif</string>
+    <key>z.alt3.ss06</key>
+    <string>z.alt3.ss06.glif</string>
+    <key>z.alt3.ss07</key>
+    <string>z.alt3.ss07.glif</string>
     <key>z.ss01</key>
     <string>z.ss01.glif</string>
     <key>z.ss02</key>
     <string>z.ss02.glif</string>
+    <key>z.ss03</key>
+    <string>z.ss03.glif</string>
+    <key>z.ss04</key>
+    <string>z.ss04.glif</string>
+    <key>z.ss05</key>
+    <string>z.ss05.glif</string>
+    <key>z.ss06</key>
+    <string>z.ss06.glif</string>
+    <key>z.ss07</key>
+    <string>z.ss07.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
     <key>zero.alt1</key>
@@ -1048,9 +3194,29 @@
     <string>zero.alt1.ss01.glif</string>
     <key>zero.alt1.ss02</key>
     <string>zero.alt1.ss02.glif</string>
+    <key>zero.alt1.ss03</key>
+    <string>zero.alt1.ss03.glif</string>
+    <key>zero.alt1.ss04</key>
+    <string>zero.alt1.ss04.glif</string>
+    <key>zero.alt1.ss05</key>
+    <string>zero.alt1.ss05.glif</string>
+    <key>zero.alt1.ss06</key>
+    <string>zero.alt1.ss06.glif</string>
+    <key>zero.alt1.ss07</key>
+    <string>zero.alt1.ss07.glif</string>
     <key>zero.ss01</key>
     <string>zero.ss01.glif</string>
     <key>zero.ss02</key>
     <string>zero.ss02.glif</string>
+    <key>zero.ss03</key>
+    <string>zero.ss03.glif</string>
+    <key>zero.ss04</key>
+    <string>zero.ss04.glif</string>
+    <key>zero.ss05</key>
+    <string>zero.ss05.glif</string>
+    <key>zero.ss06</key>
+    <string>zero.ss06.glif</string>
+    <key>zero.ss07</key>
+    <string>zero.ss07.glif</string>
   </dict>
 </plist>

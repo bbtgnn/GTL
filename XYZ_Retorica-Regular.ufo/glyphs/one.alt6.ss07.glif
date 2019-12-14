@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.alt6.ss07" format="2">
+  <advance width="1176.0"/>
+  <outline>
+    <contour>
+      <point x="815" y="143" type="line"/>
+      <point x="1008" y="143" type="line"/>
+      <point x="1008" y="193" type="line"/>
+      <point x="815" y="193" type="line"/>
+    </contour>
+    <contour>
+      <point x="815" y="143" type="line"/>
+      <point x="865" y="143" type="line"/>
+      <point x="865" y="336" type="line"/>
+      <point x="815" y="336" type="line"/>
+    </contour>
+    <contour>
+      <point x="815" y="336" type="line"/>
+      <point x="865" y="336" type="line"/>
+      <point x="865" y="672" type="line"/>
+      <point x="815" y="672" type="line"/>
+    </contour>
+    <contour>
+      <point x="143" y="815" type="line"/>
+      <point x="336" y="815" type="line"/>
+      <point x="336" y="865" type="line"/>
+      <point x="143" y="865" type="line"/>
+    </contour>
+    <contour>
+      <point x="143" y="672" type="line"/>
+      <point x="193" y="672" type="line"/>
+      <point x="193" y="865" type="line"/>
+      <point x="143" y="865" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="815" type="line"/>
+      <point x="672" y="815" type="line"/>
+      <point x="672" y="865" type="line"/>
+      <point x="336" y="865" type="line"/>
+    </contour>
+    <contour>
+      <point x="672" y="815" type="line"/>
+      <point x="865" y="815" type="line"/>
+      <point x="865" y="865" type="line"/>
+      <point x="672" y="865" type="line"/>
+    </contour>
+    <contour>
+      <point x="815" y="672" type="line"/>
+      <point x="865" y="672" type="line"/>
+      <point x="865" y="865" type="line"/>
+      <point x="815" y="865" type="line"/>
+    </contour>
+  </outline>
+</glyph>

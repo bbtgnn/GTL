@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterisk.alt1.ss04" format="2">
+  <advance width="1344"/>
+  <outline>
+    <contour>
+      <point x="542" y="336" type="line"/>
+      <point x="542" y="470"/>
+      <point x="470" y="542"/>
+      <point x="336" y="542" type="curve"/>
+      <point x="336" y="466" type="line"/>
+      <point x="421" y="466"/>
+      <point x="466" y="421"/>
+      <point x="466" y="336" type="curve"/>
+    </contour>
+    <contour>
+      <point x="802" y="336" type="curve"/>
+      <point x="878" y="336" type="line"/>
+      <point x="878" y="421"/>
+      <point x="923" y="466"/>
+      <point x="1008" y="466" type="curve"/>
+      <point x="1008" y="542" type="line"/>
+      <point x="874" y="542"/>
+      <point x="802" y="470"/>
+    </contour>
+    <contour>
+      <point x="554" y="1008" type="curve"/>
+      <point x="454" y="1008" type="line"/>
+      <point x="454" y="931"/>
+      <point x="413" y="890"/>
+      <point x="336" y="890" type="curve"/>
+      <point x="336" y="790" type="line"/>
+      <point x="478" y="790"/>
+      <point x="554" y="866"/>
+    </contour>
+    <contour>
+      <point x="790" y="1008" type="line"/>
+      <point x="790" y="866"/>
+      <point x="866" y="790"/>
+      <point x="1008" y="790" type="curve"/>
+      <point x="1008" y="890" type="line"/>
+      <point x="931" y="890"/>
+      <point x="890" y="931"/>
+      <point x="890" y="1008" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

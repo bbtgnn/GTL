@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.alt1.ss04" format="2">
+  <advance width="840.0"/>
+  <outline>
+    <contour>
+      <point x="336" y="143" type="line"/>
+      <point x="672" y="143" type="line"/>
+      <point x="672" y="193" type="line"/>
+      <point x="336" y="193" type="line"/>
+    </contour>
+    <contour>
+      <point x="479" y="143" type="line"/>
+      <point x="529" y="143" type="line"/>
+      <point x="529" y="336" type="line"/>
+      <point x="479" y="336" type="line"/>
+    </contour>
+    <contour>
+      <point x="130" y="672" type="line"/>
+      <point x="130" y="538"/>
+      <point x="202" y="466"/>
+      <point x="336" y="466" type="curve"/>
+      <point x="336" y="542" type="line"/>
+      <point x="251" y="542"/>
+      <point x="206" y="587"/>
+      <point x="206" y="672" type="curve"/>
+    </contour>
+    <contour>
+      <point x="336" y="466" type="line"/>
+      <point x="672" y="466" type="line"/>
+      <point x="672" y="542" type="line"/>
+      <point x="336" y="542" type="line"/>
+    </contour>
+    <contour>
+      <point x="466" y="336" type="line"/>
+      <point x="542" y="336" type="line"/>
+      <point x="542" y="542" type="line"/>
+      <point x="466" y="542" type="line"/>
+    </contour>
+    <contour>
+      <point x="218" y="672" type="line"/>
+      <point x="336" y="790" type="line"/>
+      <point x="336" y="890" type="line"/>
+      <point x="295" y="890" type="line"/>
+      <point x="118" y="713" type="line"/>
+      <point x="118" y="672" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -64,14 +64,12 @@ class Typeface:
 		self.font_name = self.config['font_name']
 		self.style_name = self.config['style_name']
 
-		self.stylistic_sets = {"base": {
-										"tck": 100,
-										"tck_min": 1,
-										"sqr": 0.65,
-										"allungamento": 1,
-										"inv": False
-										}}
-		self.stylistic_sets.update(self.config["stylistic_sets"])
+		self.stylistic_sets = [{
+								"tck": 50,
+								"sqr": 0.65,
+								"allungamento": 1,
+								}]
+		self.stylistic_sets.extend(self.config["stylistic_sets"])
 
 		self.rfont = fp.NewFont(familyName=self.font_name, styleName=self.config['style_name'])
 		self.__setup()
@@ -100,8 +98,8 @@ class Typeface:
 	def __generate_glyphs(self):
 		csv_list = Path(self.path).glob("**/*.csv")
 		for csv_file in csv_list:
-			for config in self.stylistic_sets.keys():
-				gly = Glyph(self, csv_file, self.stylistic_sets[config])
+			for config in self.stylistic_sets:
+				gly = Glyph(self, csv_file, config)
 				self.glyphs.append(gly)
 
 
@@ -124,10 +122,11 @@ class Glyph:
 		self.path = path
 		self.config = config
 
-		if config == "base":
-			self.name = f"{self.path.name[:-4]}"
+		self.style_index = self.font.stylistic_sets.index(self.config)
+		if self.style_index == 0:
+			self.name = f'{self.path.name[:-4]}'
 		else:
-			self.name = f"{self.path.name[:-4]}.ss{ss:02}"
+			self.name = f'{self.path.name[:-4]}.ss{self.style_index:02}'
 
 		self.cells = []
 		self.__carica_celle()
@@ -200,8 +199,6 @@ class Cell:
 
 	def __init__(self, px, py, i, j, data, glyph, thickness=10):
 
-		self.glyph.ss
-
 		self.char   = data[0]
 		self.rotate = int(data[1])
 		self.extend = True if '*' in data else False
@@ -213,15 +210,41 @@ class Cell:
 		self.box = Box(px, py, *self.get_size())
 
 
-
 	def get_size(self):
 		w, h = self.glyph.font.size
 		if self.extend:
-			w *= self.glyph.font.allungamento
+			w *= self.glyph.config["allungamento"]
 		return (w, h)
 
 
 	def render(self):
+
+		config = self.glyph.config
+		print(config)
+		tck = config["tck"]
+		sqr = config["sqr"]
+
+		if "climax" in config.keys():
+			climax  = config["climax"]
+			tck_max = climax["tck_max"]
+
+			if len(self.glyph.cells[0]) == 1:
+				f = 1
+			elif climax["horizontal"]:
+				f = self.j/(-1 + len(self.glyph.cells[0]))
+			else:
+				f = self.i/(-1 + len(self.glyph.cells))
+			if climax["reverse"]:
+				f = 1 - f
+			tck = interpolate_values(tck, tck_max, f)
+
+
+		# if "invert" in config.keys():
+		# 	if config["invert"]:
+		# 		print("ok")
+		# 		gly = self.glyph.rglyph
+		# 		rect(gly, self.box.c, self.box.w, self.box.h)
+		# 		gly.changed()
 
 		# # Climax verticale
 		# vf = self.i/self.glyph.font.line_num
@@ -240,12 +263,12 @@ class Cell:
 
 		# Anticlimax Spessore
 
-		if self.extend and self.glyph.font.allungamento == 0:
+		if self.extend and self.glyph.config["allungamento"] == 0:
 			return
 
-
-		sintassi[self.char](gly = self.glyph.rglyph,
-							box = self.box,
-							rot = self.rotate,
-							tck = self.glyph.font.tck
+		sintassi[self.char](self.glyph.rglyph,
+							self.box,
+							self.rotate,
+							tck,
+							sqr
 							)

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar.ss06" format="2">
+  <advance width="1008"/>
+  <outline>
+    <contour>
+      <point x="479" y="0" type="line"/>
+      <point x="529" y="0" type="line"/>
+      <point x="529" y="336" type="line"/>
+      <point x="479" y="336" type="line"/>
+    </contour>
+    <contour>
+      <point x="479" y="336" type="line"/>
+      <point x="529" y="336" type="line"/>
+      <point x="529" y="672" type="line"/>
+      <point x="479" y="672" type="line"/>
+    </contour>
+    <contour>
+      <point x="479" y="672" type="line"/>
+      <point x="529" y="672" type="line"/>
+      <point x="529" y="1008" type="line"/>
+      <point x="479" y="1008" type="line"/>
+    </contour>
+  </outline>
+</glyph>
