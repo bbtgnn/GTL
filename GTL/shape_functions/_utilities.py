@@ -7,6 +7,9 @@ import types
 # interpolate_points
 # Interpolation of two tuples
 
+def interpolate_values(pA, pB, f):
+    return pA+(pB-pA)*f
+
 # tuple, tuple, float -> tuple
 def interpolate_points(pA, pB, f):
     return tuple([pA[i]+(pB[i]-pA[i])*f for i in (0,1)])

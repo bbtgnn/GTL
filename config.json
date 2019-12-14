@@ -1,6 +1,6 @@
 {
 
-	"font_name": "XYZ_Retorica",
+	"font_name": "XYZ_Retorica-Ossimoro-Thin",
 	"style_name": "Regular",
 
 	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/GTL/retorica",
@@ -15,11 +15,13 @@
 	},
 
 	"line_num": 3,
-	"em": 1000,
+	"em": 1002,
 	"size_ratio": 1,
-	"expansion_factor": 1,
+	"expansion_factor": 0,
 
-	"tck": 40,
-	"sqr": 0.56,
-	"exp": 4
+	"tck": 50,
+	"tck_min": 10,
+	"sqr": 0.90,
+	"exp": 1,
+	"inv": true
 }
