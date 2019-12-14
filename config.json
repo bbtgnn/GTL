@@ -1,27 +1,26 @@
 {
 
-	"font_name": "XYZ_Retorica-Ossimoro-Thin",
+	"font_name": "XYZ_Retorica-Pieces-Super",
 	"style_name": "Regular",
 
-	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/GTL/retorica",
+	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/GTL/retorica_pieces",
 	"path_font_output": "/Users/Abbatepaolo/Documents/GitHub/GTL/",
 
 	"font_metrics": {
 		"fnt_baseline": 0,
-		"fnt_xht": 3,
-		"fnt_cap": 3,
-		"fnt_asc": 3,
+		"fnt_xht": 1,
+		"fnt_cap": 1,
+		"fnt_asc": 1,
 		"fnt_dsc": 0
 	},
 
-	"line_num": 3,
+	"line_num": 1,
 	"em": 1002,
 	"size_ratio": 1,
-	"expansion_factor": 0,
+	"allungamento": 1,
 
-	"tck": 50,
-	"tck_min": 10,
-	"sqr": 0.90,
-	"exp": 1,
-	"inv": true
+	"tck": 400,
+	"tck_min": 1,
+	"sqr": 0.65,
+	"inv": false
 }

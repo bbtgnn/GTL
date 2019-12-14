@@ -70,16 +70,16 @@ class Typeface:
 	def __setup(self):
 
 		base = 12
-		self.cell_hgt = base * round(self.UPM / self.config["line_num"] / base)
+		self.line_num = self.config["line_num"]
+		self.cell_hgt = base * round(self.UPM / self.line_num / base)
 		self.cell_wdt = self.cell_hgt * self.config["size_ratio"]
 		self.size = self.cell_wdt, self.cell_hgt
 
 		self.tck = self.config["tck"]
 		self.tck_min = self.config["tck_min"]
 		self.sqr = self.config["sqr"]
-		self.exp = self.config["exp"]
 		self.inv = self.config["inv"]
-		self.expansion_factor = self.config["expansion_factor"]
+		self.allungamento = self.config["allungamento"]
 
 		self.rfont.info.unitsPerEm = self.UPM
 		metrics = self.config["font_metrics"]
@@ -107,17 +107,16 @@ class Typeface:
 		self.rfont.save(str(path))
 
 
-	def invert(self):
-		for glyph in self.glyphs:
-			gly = glyph.rglyph
-			gly.removeOverlap()
-			for row in glyph.cells:
-				for cell in row:
-					print(cell.box.x, cell.box.w, glyph.width)
-					if cell.box.x + cell.box.w > glyph.width:
-						pass
-					else:
-						rect(gly, cell.box.c, cell.box.w, cell.box.h)
+	# def invert(self):
+	# 	for glyph in self.glyphs:
+	# 		gly = glyph.rglyph
+	# 		gly.removeOverlap()
+	# 		for row in glyph.cells:
+	# 			for cell in row:
+	# 				if cell.box.x + cell.box.w > glyph.width:
+	# 					pass
+	# 				else:
+	# 					rect(gly, cell.box.c, cell.box.w, cell.box.h)
 
 
 
@@ -187,14 +186,14 @@ class Glyph:
 		for row in self.cells:
 			for cell in row:
 				cell.render()
-		self.rglyph.removeOverlap()
+		# self.rglyph.removeOverlap()
 
 
 
 
 class Cell:
 
-	def __init__(self, px, py, i, j, data, glyph, thickness=10, negative=False):
+	def __init__(self, px, py, i, j, data, glyph, thickness=10):
 
 		self.char   = data[0]
 		self.rotate = int(data[1])
@@ -205,29 +204,37 @@ class Cell:
 
 		self.glyph = glyph
 		self.box = Box(px, py, *self.get_size())
-		self.negative = negative
 
 
 
 	def get_size(self):
 		w, h = self.glyph.font.size
 		if self.extend:
-			pass
-			w *= self.glyph.font.exp
+			w *= self.glyph.font.allungamento
 		return (w, h)
 
 
 	def render(self):
 
-		# Interpolation factor
-		f = self.j/(len(self.glyph.cells[0])-1)
+		# # Climax verticale
+		# vf = self.i/self.glyph.font.line_num
+
+		# # Climax orizzontale
+		# hf = self.j/len(self.glyph.cells[0])
+
+		# # Climax
+		# tck = interpolate_values(self.glyph.font.tck, self.glyph.font.tck_min, hf)
+
+		# # Interpolation factor
+		# f = self.i/(len(self.glyph.cells[0]))
 
 		# # Climax Spessore
 		# tck = interpolate_values(self.glyph.font.tck_min, self.glyph.font.tck, f)
 
-		# # Anticlimax Spessore
-		# tck = interpolate_values(self.glyph.font.tck, self.glyph.font.tck_min, f)
+		# Anticlimax Spessore
 
+		if self.extend and self.glyph.font.allungamento == 0:
+			return
 
 
 		sintassi[self.char](gly = self.glyph.rglyph,

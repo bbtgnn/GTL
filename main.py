@@ -12,20 +12,18 @@ config_path = "/Users/Abbatepaolo/Documents/GitHub/GTL/config.json"
 
 
 ### INSTRUCTIONS
-mrg = 233
 
 fnt = Typeface(config_path = config_path)
 fnt.render()
 
-fnt.invert()
+# fnt.invert()
 
 # Fixing margins
-for gly in fnt.rfont:
-	if gly.name != "space":
-		t0 = int(gly.leftMargin)  - mrg
-		gly.leftMargin  = t0
-		t1 = int(gly.rightMargin) - mrg
-		gly.rightMargin  = t1
-		gly.update()
+for glifo in fnt.glyphs:
+	gly = glifo.rglyph
+	if gly.leftMargin != None and gly.leftMargin <= 0:
+		gly.leftMargin = glifo.font.cell_wdt/2
+	if gly.rightMargin != None and gly.rightMargin <= 0:
+		gly.rightMargin = glifo.font.cell_wdt/2
 
 fnt.save_font()
