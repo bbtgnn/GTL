@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.alt1.ss01" format="2">
+  <advance width="672"/>
+  <outline>
+    <contour>
+      <point x="118" y="118" type="line"/>
+      <point x="218" y="118" type="line"/>
+      <point x="218" y="336" type="line"/>
+      <point x="118" y="336" type="line"/>
+    </contour>
+    <contour>
+      <point x="118" y="336" type="curve"/>
+      <point x="218" y="336" type="line"/>
+      <point x="218" y="402"/>
+      <point x="270" y="454"/>
+      <point x="336" y="454" type="curve"/>
+      <point x="336" y="554" type="line"/>
+      <point x="214" y="554"/>
+      <point x="118" y="458"/>
+    </contour>
+    <contour>
+      <point x="554" y="672" type="curve"/>
+      <point x="454" y="672" type="line"/>
+      <point x="454" y="606"/>
+      <point x="402" y="554"/>
+      <point x="336" y="554" type="curve"/>
+      <point x="336" y="454" type="line"/>
+      <point x="458" y="454"/>
+      <point x="554" y="550"/>
+    </contour>
+    <contour>
+      <point x="454" y="672" type="line"/>
+      <point x="554" y="672" type="line"/>
+      <point x="554" y="890" type="line"/>
+      <point x="454" y="890" type="line"/>
+    </contour>
+  </outline>
+</glyph>

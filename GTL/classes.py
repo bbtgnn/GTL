@@ -60,10 +60,22 @@ class Typeface:
 		self.config = json.loads(config_path.read_text())
 
 		self.path = Path(self.config['path_csv_glyphs'])
+
 		self.font_name = self.config['font_name']
 		self.style_name = self.config['style_name']
+
+		self.stylistic_sets = {"base": {
+										"tck": 100,
+										"tck_min": 1,
+										"sqr": 0.65,
+										"allungamento": 1,
+										"inv": False
+										}}
+		self.stylistic_sets.update(self.config["stylistic_sets"])
+
 		self.rfont = fp.NewFont(familyName=self.font_name, styleName=self.config['style_name'])
 		self.__setup()
+
 		self.glyphs = []
 		self.__generate_glyphs()
 
@@ -75,12 +87,6 @@ class Typeface:
 		self.cell_hgt = base * round(self.UPM / self.line_num / base)
 		self.cell_wdt = self.cell_hgt * self.config["size_ratio"]
 		self.size = self.cell_wdt, self.cell_hgt
-
-		self.tck = self.config["tck"]
-		self.tck_min = self.config["tck_min"]
-		self.sqr = self.config["sqr"]
-		self.inv = self.config["inv"]
-		self.allungamento = self.config["allungamento"]
 
 		self.rfont.info.unitsPerEm = self.UPM
 		metrics = self.config["font_metrics"]
@@ -94,8 +100,9 @@ class Typeface:
 	def __generate_glyphs(self):
 		csv_list = Path(self.path).glob("**/*.csv")
 		for csv_file in csv_list:
-			gly = Glyph(self, csv_file)
-			self.glyphs.append(gly)
+			for config in self.stylistic_sets.keys():
+				gly = Glyph(self, csv_file, self.stylistic_sets[config])
+				self.glyphs.append(gly)
 
 
 	def render(self):
@@ -111,10 +118,17 @@ class Typeface:
 
 class Glyph:
 
-	def __init__(self, font, path):
+	def __init__(self, font, path, config):
+
 		self.font = font
 		self.path = path
-		self.name = self.path.name[:-4]
+		self.config = config
+
+		if config == "base":
+			self.name = f"{self.path.name[:-4]}"
+		else:
+			self.name = f"{self.path.name[:-4]}.ss{ss:02}"
+
 		self.cells = []
 		self.__carica_celle()
 
@@ -185,6 +199,8 @@ class Glyph:
 class Cell:
 
 	def __init__(self, px, py, i, j, data, glyph, thickness=10):
+
+		self.glyph.ss
 
 		self.char   = data[0]
 		self.rotate = int(data[1])

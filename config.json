@@ -14,17 +14,27 @@
 		"fnt_dsc": 0
 	},
 
-	"stylistic_sets": [
-		"climax"
-	],
-
 	"line_num": 3,
 	"em": 1002,
 	"size_ratio": 1,
-	"allungamento": 1,
 
-	"tck": 100,
-	"tck_min": 1,
-	"sqr": 0.65,
-	"inv": false
+	"stylistic_sets": {
+
+		"climax": {
+			"tck": 100,
+			"tck_min": 1,
+			"sqr": 0.65,
+			"allungamento": 1,
+			"inv": false
+		},
+
+		"climax-invert": {
+			"tck": 100,
+			"tck_min": 1,
+			"sqr": 0.65,
+			"allungamento": 1,
+			"inv": false
+		}
+
+	}
 }
