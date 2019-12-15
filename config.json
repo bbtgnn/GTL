@@ -3,7 +3,7 @@
 	"font_name": "XYZ_Retorica",
 	"style_name": "Regular",
 
-	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/GTL/retorica",
+	"path_csv_glyphs": "/Users/Abbatepaolo/Desktop/retorica",
 
 	"font_metrics": {
 		"fnt_baseline": 0,
@@ -15,69 +15,9 @@
 
 	"line_num": 3,
 	"em": 1002,
-	"size_ratio": 0.7,
+	"size_ratio": 1,
 
 	"stylistic_sets": [
-
-		{
-			"sqr": 0.65,
-			"tck": 200,
-			"allungamento": 1,
-
-			"climax": {
-				"horizontal": true,
-				"tck_max": 100,
-				"reverse": false
-			}
-		},
-
-		{
-			"sqr": 0.65,
-			"tck": 50,
-			"allungamento": 1,
-
-			"climax": {
-				"horizontal": true,
-				"tck_max": 100,
-				"reverse": true
-			}
-		},
-
-		{
-			"sqr": 0.65,
-			"tck": 50,
-			"allungamento": 1,
-
-			"climax": {
-				"horizontal": false,
-				"tck_max": 100,
-				"reverse": true
-			}
-		},
-
-		{
-			"sqr": 0.65,
-			"tck": 50,
-			"allungamento": 1,
-
-			"climax": {
-				"horizontal": false,
-				"tck_max": 100,
-				"reverse": false
-			}
-		},
-
-		{
-			"sqr": 0.65,
-			"tck": 50,
-			"allungamento": 2
-		},
-
-		{
-			"sqr": 0.65,
-			"tck": 50,
-			"allungamento": 3
-		},
 
 		{
 			"sqr": 0.65,
