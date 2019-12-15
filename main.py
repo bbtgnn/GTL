@@ -16,7 +16,6 @@ config_path = "/Users/Abbatepaolo/Documents/GitHub/GTL/config.json"
 fnt = Typeface(config_path = config_path)
 fnt.render()
 
-
 # Fixing margins
 for glifo in fnt.glyphs:
 	gly = glifo.rglyph
