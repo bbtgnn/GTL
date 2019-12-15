@@ -4,7 +4,6 @@
 	"style_name": "Regular",
 
 	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/GTL/retorica",
-	"path_font_output": "/Users/Abbatepaolo/Documents/GitHub/GTL/",
 
 	"font_metrics": {
 		"fnt_baseline": 0,
@@ -16,13 +15,13 @@
 
 	"line_num": 3,
 	"em": 1002,
-	"size_ratio": 1,
+	"size_ratio": 0.7,
 
 	"stylistic_sets": [
 
 		{
 			"sqr": 0.65,
-			"tck": 50,
+			"tck": 200,
 			"allungamento": 1,
 
 			"climax": {
