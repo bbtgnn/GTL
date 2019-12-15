@@ -1,0 +1,24 @@
+{
+
+	"font_name": "XYZ_Retorica",
+	"style_name": "Regular",
+
+	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/xyz-retorica/retorica",
+
+	"font_metrics": {
+		"fnt_baseline": 0,
+		"fnt_xht": 3,
+		"fnt_cap": 3,
+		"fnt_asc": 3,
+		"fnt_dsc": 0
+	},
+
+	"line_num": 3,
+	"em": 1002,
+	"size_ratio": 1,
+	"tck": 50,
+
+	"stylistic_sets": [
+	]
+
+}

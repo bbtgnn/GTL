@@ -7,79 +7,43 @@ import types
 # interpolate_points
 # Interpolation of two tuples
 
+def interpolate_values(pA, pB, f):
+    v = pA+(pB-pA)*f
+    return v
+
 # tuple, tuple, float -> tuple
 def interpolate_points(pA, pB, f):
     return tuple([pA[i]+(pB[i]-pA[i])*f for i in (0,1)])
 
 
 
-# draw_arc
-# Draws a clockwise arc between two points given squaring
-
-# tuple, tuple, tuple, float ->
-def draw_arc_cw(pen, p0, p1, s):
-
-    # Determining the maximum point
-    if (p1[0]-p0[0]) * (p1[1]-p0[1]) > 0:
-        pM = p0[0], p1[1]
-    else:
-        pM = p1[0], p0[1]
-
-    # Calculating mid interpolated points
-    pI = [interpolate_points(p, pM, s) for p in (p0, p1)]
-
-    # Drawing curve
-    pen.curveTo(pI[0], pI[1], p1)
-
-
-
-# make_counterclockwise
-# Makes a contour counterclockwise
-
-# RContour -> RContour
-def make_counterclockwise(c):
-
-    if c.clockwise == True:
-        c.reverse()
-
-    return c
-
-
-
-# set_property
-# sets function property according to format
-def set_property(p):
-
-    if (type(p) is int) or (type(p) is float) or (type(p) is str):
-        return p
-
-    elif type(p) is tuple:
-        return random.uniform(*p)
-
-    elif type(p) is list:
-        return random.choice(p)
-
-    else:
-        pass
 
 
 
 # contour_operations
-# Scales, rotates, translates the contour according to parameters
-
-# RContour, tuple, dictionary ->
-def contour_operations(c, box, properties):
-
-    # Gathering data
-    x, y = box[0], box[1]
-    scl_x = set_property(properties["scale_x"])
-    scl_y = set_property(properties["scale_y"])
-    rot = set_property(properties["rotation"])
-
-    # Applying transformations
-    c.scaleBy((scl_x, scl_y))
-    c.rotateBy(rot)
-    c.moveBy((x,y))
-    make_counterclockwise(c)
+def contour_operations(gly):
+    c = gly[-1]
+    # Making anticlockwise
+    if c.clockwise == True:
+        c.reverse()
     c.round()
     c.changed()
+
+
+
+# Rect
+def rect(gly, c, w, h):
+
+    # Points
+    p0 = c[0]  - w/2, c[1]  - h/2
+    p1 = p0[0]      , p0[1] + h
+    p2 = p0[0] + w  , p1[1]
+    p3 = p2[0]      , p0[1]
+
+    # Drawing
+    pen = gly.getPen()
+    pen.moveTo(p0)
+    pen.lineTo(p1)
+    pen.lineTo(p2)
+    pen.lineTo(p3)
+    pen.closePath()
