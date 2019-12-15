@@ -61,13 +61,14 @@ class Typeface:
 
 		self.path = Path(self.config['path_csv_glyphs'])
 
+		self.tck = self.config["tck"]
+
 		self.font_name = self.config['font_name']
 		self.style_name = self.config['style_name']
 
 		self.stylistic_sets = [{
-								"tck": 50,
 								"sqr": 0.65,
-								"allungamento": 1,
+								"allungamento": 3,
 								}]
 		self.stylistic_sets.extend(self.config["stylistic_sets"])
 
@@ -221,7 +222,7 @@ class Cell:
 
 		config = self.glyph.config
 		print(config)
-		tck = config["tck"]
+		tck = self.glyph.font.tck
 		sqr = config["sqr"]
 
 		if "climax" in config.keys():
