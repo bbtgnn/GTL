@@ -1,7 +1,7 @@
 {
 
 	"font_name": "XYZ_Retorica",
-	"style_name": "Regular",
+	"style_name": "Thin",
 
 	"path_csv_glyphs": "/Users/Abbatepaolo/Documents/GitHub/xyz-retorica/retorica",
 
@@ -16,9 +16,80 @@
 	"line_num": 3,
 	"em": 1002,
 	"size_ratio": 1,
-	"tck": 50,
+	"tck": 10,
 
 	"stylistic_sets": [
+
+		{
+			"sqr": 0.56,
+			"allungamento": 1,
+			"climax": {
+				"tck_inc": 150,
+				"horizontal": true,
+				"reverse": false
+			}
+		},
+
+		{
+			"sqr": 0.56,
+			"allungamento": 1,
+			"climax": {
+				"tck_max": 200,
+				"horizontal": true,
+				"reverse": true
+			}
+		},
+
+		{
+			"sqr": 0.56,
+			"allungamento": 1,
+			"climax": {
+				"tck_max": 200,
+				"horizontal": false,
+				"reverse": false
+			}
+		},
+
+		{
+			"sqr": 0.56,
+			"allungamento": 1,
+			"climax": {
+				"tck_max": 200,
+				"horizontal": true,
+				"reverse": true
+			}
+		},
+
+		{
+			"sqr": 0.56,
+			"allungamento": 2
+		},
+
+		{
+			"sqr": 0.56,
+			"allungamento": 3
+		},
+
+		{
+			"sqr": 0.56,
+			"allungamento": 4
+		},
+
+		{
+			"sqr": 0.56,
+			"allungamento": 5
+		},
+
+		{
+			"sqr": 0,
+			"allungamento": 1
+		},
+
+		{
+			"sqr": 1,
+			"allungamento": 1
+		}
+
 	]
 
 }

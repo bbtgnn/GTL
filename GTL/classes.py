@@ -221,13 +221,13 @@ class Cell:
 	def render(self):
 
 		config = self.glyph.config
-		print(config)
 		tck = self.glyph.font.tck
 		sqr = config["sqr"]
 
+
 		if "climax" in config.keys():
 			climax  = config["climax"]
-			tck_max = climax["tck_max"]
+			tck_inc = climax["tck_inc"]
 
 			if len(self.glyph.cells[0]) == 1:
 				f = 1
@@ -237,32 +237,8 @@ class Cell:
 				f = self.i/(-1 + len(self.glyph.cells))
 			if climax["reverse"]:
 				f = 1 - f
-			tck = interpolate_values(tck, tck_max, f)
+			tck = interpolate_values(tck, tck+tck_inc, f)
 
-
-		# if "invert" in config.keys():
-		# 	if config["invert"]:
-		# 		print("ok")
-		# 		gly = self.glyph.rglyph
-		# 		rect(gly, self.box.c, self.box.w, self.box.h)
-		# 		gly.changed()
-
-		# # Climax verticale
-		# vf = self.i/self.glyph.font.line_num
-
-		# # Climax orizzontale
-		# hf = self.j/len(self.glyph.cells[0])
-
-		# # Climax
-		# tck = interpolate_values(self.glyph.font.tck, self.glyph.font.tck_min, hf)
-
-		# # Interpolation factor
-		# f = self.i/(len(self.glyph.cells[0]))
-
-		# # Climax Spessore
-		# tck = interpolate_values(self.glyph.font.tck_min, self.glyph.font.tck, f)
-
-		# Anticlimax Spessore
 
 		if self.extend and self.glyph.config["allungamento"] == 0:
 			return
