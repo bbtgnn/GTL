@@ -334,19 +334,19 @@ aaand… enjoy! :)
 
 Here's a  list of all the available functions and their properties.
 ```
-function	| function description
+function	    | function description
     - property	    | property description
 ```
 ```
-do_nothing    | does nothing
+do_nothing          | does nothing
     - [has no properties]
 
-rectangle     | draws a rectangle
+rectangle           | draws a rectangle
     - scale_x       | horizontal scale factor
     - scale_y       | vertical   scale factor
     - rotation      | rotation (in degrees)
 
-ellipse       | draws an ellipse
+ellipse             | draws an ellipse
     - scale_x       | "
     - scale_y       | "
     - rotation      | "
