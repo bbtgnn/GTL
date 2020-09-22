@@ -259,8 +259,6 @@ box_layout = 1,1
 \-
 #### 2.3.2 - Terminal instructions to make magic happen
 
-Activate the Virtual Environment
-
 Run
 ```
 python3 /path/to/GTL_main.py
