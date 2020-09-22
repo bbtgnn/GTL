@@ -261,13 +261,6 @@ box_layout = 1,1
 
 Activate the Virtual Environment
 
-```
-# On macOS
-source <DIR>/bin/activate
-
-# On Windows
-<DIR>\Scripts\activate
-```
 Run
 ```
 python3 /path/to/GTL_main.py
