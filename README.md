@@ -55,7 +55,6 @@ The GTL is meant to be used by everyone. If you're curious, let's dive in!
 ---
 ## 1 - Install guide
 
----
 ### 1.1 - Installing Python
 The GTL requires Python: [Download](https://www.python.org/downloads/) and install it.
 
