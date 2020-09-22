@@ -3,14 +3,21 @@
 ### MODULES
 
 import os
+import pathlib
 
-import fontParts.world as fp
+# Getting modules path
+gtl_path = pathlib.Path(__file__).parent.absolute()
+modules_path = os.path.join(gtl_path, "GTL", "modules")
 
+# Importing fontParts
+import sys
+sys.path.append(modules_path)
+from fontParts import world as fp
+
+# Importing GTL
 import GTL.draw_bits
 import GTL.txt_reader
-
 from GTL.shape_functions import *
-
 from GTL_syntax import syntax
 from GTL_params import *
 
