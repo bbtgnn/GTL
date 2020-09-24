@@ -54,66 +54,16 @@ The GTL is meant to be used by everyone. If you're curious, let's dive in!
 
 ---
 ## 1 - Install guide
-The GTL requires [Python](https://www.python.org/downloads/) 3.6 or 3.7.
+
+### 1.1 - Installing Python
+The GTL requires Python: [Download](https://www.python.org/downloads/) and install it.
+
+If you're using Windows, remember to check ```Add Python 3.x to PATH```.
 
 </br>
 
 ---
-### 1.1 - Virtual Environment creation
-It is strongly recommended to create a Python Virtual Enviroment for the installation of all the needed libraries and the usage of the GTL.
-
-\-
-#### 1.1.1 - Folder creation
-Create a folder anywhere on your computer and give it appropriate name (e.g. ```venv_gtl```).
-
-\-
-#### 1.1.2 - Virtual Environment creation
-Open the terminal and input
-```
-python3 -m venv <DIR>
-```
-where ```<DIR>``` is the full path of the created folder. For example:
-```
-python3 -m venv /Users/username/Desktop/venv_gtl
-```
-
-\-
-#### 1.1.3 - Virtual Environment activation
-The virtual enviroment needs to be activated *each time* you want to use the GTL. To do it, run in the terminal
-```
-# On macOS
-source <DIR>/bin/activate
-
-# On Windows
-<DIR>\Scripts\activate
-```
-e.g.
-```
-source /Users/username/Desktop/venv_gtl/bin/activate
-```
-(To exit from the environment anytime just enter ```deactivate``` or close the terminal.)
-
-</br>
-
----
-### 1.2 - Installing fontParts
-[FontParts](https://fontparts.readthedocs.io/) is the core library over which the GTL has been built. FontParts is still in development, and newer version are already out. As of today, the GTL has been tested only on the 0.8.7 version.
-
-To install fontparts - **while the virtual environment is active** - run in terminal
-```
-pip install fontParts==0.8.7
-```
-After you'll run this command probably you'll get two (probably yellow) lines saying
-```
-You are using pip version 19.0.3, however version 19.3.1 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
-```
-Just ignore them.
-
-</br>
-
----
-### 1.3 - Setting up the workspace
+### 1.2 - Setting up the workspace
 [Download the GTL](https://github.com/bbtgnn/GTL/archive/master.zip) and save it anywhere on your computer.
 
 This is the folder architecture:
@@ -127,7 +77,9 @@ This is the folder architecture:
 ├── GTL_params.py	# Here you'll set some minor (but important) parameters
 ├── GTL_syntax.py	# Here you'll set the syntax
 │
-├── test_letters	# Here's a sample of some letters ready to use
+├── letters-liberta	# Here's a sample of some letters ready to use
+│   └── ...
+├── letters-nova	# Here's another sample of some letters ready to use
 │   └── ...
 │
 ├── LICENSE		# Ignore
@@ -146,7 +98,7 @@ This is the folder architecture:
 ### 2.1 - Drawing the letters
 
 First of all, you have to design the letter structure!
-Each letter should be drawn in a separate **.TXT file**. The file should look like this (check the ```test_letters``` folder for some samples):
+Each letter should be drawn in a separate **.TXT file**. The file should look like this (check ```letters-nova``` or ```letters-liberta``` folders for some samples):
 ```
 A               # LINE 1 ━ glyph name
                 # LINE 2 ━ empty line
@@ -307,15 +259,6 @@ box_layout = 1,1
 \-
 #### 2.3.2 - Terminal instructions to make magic happen
 
-Activate the Virtual Environment
-
-```
-# On macOS
-source <DIR>/bin/activate
-
-# On Windows
-<DIR>\Scripts\activate
-```
 Run
 ```
 python3 /path/to/GTL_main.py
