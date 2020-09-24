@@ -32,6 +32,22 @@ def draw_arc_cw(pen, p0, p1, s):
     pen.curveTo(pI[0], pI[1], p1)
 
 
+# tuple, tuple, tuple, float ->
+def draw_arc_cw_inv(pen, p0, p1, s):
+
+    # Determining the maximum point
+    if (p0[0]-p1[0]) * (p1[1]-p0[1]) > 0:
+        pM = p0[0], p1[1]
+    else:
+        pM = p1[0], p0[1]
+
+    # Calculating mid interpolated points
+    pI = [interpolate_points(p, pM, s) for p in (p0, p1)]
+
+    # Drawing curve
+    pen.curveTo(pI[0], pI[1], p1)
+
+
 
 # make_counterclockwise
 # Makes a contour counterclockwise

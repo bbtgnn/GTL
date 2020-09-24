@@ -6,3 +6,4 @@ from .rectangle         import *
 from .ellipse           import *
 from .ellipse_quarter   import *
 from .random_function   import *
+from .ellipse_quarter_inv import *

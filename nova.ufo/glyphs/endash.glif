@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="endash" format="2">
+  <advance width="700"/>
+  <unicode hex="2013"/>
+  <outline>
+    <contour>
+      <point x="100" y="300" type="line"/>
+      <point x="200" y="300" type="line"/>
+      <point x="200" y="400" type="line"/>
+      <point x="100" y="400" type="line"/>
+    </contour>
+    <contour>
+      <point x="200" y="300" type="line"/>
+      <point x="300" y="300" type="line"/>
+      <point x="300" y="400" type="line"/>
+      <point x="200" y="400" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="300" type="line"/>
+      <point x="400" y="300" type="line"/>
+      <point x="400" y="400" type="line"/>
+      <point x="300" y="400" type="line"/>
+    </contour>
+    <contour>
+      <point x="400" y="300" type="line"/>
+      <point x="500" y="300" type="line"/>
+      <point x="500" y="400" type="line"/>
+      <point x="400" y="400" type="line"/>
+    </contour>
+    <contour>
+      <point x="500" y="300" type="line"/>
+      <point x="600" y="300" type="line"/>
+      <point x="600" y="400" type="line"/>
+      <point x="500" y="400" type="line"/>
+    </contour>
+  </outline>
+</glyph>

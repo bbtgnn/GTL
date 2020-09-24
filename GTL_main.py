@@ -40,7 +40,12 @@ UPM = 1000
 fnt_dict = GTL.txt_reader.get_font_from_folder(txt_path)
 
 # Getting number of lines from first dictionary entry
-gly_name = next(iter(fnt_dict))
+gly_name = 0
+try:
+	gly_name = next(iter(fnt_dict))
+except:
+	print("Check the txt folder in GTL_params: it's probably empty")
+
 gly_strc = fnt_dict[gly_name]
 line_num = len(gly_strc)
 
