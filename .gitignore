@@ -1,5 +1,8 @@
 .DS_Store
 
+# UFO fonts
+**/*.ufo
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
