@@ -2,16 +2,11 @@
 from GTL.shape_functions import *
 
 
-
-### CONSTANTS
+# CONSTANTS
 ORIENTATIONS = ["NW", "NE", "SW", "SE"]
 
 
-
-
-
-
-### PROPERTIES
+# PROPERTIES
 
 # Examples below
 
@@ -70,11 +65,9 @@ ORIENTATIONS = ["NW", "NE", "SW", "SE"]
 # }
 
 
-
-
-
-### SYNTAX
+# SYNTAX
 
 syntax = {
-	# Add your instructions here!
+    "#": (rectangle, {"scale_x": 1, "scale_y": 1, "rotation": 0}),
+    ".": (do_nothing, {})
 }
