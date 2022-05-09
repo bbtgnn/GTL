@@ -12,7 +12,7 @@ out_path = "./"
 # FONT INFO
 
 # Font name
-font_name = "Liberta"
+font_name = "GRIDRSM"
 
 # Style name (Regular, Bold, Rectangular, Dizzy, etc)
 style_name = "Regular"
@@ -21,19 +21,19 @@ style_name = "Regular"
 # FONT METRICS
 
 # Set baseline row (counting from bottom of txt)
-fnt_baseline = 2
+fnt_baseline = 1
 
 # Set font x-height (number of rows)
-fnt_xht = 5
+fnt_xht = 6
 
 # Set font capital height (number of rows)
-fnt_cap = 7
+fnt_cap = 6
 
 # Set font ascender height (number of rows)
-fnt_asc = 7
+fnt_asc = 8
 
 # Set font descender height (number of rows)
-fnt_dsc = 2
+fnt_dsc = 1
 
 
 # BOX PROPERTIES

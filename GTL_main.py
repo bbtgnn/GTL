@@ -27,7 +27,7 @@ from GTL_params import *
 
 
 ### CONSTANTS
-UPM = 1000
+UPM = 900
 
 
 
