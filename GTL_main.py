@@ -12,7 +12,7 @@ modules_path = os.path.join(gtl_path, "GTL", "modules")
 # Importing fontParts
 import sys
 sys.path.append(modules_path)
-from fontParts import world as fp
+from fontParts.world import *
 
 # Importing GTL
 import GTL.draw_bits
@@ -66,7 +66,7 @@ box = box_wdt, box_hgt
 ### DRAWING FONT
 
 # Creating the font
-fnt = fp.NewFont(familyName=font_name, styleName=style_name)
+fnt = NewFont(familyName=font_name, styleName=style_name, showInterface=False)
 
 # Setting the metrics
 fnt.info.unitsPerEm = UPM
