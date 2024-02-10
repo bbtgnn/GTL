@@ -1,15 +1,10 @@
 # -*- coding: utf-8 -*-
 
-### MODULES
+# MODULES
 
-from GTL.set_unicode import *
+from GTL.procedures.unicode import set_glyph_unicode
 
-
-
-
-
-
-### FUNCTIONS
+# FUNCTIONS
 
 # draw_bit_chr
 # This function reads a character at a given position
@@ -17,6 +12,8 @@ from GTL.set_unicode import *
 # For each cell, a drawing function specified in the syntax dictionary gets executed.
 
 # RGlyph, string, (float, float), (float, float), (int, int), dictionary
+
+
 def draw_bit_chr(gly, char, box, box_layout, syntax):
 
     if char in syntax.keys():
@@ -40,16 +37,16 @@ def draw_bit_chr(gly, char, box, box_layout, syntax):
                 cell_x = x + j*cell_w
                 cell_y = y + i*cell_h
 
-                function   = syntax[char][0]
+                function = syntax[char][0]
                 properties = syntax[char][1]
 
-                function(gly = gly,
-                         box = (cell_x, cell_y, cell_w, cell_h),
-                         properties = properties)
+                function(gly=gly,
+                         box=(cell_x, cell_y, cell_w, cell_h),
+                         properties=properties)
 
     else:
-        print(f"There's an invalid character used ({char}) in glyph {gly.name}. Please check glyph txt file or add the corresponding rule in the syntax.")
-
+        print(f"There's an invalid character used ({char}) in glyph {
+              gly.name}. Please check glyph txt file or add the corresponding rule in the syntax.")
 
 
 # draw_bit_lin
@@ -62,11 +59,11 @@ def draw_bit_lin(gly, char_line, box, box_layout, syntax):
     box_x, box_y, box_w, box_h = box
 
     for char in char_line:
-        draw_bit_chr(gly, char, (box_x, box_y, box_w, box_h), box_layout, syntax)
+        draw_bit_chr(gly, char, (box_x, box_y, box_w, box_h),
+                     box_layout, syntax)
 
         # Translating the x position by the width of the box
         box_x += box_w
-
 
 
 # draw_bit_gly
@@ -82,14 +79,14 @@ def draw_bit_gly(gly, gly_desc, dsc_hgt, box_size, box_layout, syntax):
 
     # Iterating over glyph instructions (but backwards, so that we start from the descenders)
     for char_line in gly_desc[::-1]:
-        draw_bit_lin(gly, char_line, (box_x, box_y, *box_size), box_layout, syntax)
+        draw_bit_lin(gly, char_line, (box_x, box_y,
+                     *box_size), box_layout, syntax)
 
         # Updating position once a row of characters (lin) is completed
         box_x = 0
         box_y += box_size[1]
 
     return gly
-
 
 
 # draw_bit_fnt
@@ -103,7 +100,7 @@ def draw_bit_fnt(fnt, fnt_dict, dsc_hgt, box_size, box_layout, syntax):
 
         # Creating new glyph
         gly = fnt.newGlyph(gly_name)
-        set_unicode(gly)
+        set_glyph_unicode(gly)
         gly.clear()
 
         # Getting glyph description from dict

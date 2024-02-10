@@ -3,14 +3,19 @@ from utils import Grid
 
 #
 
+type GlyphStructure = List[List[str]]
+
 
 class Glyph(TypedDict):
     name: str
-    structure: str
+    structure: GlyphStructure
 
 
-Kind = TypeVar("Kind", str)
-Parameters = TypeVar("Parameters", Mapping[str, str | int])
+# TODO - This looks bad
+Kind = TypeVar("Kind", str, str)
+# TODO - This looks bad
+Parameters = TypeVar(
+    "Parameters", Mapping[str, str | int], Mapping[str, str | int])
 
 
 class ShapeInstructions(TypedDict, Generic[Kind, Parameters]):
@@ -32,10 +37,9 @@ class Syntax(TypedDict):
 
 
 class Metrics(TypedDict):
-    upm: int
+    cell_size: int
     em: int
     baseline: int
-    cell_size: int
     x_height: int
     cap_height: int
     ascender: int

@@ -1,9 +1,11 @@
 import GTL.interfaces as GTL
 import fontParts.base as FP
 import fontParts.world as fp
+from GTL.interfaces.utils import FPMetrics
 from typing import List, cast
 from functools import reduce, partial
-from fontTools.pens.basePen import BasePen
+from draw import draw_glyph
+
 
 #
 
@@ -14,27 +16,24 @@ def create_font(family_name: str, style_name: str) -> FP.BaseFont:
 #
 
 
+def calc_font_metrics(metrics: GTL.Metrics) -> FPMetrics:
+    cell_size = metrics['cell_size']
+    info = {
+        "unitsPerEm": cell_size * metrics['em'],
+        "descender": - cell_size * metrics['baseline'],
+        "xHeight": cell_size * metrics['x_height'],
+        "capHeight": cell_size * metrics['cap_height'],
+        "ascender": cell_size * metrics['ascender']
+    }
+    return cast(FPMetrics, info)
+
+
 def set_font_metrics(font: FP.BaseFont, metrics: GTL.Metrics) -> FP.BaseFont:
     font_clone = font.copy()
-    cell_size = metrics['cell_size']
-    font_clone.info.unitsPerEm = metrics['upm']
-    font_clone.info.descender = - cell_size * metrics['baseline']
-    font_clone.info.xHeight = cell_size * metrics['x_height']
-    font_clone.info.capHeight = cell_size * metrics['cap_height']
-    font_clone.info.ascender = cell_size * metrics['ascender']
+    font_clone.info = calc_font_metrics(metrics)
     return font_clone
 
 #
-
-
-def get_glyph_pen(glyph: FP.BaseGlyph) -> BasePen:
-    return cast(BasePen, glyph.getPen())
-
-
-def draw_glyph(glyph: GTL.Glyph, metrics: GTL.Metrics, syntax: GTL.Syntax) -> FP.BaseGlyph:
-    fp_glyph = FP.BaseGlyph()
-    pen = get_glyph_pen(fp_glyph)
-    return fp_glyph
 
 
 def add_glyph_to_font(font: FP.BaseFont, glyph: FP.BaseGlyph) -> FP.BaseFont:
