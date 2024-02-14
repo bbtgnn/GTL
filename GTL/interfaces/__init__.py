@@ -11,11 +11,9 @@ class Glyph(TypedDict):
     structure: GlyphStructure
 
 
-# TODO - This looks bad
-Kind = TypeVar("Kind", str, str)
-# TODO - This looks bad
+Kind = TypeVar("Kind", bound=str)
 Parameters = TypeVar(
-    "Parameters", Mapping[str, str | int], Mapping[str, str | int])
+    "Parameters", bound=Mapping[str, str | int | float])
 
 
 class ShapeInstructions(TypedDict, Generic[Kind, Parameters]):
